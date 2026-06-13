@@ -1,0 +1,4 @@
+interface:
+  display_name: "知识编译工作流"
+  short_description: "通过本地 Markdown 完成知识入库、主题编译、问答和选题"
+  default_prompt: "Use $compile-knowledge to ingest this material and update the local knowledge base."
