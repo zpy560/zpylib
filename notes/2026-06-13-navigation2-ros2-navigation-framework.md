@@ -14,6 +14,7 @@ related:
   - wiki/2026-06-13-navigation2.md
   - notes/2026-06-14-apollo-autonomous-driving-platform.md
   - notes/2026-06-14-autoware-ros2-autonomous-driving-platform.md
+  - notes/2026-06-14-ros-motion-planning-algorithm-workbench.md
 ---
 
 # Navigation2：ROS 2 移动机器人导航框架

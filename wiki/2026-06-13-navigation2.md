@@ -14,6 +14,7 @@ related:
   - notes/2026-06-13-navigation2-ros2-navigation-framework.md
   - wiki/2026-06-14-apollo.md
   - wiki/2026-06-14-autoware.md
+  - wiki/2026-06-14-ros-motion-planning.md
 ---
 
 # Navigation2
@@ -101,9 +102,11 @@ NavigateToPose / NavigateThroughPoses
 - `notes/2026-06-13-navigation2-ros2-navigation-framework.md`
 - `wiki/2026-06-14-apollo.md`
 - `wiki/2026-06-14-autoware.md`
+- `wiki/2026-06-14-ros-motion-planning.md`
 
 ## 更新记录
 
 - 2026-06-13：基于官方 `main` 分支提交 `374cd25` 首次建档。
 - 2026-06-14：增加 Apollo 架构对比关联。
 - 2026-06-14：增加 Autoware 架构对比关联。
+- 2026-06-14：增加 ROS Motion Planning 算法工作台关联。
