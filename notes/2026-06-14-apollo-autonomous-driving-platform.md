@@ -13,6 +13,7 @@ tags:
 related:
   - wiki/2026-06-14-apollo.md
   - notes/2026-06-13-navigation2-ros2-navigation-framework.md
+  - notes/2026-06-14-autoware-ros2-autonomous-driving-platform.md
 ---
 
 # Apollo：插件化自动驾驶平台与规划控制主链
