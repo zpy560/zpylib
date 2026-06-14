@@ -12,6 +12,7 @@ tags:
   - tools
 related:
   - wiki/2026-06-13-navigation2.md
+  - notes/2026-06-14-apollo-autonomous-driving-platform.md
 ---
 
 # Navigation2：ROS 2 移动机器人导航框架
@@ -134,6 +135,8 @@ Nav2 的主要目标是室内外移动机器人和工业车辆导航，不是开
 - Nav2 的 Behavior Tree 在大规模工业项目中如何控制复杂度，需要继续研究其树拆分、可观测性和测试方法。
 - Route Server、Following Server 和新 MPPI 能力正在快速演进，后续应按具体 ROS 发行版而不是直接按 `main` 使用。
 - 值得单独对比 Nav2、Autoware Universe 与 Apollo 在“任务编排—规划—控制—安全后处理”上的边界差异。
+
+Apollo 的本地源码对比已补充至 `notes/2026-06-14-apollo-autonomous-driving-platform.md`。
 
 ## 原料
 
