@@ -15,6 +15,7 @@ related:
   - notes/2026-06-14-apollo-autonomous-driving-platform.md
   - notes/2026-06-14-autoware-ros2-autonomous-driving-platform.md
   - notes/2026-06-14-ros-motion-planning-algorithm-workbench.md
+  - notes/2026-06-15-rtabmap-long-term-appearance-based-slam.md
 ---
 
 # Navigation2：ROS 2 移动机器人导航框架
@@ -139,6 +140,8 @@ Nav2 的主要目标是室内外移动机器人和工业车辆导航，不是开
 - 值得单独对比 Nav2、Autoware Universe 与 Apollo 在“任务编排—规划—控制—安全后处理”上的边界差异。
 
 Apollo 的本地源码对比已补充至 `notes/2026-06-14-apollo-autonomous-driving-platform.md`。
+
+RTAB-Map 的建图、定位与长期地图能力已补充至 `notes/2026-06-15-rtabmap-long-term-appearance-based-slam.md`。两者是上下游关系：RTAB-Map 提供地图与定位，Navigation2 负责规划、控制和恢复。
 
 ## 原料
 

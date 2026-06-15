@@ -15,6 +15,7 @@ related:
   - wiki/2026-06-14-apollo.md
   - wiki/2026-06-14-autoware.md
   - wiki/2026-06-14-ros-motion-planning.md
+  - wiki/2026-06-15-rtabmap.md
 ---
 
 # Navigation2
@@ -103,6 +104,7 @@ NavigateToPose / NavigateThroughPoses
 - `wiki/2026-06-14-apollo.md`
 - `wiki/2026-06-14-autoware.md`
 - `wiki/2026-06-14-ros-motion-planning.md`
+- `wiki/2026-06-15-rtabmap.md`
 
 ## 更新记录
 
@@ -110,3 +112,4 @@ NavigateToPose / NavigateThroughPoses
 - 2026-06-14：增加 Apollo 架构对比关联。
 - 2026-06-14：增加 Autoware 架构对比关联。
 - 2026-06-14：增加 ROS Motion Planning 算法工作台关联。
+- 2026-06-15：增加 RTAB-Map 建图与定位上游关联。
