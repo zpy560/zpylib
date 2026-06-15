@@ -14,6 +14,7 @@ related:
   - wiki/2026-06-14-ros-motion-planning.md
   - notes/2026-06-13-navigation2-ros2-navigation-framework.md
   - notes/2026-06-15-cpprobotics-cpp-robotics-algorithm-demos.md
+  - notes/2026-06-15-hybrid-a-star-ros1-vehicle-path-planner.md
 ---
 
 # ROS Motion Planning：统一实验环境下的规划算法工作台
@@ -66,6 +67,8 @@ PID、LQR、DWA、APF、RPP、MPC、ORCA 等控制器实现 `nav_core::BaseLocal
 ROS Motion Planning 聚焦算法实现和仿真展示；Navigation2 聚焦任务编排、能力服务器、生命周期、恢复和安全后处理。前者可以作为算法原型来源，后者才是更完整的 ROS2 导航系统骨架。
 
 CppRobotics 提供更轻量的纯 C++ 单算法示例，适合先理解算法控制流；ROS Motion Planning 则用于观察这些算法进入 costmap、`move_base`、插件和 Gazebo 后的系统行为。
+
+独立 Hybrid A Star 仓库更聚焦车辆 `(x, y, yaw)` 状态搜索、前后向运动原语和 Reeds-Shepp 解析扩展，可用于深入阅读 ROS Motion Planning 中 Hybrid A* 类算法背后的核心机制，但该实现存在已确认的地图和 open-set 正确性问题。
 
 ## 可复用内容
 

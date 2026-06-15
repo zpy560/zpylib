@@ -6,9 +6,9 @@
 
 | 类型 | 数量 |
 |---|---:|
-| 单源笔记 | 12 |
+| 单源笔记 | 15 |
 | 主题页 | 0 |
-| 实体页 | 12 |
+| 实体页 | 15 |
 | 选题 | 0 |
 
 ## 主题页
@@ -16,6 +16,9 @@
 暂无。
 
 ## 实体页
+- [planning_algorithm](../wiki/2026-06-15-planning-algorithm.md)：仅包含 A* 与 RRT 的 OpenCV 最小演示；可构建，但实现省略了关键正确性处理。
+- [Hybrid A Star](../wiki/2026-06-15-hybrid-a-star.md)：ROS1 车辆三维状态栅格路径搜索实现；包含 Reeds-Shepp 解析扩展，但默认代码存在多项搜索正确性问题。
+- [chhRobotics_CPP](../wiki/2026-06-15-chhrobotics-cpp.md)：自动驾驶路径规划与轨迹跟踪 C++ 可视化演示集；适合结合中文博客学习，MPC、构建和数值正确性仍有明显缺口。
 - [Dev-XYS Algorithms](../wiki/2026-06-15-dev-xys-algorithms.md)：覆盖 103 个经典算法与数据结构的 C++ 单文件竞赛模板集；适合查阅，不是经过测试的算法库。
 - [MPCC](../wiki/2026-06-15-mpcc.md)：将路径进度纳入优化的自主赛车预测控制参考实现；重点关注 contouring/lag error、SQP、HPIPM 与轮胎约束。
 - [Dig into Apollo](../wiki/2026-06-15-dig-into-apollo.md)：跨 Apollo 2.0 至 6.0 的中文源码阅读档案；适合历史调用链导航，使用时需回查目标版本源码。
@@ -30,6 +33,9 @@
 - [Navigation2](../wiki/2026-06-13-navigation2.md)：ROS 2 移动机器人导航框架；重点关注行为树编排、插件化服务器、生命周期与末端安全链。
 
 ## 最近笔记
+- 2026-06-15：[planning_algorithm：A* 与 RRT 的 OpenCV 最小演示](../notes/2026-06-15-planning-algorithm-a-star-rrt-demos.md)
+- 2026-06-15：[Hybrid A Star：ROS1 车辆三维状态栅格路径搜索实现](../notes/2026-06-15-hybrid-a-star-ros1-vehicle-path-planner.md)
+- 2026-06-15：[chhRobotics_CPP：自动驾驶规划与跟踪控制 C++ 演示集](../notes/2026-06-15-chhrobotics-cpp-planning-control-demos.md)
 - 2026-06-15：[Dev-XYS Algorithms：单文件 C++ 竞赛算法模板集](../notes/2026-06-15-dev-xys-algorithms-competitive-programming-templates.md)
 - 2026-06-15：[MPCC：将路径进度纳入优化的自主赛车预测控制](../notes/2026-06-15-mpcc-model-predictive-contouring-control.md)
 - 2026-06-15：[Dig into Apollo：跨版本 Apollo 中文源码阅读档案](../notes/2026-06-15-dig-into-apollo-source-reading-archive.md)

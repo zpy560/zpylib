@@ -14,6 +14,7 @@ related:
   - notes/2026-06-14-ros-motion-planning-algorithm-workbench.md
   - wiki/2026-06-13-navigation2.md
   - wiki/2026-06-15-cpprobotics.md
+  - wiki/2026-06-15-hybrid-a-star.md
 ---
 
 # ROS Motion Planning
@@ -74,8 +75,10 @@ user_config.yaml
 - `notes/2026-06-14-ros-motion-planning-algorithm-workbench.md`
 - `wiki/2026-06-13-navigation2.md`
 - `wiki/2026-06-15-cpprobotics.md`
+- `wiki/2026-06-15-hybrid-a-star.md`
 
 ## 更新记录
 
 - 2026-06-14：基于 `dev` 分支提交 `a6f21b0` 首次建档。
 - 2026-06-15：增加 CppRobotics 纯 C++ 教学示例关联。
+- 2026-06-15：增加独立 Hybrid A* 车辆状态搜索实现关联。

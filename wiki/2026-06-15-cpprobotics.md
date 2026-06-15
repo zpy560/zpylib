@@ -14,6 +14,7 @@ related:
   - wiki/2026-06-14-ros-motion-planning.md
   - wiki/2026-06-15-mpcc.md
   - wiki/2026-06-15-dev-xys-algorithms.md
+  - wiki/2026-06-15-chhrobotics-cpp.md
 ---
 
 # CppRobotics
@@ -101,9 +102,11 @@ CppRobotics 用独立小程序解释算法；ROS Motion Planning 将规划控制
 - `wiki/2026-06-14-ros-motion-planning.md`
 - `wiki/2026-06-15-mpcc.md`
 - `wiki/2026-06-15-dev-xys-algorithms.md`
+- `wiki/2026-06-15-chhrobotics-cpp.md`
 
 ## 更新记录
 
 - 2026-06-15：基于官方 `master` 提交 `e30a914` 完成算法、源码组织、构建与工程边界建档。
 - 2026-06-15：补充与 MPCC 自主赛车预测控制实现的进阶关联。
 - 2026-06-15：补充与 Dev-XYS Algorithms 竞赛算法模板集的对比关联。
+- 2026-06-15：补充与 chhRobotics_CPP 规划控制演示集的对比关联。
