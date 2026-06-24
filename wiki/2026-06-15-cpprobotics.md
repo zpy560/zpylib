@@ -15,6 +15,7 @@ related:
   - wiki/2026-06-15-mpcc.md
   - wiki/2026-06-15-dev-xys-algorithms.md
   - wiki/2026-06-15-chhrobotics-cpp.md
+  - wiki/2026-06-24-youngtimes-algorithms.md
 ---
 
 # CppRobotics

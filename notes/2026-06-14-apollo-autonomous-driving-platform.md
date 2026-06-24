@@ -12,6 +12,7 @@ tags:
   - tools
 related:
   - wiki/2026-06-14-apollo.md
+  - notes/2026-06-24-apollo-current-status-refresh.md
   - notes/2026-06-13-navigation2-ros2-navigation-framework.md
   - notes/2026-06-14-autoware-ros2-autonomous-driving-platform.md
   - notes/2026-06-15-dig-into-apollo-source-reading-archive.md

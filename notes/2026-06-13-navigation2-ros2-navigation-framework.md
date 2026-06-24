@@ -12,6 +12,9 @@ tags:
   - tools
 related:
   - wiki/2026-06-13-navigation2.md
+  - notes/2026-06-24-navigation2-release-bloom-release-metadata.md
+  - notes/2026-06-24-navigation2-tutorials-nav2-plugin-and-integration-examples.md
+  - notes/2026-06-24-ros2-control-hardware-controller-framework.md
   - notes/2026-06-14-apollo-autonomous-driving-platform.md
   - notes/2026-06-14-autoware-ros2-autonomous-driving-platform.md
   - notes/2026-06-14-ros-motion-planning-algorithm-workbench.md
@@ -142,6 +145,12 @@ Nav2 的主要目标是室内外移动机器人和工业车辆导航，不是开
 Apollo 的本地源码对比已补充至 `notes/2026-06-14-apollo-autonomous-driving-platform.md`。
 
 RTAB-Map 的建图、定位与长期地图能力已补充至 `notes/2026-06-15-rtabmap-long-term-appearance-based-slam.md`。两者是上下游关系：RTAB-Map 提供地图与定位，Navigation2 负责规划、控制和恢复。
+
+Navigation2 Tutorials 的官方教程代码已补充至 `notes/2026-06-24-navigation2-tutorials-nav2-plugin-and-integration-examples.md`。主仓库适合理解系统架构，tutorials 仓库适合学习插件注册、Lifecycle 回调、costmap layer/filter 和 GPS/语义/地面分割集成。
+
+ros2_control 的硬件抽象与控制器管理框架已补充至 `notes/2026-06-24-ros2-control-hardware-controller-framework.md`。Nav2 关注导航任务与局部控制，ros2_control 更靠近底盘和执行器接口，负责控制器、硬件接口和资源占用管理。
+
+navigation2-release 的 Bloom 发布元数据已补充至 `notes/2026-06-24-navigation2-release-bloom-release-metadata.md`。源码、文档和二进制包调试应按版本闭环：先确认 ROS distro 和 apt 包版本，再通过 release 仓库定位 upstream 版本，最后回查源码和文档。
 
 ## 原料
 

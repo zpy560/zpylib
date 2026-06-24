@@ -12,6 +12,7 @@ tags:
   - knowledge-management
 related:
   - wiki/2026-06-15-dig-into-apollo.md
+  - notes/2026-06-24-dig-into-apollo-current-direction-refresh.md
   - notes/2026-06-14-apollo-autonomous-driving-platform.md
 ---
 

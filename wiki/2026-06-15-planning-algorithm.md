@@ -10,6 +10,7 @@ tags:
   - programming
 related:
   - notes/2026-06-15-planning-algorithm-a-star-rrt-demos.md
+  - notes/2026-06-24-planning-algorithm-current-status-refresh.md
   - wiki/2026-06-15-chhrobotics-cpp.md
 ---
 
@@ -77,8 +78,10 @@ GCC 11.4 + OpenCV 4.8
 ## 关联笔记
 
 - `notes/2026-06-15-planning-algorithm-a-star-rrt-demos.md`
+- `notes/2026-06-24-planning-algorithm-current-status-refresh.md`
 - `wiki/2026-06-15-chhrobotics-cpp.md`
 
 ## 更新记录
 
 - 2026-06-15：基于 `master` 提交 `e5ce3ff` 完成算法范围、源码偏差、构建和工程边界建档。
+- 2026-06-24：确认远端 HEAD 仍为 `e5ce3ff`，旧结论不变。

@@ -6,9 +6,9 @@
 
 | 类型 | 数量 |
 |---|---:|
-| 单源笔记 | 15 |
+| 单源笔记 | 29 |
 | 主题页 | 0 |
-| 实体页 | 15 |
+| 实体页 | 23 |
 | 选题 | 0 |
 
 ## 主题页
@@ -16,6 +16,14 @@
 暂无。
 
 ## 实体页
+- [navigation2-release](../wiki/2026-06-24-navigation2-release.md)：Nav2 的 Bloom 发布元数据仓库；用于确认 ROS distro、发布版本、包清单和 upstream tag，不是源码实现入口。
+- [TheAlgorithms C-Plus-Plus](../wiki/2026-06-24-thealgorithms-c-plus-plus.md)：C++17 教学算法集合；目录覆盖广，README 声称跨平台 CI、self-check 和 Doxygen 文档，适合学习索引不等同生产库。
+- [xtaci Algorithms](../wiki/2026-06-24-xtaci-algorithms.md)：C++ 单头文件算法与数据结构示例集；一个算法一个 header、一个 demo，适合读经典实现。
+- [YoungTimes Algorithms](../wiki/2026-06-24-youngtimes-algorithms.md)：Frenet、离散点平滑、MPC 与 polynomial spiral 的小型算法示例集合；缺少根 README 和许可证，适合读片段不适合直接依赖。
+- [Full Coverage Path Planner](../wiki/2026-06-24-full-coverage-path-planner.md)：ROS1/MBF 覆盖路径规划插件；用 Backtracking Spiral Algorithm 生成区域全覆盖路径，并区分机器人半径与工具半径。
+- [ros2_controllers](../wiki/2026-06-24-ros2-controllers.md)：ros2_control 通用控制器插件集合；覆盖移动底盘、关节轨迹、PID、导纳、夹爪和状态 broadcaster。
+- [ros2_control](../wiki/2026-06-24-ros2-control.md)：ROS 2 硬件抽象与控制器管理框架；核心价值是接口资源管理、生命周期和 `read → update → write` 实时主循环。
+- [Navigation2 Tutorials](../wiki/2026-06-24-navigation2-tutorials.md)：Nav2 官方教程代码集合；适合学习插件注册、Lifecycle、costmap 扩展和感知集成，不是生产算法库。
 - [planning_algorithm](../wiki/2026-06-15-planning-algorithm.md)：仅包含 A* 与 RRT 的 OpenCV 最小演示；可构建，但实现省略了关键正确性处理。
 - [Hybrid A Star](../wiki/2026-06-15-hybrid-a-star.md)：ROS1 车辆三维状态栅格路径搜索实现；包含 Reeds-Shepp 解析扩展，但默认代码存在多项搜索正确性问题。
 - [chhRobotics_CPP](../wiki/2026-06-15-chhrobotics-cpp.md)：自动驾驶路径规划与轨迹跟踪 C++ 可视化演示集；适合结合中文博客学习，MPC、构建和数值正确性仍有明显缺口。
@@ -33,6 +41,20 @@
 - [Navigation2](../wiki/2026-06-13-navigation2.md)：ROS 2 移动机器人导航框架；重点关注行为树编排、插件化服务器、生命周期与末端安全链。
 
 ## 最近笔记
+- 2026-06-24：[navigation2-release：Nav2 的 Bloom 发布元数据仓库](../notes/2026-06-24-navigation2-release-bloom-release-metadata.md)
+- 2026-06-24：[Apollo：当前远端状态确认](../notes/2026-06-24-apollo-current-status-refresh.md)
+- 2026-06-24：[Dev-XYS Algorithms：当前状态确认](../notes/2026-06-24-dev-xys-algorithms-current-status-refresh.md)
+- 2026-06-24：[Dig into Apollo：当前项目方向补充](../notes/2026-06-24-dig-into-apollo-current-direction-refresh.md)
+- 2026-06-24：[planning_algorithm：当前状态确认](../notes/2026-06-24-planning-algorithm-current-status-refresh.md)
+- 2026-06-24：[TheAlgorithms/C-Plus-Plus：C++17 教学算法集合](../notes/2026-06-24-thealgorithms-c-plus-plus-educational-algorithm-library.md)
+- 2026-06-24：[Autoware：当前 meta-repository 与版本清单补充](../notes/2026-06-24-autoware-current-meta-repository-refresh.md)
+- 2026-06-24：[xtaci/algorithms：C++ 单头文件算法与数据结构示例集](../notes/2026-06-24-xtaci-algorithms-cpp-header-demos.md)
+- 2026-06-24：[YoungTimes Algorithms：Frenet、平滑、MPC 与 Spiral 示例集合](../notes/2026-06-24-youngtimes-algorithms-planning-demos.md)
+- 2026-06-24：[ROS Motion Planning：当前仓库状态补充](../notes/2026-06-24-ros-motion-planning-current-repository-refresh.md)
+- 2026-06-24：[Full Coverage Path Planner：ROS1 覆盖路径规划插件](../notes/2026-06-24-full-coverage-path-planner-ros1-coverage-planner.md)
+- 2026-06-24：[ros2_controllers：ros2_control 的通用控制器插件集合](../notes/2026-06-24-ros2-controllers-common-controller-plugins.md)
+- 2026-06-24：[ros2_control：ROS 2 硬件抽象与控制器管理框架](../notes/2026-06-24-ros2-control-hardware-controller-framework.md)
+- 2026-06-24：[Navigation2 Tutorials：Nav2 插件与集成教程代码集合](../notes/2026-06-24-navigation2-tutorials-nav2-plugin-and-integration-examples.md)
 - 2026-06-15：[planning_algorithm：A* 与 RRT 的 OpenCV 最小演示](../notes/2026-06-15-planning-algorithm-a-star-rrt-demos.md)
 - 2026-06-15：[Hybrid A Star：ROS1 车辆三维状态栅格路径搜索实现](../notes/2026-06-15-hybrid-a-star-ros1-vehicle-path-planner.md)
 - 2026-06-15：[chhRobotics_CPP：自动驾驶规划与跟踪控制 C++ 演示集](../notes/2026-06-15-chhrobotics-cpp-planning-control-demos.md)

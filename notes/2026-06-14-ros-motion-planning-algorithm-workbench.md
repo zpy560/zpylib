@@ -12,6 +12,7 @@ tags:
   - tools
 related:
   - wiki/2026-06-14-ros-motion-planning.md
+  - notes/2026-06-24-ros-motion-planning-current-repository-refresh.md
   - notes/2026-06-13-navigation2-ros2-navigation-framework.md
   - notes/2026-06-15-cpprobotics-cpp-robotics-algorithm-demos.md
   - notes/2026-06-15-hybrid-a-star-ros1-vehicle-path-planner.md

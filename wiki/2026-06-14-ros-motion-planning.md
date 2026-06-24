@@ -12,9 +12,11 @@ tags:
   - tools
 related:
   - notes/2026-06-14-ros-motion-planning-algorithm-workbench.md
+  - notes/2026-06-24-ros-motion-planning-current-repository-refresh.md
   - wiki/2026-06-13-navigation2.md
   - wiki/2026-06-15-cpprobotics.md
   - wiki/2026-06-15-hybrid-a-star.md
+  - wiki/2026-06-24-full-coverage-path-planner.md
 ---
 
 # ROS Motion Planning
@@ -27,7 +29,7 @@ related:
 - 主要语言：C++、Python、YAML、XML
 - 快照分支：`dev`
 - 快照提交：`a6f21b0e7a5aa714bab204289f7a4835b2148fa4`
-- 快照日期：2026-06-14
+- 快照日期：2026-06-24
 - 许可证：GPLv3
 
 ## 当前判断
@@ -73,12 +75,15 @@ user_config.yaml
 ## 关联笔记
 
 - `notes/2026-06-14-ros-motion-planning-algorithm-workbench.md`
+- `notes/2026-06-24-ros-motion-planning-current-repository-refresh.md`
 - `wiki/2026-06-13-navigation2.md`
 - `wiki/2026-06-15-cpprobotics.md`
 - `wiki/2026-06-15-hybrid-a-star.md`
+- `wiki/2026-06-24-full-coverage-path-planner.md`
 
 ## 更新记录
 
 - 2026-06-14：基于 `dev` 分支提交 `a6f21b0` 首次建档。
 - 2026-06-15：增加 CppRobotics 纯 C++ 教学示例关联。
 - 2026-06-15：增加独立 Hybrid A* 车辆状态搜索实现关联。
+- 2026-06-24：基于当前 GitHub 元数据补充快照；增加 Full Coverage Path Planner 关联。

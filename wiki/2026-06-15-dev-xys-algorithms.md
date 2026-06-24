@@ -9,6 +9,9 @@ tags:
   - tools
 related:
   - notes/2026-06-15-dev-xys-algorithms-competitive-programming-templates.md
+  - notes/2026-06-24-dev-xys-algorithms-current-status-refresh.md
+  - wiki/2026-06-24-xtaci-algorithms.md
+  - wiki/2026-06-24-thealgorithms-c-plus-plus.md
   - wiki/2026-06-15-cpprobotics.md
 ---
 
@@ -85,8 +88,10 @@ C++14 语法检查结果：
 ## 关联笔记
 
 - `notes/2026-06-15-dev-xys-algorithms-competitive-programming-templates.md`
+- `notes/2026-06-24-dev-xys-algorithms-current-status-refresh.md`
 - `wiki/2026-06-15-cpprobotics.md`
 
 ## 更新记录
 
 - 2026-06-15：基于 `master` 提交 `c10d4c2` 完成算法范围、代码形态、许可证和全量语法编译建档。
+- 2026-06-24：确认 `master` HEAD 仍为 `c10d4c2`，旧结论不变。

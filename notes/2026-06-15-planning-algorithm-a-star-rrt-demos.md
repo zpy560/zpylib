@@ -10,6 +10,7 @@ tags:
   - programming
 related:
   - wiki/2026-06-15-planning-algorithm.md
+  - notes/2026-06-24-planning-algorithm-current-status-refresh.md
   - notes/2026-06-15-chhrobotics-cpp-planning-control-demos.md
 ---
 

@@ -9,6 +9,7 @@ tags:
   - tools
 related:
   - wiki/2026-06-15-dev-xys-algorithms.md
+  - notes/2026-06-24-dev-xys-algorithms-current-status-refresh.md
   - notes/2026-06-15-cpprobotics-cpp-robotics-algorithm-demos.md
 ---
 

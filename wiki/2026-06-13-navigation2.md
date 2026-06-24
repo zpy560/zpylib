@@ -12,6 +12,9 @@ tags:
   - tools
 related:
   - notes/2026-06-13-navigation2-ros2-navigation-framework.md
+  - wiki/2026-06-24-navigation2-release.md
+  - wiki/2026-06-24-navigation2-tutorials.md
+  - wiki/2026-06-24-ros2-control.md
   - wiki/2026-06-14-apollo.md
   - wiki/2026-06-14-autoware.md
   - wiki/2026-06-14-ros-motion-planning.md
@@ -26,6 +29,7 @@ related:
 - 类型：ROS 2 移动机器人导航框架
 - 官方仓库：https://github.com/ros-navigation/navigation2
 - 官方文档：https://docs.nav2.org/
+- 发布元数据：https://github.com/ros2-gbp/navigation2-release
 - 主要语言：C++、Python、XML、YAML
 - 主要机制：ROS 2 Action、Lifecycle、Behavior Tree、pluginlib、Costmap
 - 快照提交：`374cd2556640586251b1e49a346f6c8d0cb76224`
@@ -98,9 +102,16 @@ NavigateToPose / NavigateThroughPoses
 - 多主体预测与交互决策系统
 - 量产级功能安全规划控制平台
 
+## 版本与发布
+
+`ros2-gbp/navigation2-release` 记录 Nav2 进入 ROS 发行版的 Bloom 发布元数据。它不是源码仓库，但适合确认 Humble、Jazzy、Kilted 等 distro 的发布版本、包清单和 upstream tag。调试 apt 安装的 Nav2 行为时，不应直接用 `main` 分支判断，应先通过 release 仓库锁定对应版本。
+
 ## 关联笔记
 
 - `notes/2026-06-13-navigation2-ros2-navigation-framework.md`
+- `wiki/2026-06-24-navigation2-release.md`
+- `wiki/2026-06-24-navigation2-tutorials.md`
+- `wiki/2026-06-24-ros2-control.md`
 - `wiki/2026-06-14-apollo.md`
 - `wiki/2026-06-14-autoware.md`
 - `wiki/2026-06-14-ros-motion-planning.md`
@@ -113,3 +124,6 @@ NavigateToPose / NavigateThroughPoses
 - 2026-06-14：增加 Autoware 架构对比关联。
 - 2026-06-14：增加 ROS Motion Planning 算法工作台关联。
 - 2026-06-15：增加 RTAB-Map 建图与定位上游关联。
+- 2026-06-24：增加 Navigation2 Tutorials 插件与集成教程代码关联。
+- 2026-06-24：增加 ros2_control 执行层控制框架关联。
+- 2026-06-24：增加 navigation2-release 发布元数据仓库关联。
