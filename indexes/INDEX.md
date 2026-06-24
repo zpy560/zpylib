@@ -6,9 +6,9 @@
 
 | 类型 | 数量 |
 |---|---:|
-| 单源笔记 | 39 |
+| 单源笔记 | 64 |
 | 主题页 | 0 |
-| 实体页 | 33 |
+| 实体页 | 58 |
 | 选题 | 0 |
 
 ## 主题页
@@ -16,6 +16,26 @@
 暂无。
 
 ## 实体页
+- [PX4 Autopilot](../wiki/2026-06-24-px4-autopilot.md)：无人系统飞控栈；适合研究飞行控制、模块通信、SITL/HIL 和 ROS 2/MAVLink 集成。
+- [openpilot](../wiki/2026-06-24-openpilot.md)：开源驾驶辅助系统；适合研究真实车辆 ADAS 的规划控制、车辆接口和发布分支边界。
+- [ROS Navigation](../wiki/2026-06-24-ros-navigation.md)：ROS1 二维移动机器人导航栈；是理解 `move_base` 和 Nav2 演进的历史基线。
+- [RPG Quadrotor Control](../wiki/2026-06-24-rpg-quadrotor-control.md)：四旋翼高速轨迹跟踪控制框架；适合研究 differential flatness、thrust mixing 和 body-rate control。
+- [mav_trajectory_generation](../wiki/2026-06-24-mav-trajectory-generation.md)：ETH ASL MAV 多项式轨迹生成与优化工具；适合航点到平滑轨迹的生成。
+- [EGO-Planner](../wiki/2026-06-24-ego-planner.md)：ESDF-free 四旋翼局部规划器；适合研究快速局部重规划，但新项目应评估 EGO-Swarm。
+- [Fast-Planner](../wiki/2026-06-24-fast-planner.md)：复杂未知环境四旋翼快速飞行规划框架；支撑 ego-planner、FUEL、RACER 等项目。
+- [CommonRoad Drivability Checker](../wiki/2026-06-24-commonroad-drivability-checker.md)：CommonRoad 规划结果验证工具；检查碰撞、运动学可行性和道路合规性。
+- [CommonRoad Route Planner](../wiki/2026-06-24-commonroad-route-planner.md)：CommonRoad 路线与参考路径规划器；适合自动驾驶 benchmark 场景前处理。
+- [PathPlanning](../wiki/2026-06-24-pathplanning.md)：搜索与采样路径规划算法示例库；覆盖 A*、D*、RRT、RRT*、FMT*、BIT* 等。
+- [trajectory_planning_helpers](../wiki/2026-06-24-trajectory-planning-helpers.md)：TUM FTM 车辆轨迹规划辅助函数库；适合复用几何、轨迹处理和规划辅助逻辑，不是完整规划器。
+- [mpc_local_planner](../wiki/2026-06-24-mpc-local-planner.md)：ROS MPC 局部规划器；适合研究局部模型预测控制和 ROS local planner 插件边界。
+- [teb_local_planner](../wiki/2026-06-24-teb-local-planner.md)：Timed Elastic Band 局部规划器；适合研究时间化局部轨迹优化和障碍约束。
+- [F1TENTH planning](../wiki/2026-06-24-f1tenth-planning.md)：F1TENTH 小车竞速规划算法库；适合教学和实验，不等价于量产自动驾驶栈。
+- [Control Toolbox](../wiki/2026-06-24-control-toolbox.md)：ETH ADRL C++ 控制、估计、优化与运动规划库；架构参考价值高，但维护状态需谨慎。
+- [Pinocchio](../wiki/2026-06-24-pinocchio.md)：机器人运动学与动力学库；是最优控制、轨迹优化和全身控制的模型计算基础。
+- [Crocoddyl](../wiki/2026-06-24-crocoddyl.md)：机器人最优控制求解库；适合研究 DDP/iLQR 类轨迹优化和动态系统控制。
+- [toppra](../wiki/2026-06-24-toppra.md)：时间最优路径参数化库；解决几何路径之后的速度/时间分配问题。
+- [Ruckig](../wiki/2026-06-24-ruckig.md)：在线轨迹生成库；用于满足速度、加速度、jerk 等约束的平滑运动生成。
+- [Drake](../wiki/2026-06-24-drake.md)：机器人建模、仿真、规划与控制工具箱；适合复杂系统级规划控制研究。
 - [OCS2](../wiki/2026-06-24-ocs2.md)：机器人实时最优控制工具箱；覆盖 switched systems、DDP/iLQR/SQP/IPM、Pinocchio/URDF 和 ROS 接口，适合复杂机器人 MPC。
 - [do-mpc](../wiki/2026-06-24-do-mpc.md)：Python nonlinear/robust MPC 与 MHE 工具箱；适合建模、仿真和研究原型，不默认等价于嵌入式实时控制器。
 - [CasADi](../wiki/2026-06-24-casadi.md)：符号建模、自动微分和优化接口工具；常与 Ipopt、acados、do-mpc 组合用于 MPC/OCP 原型。
@@ -51,6 +71,26 @@
 - [Navigation2](../wiki/2026-06-13-navigation2.md)：ROS 2 移动机器人导航框架；重点关注行为树编排、插件化服务器、生命周期与末端安全链。
 
 ## 最近笔记
+- 2026-06-24：[PX4 Autopilot：无人系统飞控与控制栈](../notes/2026-06-24-px4-autopilot-flight-control-stack.md)
+- 2026-06-24：[openpilot：面向量产车辆的驾驶辅助机器人系统](../notes/2026-06-24-openpilot-driver-assistance-operating-system.md)
+- 2026-06-24：[ROS Navigation：ROS1 二维移动机器人导航栈](../notes/2026-06-24-ros-navigation-ros1-2d-navigation-stack.md)
+- 2026-06-24：[RPG Quadrotor Control：四旋翼高速轨迹跟踪控制框架](../notes/2026-06-24-rpg-quadrotor-control-aggressive-flight.md)
+- 2026-06-24：[mav_trajectory_generation：MAV 多项式轨迹生成与优化](../notes/2026-06-24-mav-trajectory-generation-polynomial-trajectories.md)
+- 2026-06-24：[EGO-Planner：ESDF-free 四旋翼局部规划器](../notes/2026-06-24-ego-planner-esdf-free-local-planner.md)
+- 2026-06-24：[Fast-Planner：复杂未知环境四旋翼快速飞行规划](../notes/2026-06-24-fast-planner-quadrotor-fast-flight-planning.md)
+- 2026-06-24：[CommonRoad Drivability Checker：规划轨迹可行性验证工具箱](../notes/2026-06-24-commonroad-drivability-checker-validation-toolbox.md)
+- 2026-06-24：[CommonRoad Route Planner：路线与参考路径规划器](../notes/2026-06-24-commonroad-route-planner-reference-path.md)
+- 2026-06-24：[PathPlanning：搜索与采样路径规划算法示例](../notes/2026-06-24-pathplanning-search-sampling-algorithm-demos.md)
+- 2026-06-24：[trajectory_planning_helpers：TUM FTM 轨迹规划工具函数库](../notes/2026-06-24-trajectory-planning-helpers-tumftm-utilities.md)
+- 2026-06-24：[mpc_local_planner：ROS 局部 MPC 规划器](../notes/2026-06-24-mpc-local-planner-ros-local-mpc.md)
+- 2026-06-24：[teb_local_planner：Timed Elastic Band 局部规划器](../notes/2026-06-24-teb-local-planner-timed-elastic-band.md)
+- 2026-06-24：[F1TENTH planning：小车竞速规划算法库](../notes/2026-06-24-f1tenth-planning-racing-planning-algorithms.md)
+- 2026-06-24：[Control Toolbox：机器人控制、估计与轨迹优化 C++ 库](../notes/2026-06-24-control-toolbox-optimal-control-library.md)
+- 2026-06-24：[Pinocchio：机器人运动学与动力学库](../notes/2026-06-24-pinocchio-robot-dynamics-library.md)
+- 2026-06-24：[Crocoddyl：机器人最优控制求解库](../notes/2026-06-24-crocoddyl-robotics-optimal-control.md)
+- 2026-06-24：[toppra：时间最优路径参数化](../notes/2026-06-24-toppra-time-optimal-path-parameterization.md)
+- 2026-06-24：[Ruckig：在线轨迹生成库](../notes/2026-06-24-ruckig-online-trajectory-generation.md)
+- 2026-06-24：[Drake：机器人建模仿真规划控制工具箱](../notes/2026-06-24-drake-robotics-planning-control-toolbox.md)
 - 2026-06-24：[OCS2：机器人实时最优控制工具箱](../notes/2026-06-24-ocs2-real-time-optimal-control-toolbox.md)
 - 2026-06-24：[do-mpc：Python 非线性与鲁棒 MPC 工具箱](../notes/2026-06-24-do-mpc-python-mpc-toolbox.md)
 - 2026-06-24：[CasADi：符号建模与优化工具链](../notes/2026-06-24-casadi-symbolic-optimization-framework.md)
