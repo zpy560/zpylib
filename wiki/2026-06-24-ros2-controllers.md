@@ -13,6 +13,7 @@ tags:
 related:
   - notes/2026-06-24-ros2-controllers-common-controller-plugins.md
   - wiki/2026-06-24-ros2-control.md
+  - wiki/2026-06-24-moveit2.md
   - wiki/2026-06-13-navigation2.md
   - wiki/2026-06-14-autoware.md
 ---

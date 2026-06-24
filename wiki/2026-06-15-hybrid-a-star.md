@@ -10,6 +10,7 @@ tags:
   - programming
 related:
   - notes/2026-06-15-hybrid-a-star-ros1-vehicle-path-planner.md
+  - wiki/2026-06-24-motionplanning.md
   - wiki/2026-06-14-ros-motion-planning.md
 ---
 

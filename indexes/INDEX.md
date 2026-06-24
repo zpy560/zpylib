@@ -6,9 +6,9 @@
 
 | 类型 | 数量 |
 |---|---:|
-| 单源笔记 | 29 |
+| 单源笔记 | 39 |
 | 主题页 | 0 |
-| 实体页 | 23 |
+| 实体页 | 33 |
 | 选题 | 0 |
 
 ## 主题页
@@ -16,6 +16,16 @@
 暂无。
 
 ## 实体页
+- [OCS2](../wiki/2026-06-24-ocs2.md)：机器人实时最优控制工具箱；覆盖 switched systems、DDP/iLQR/SQP/IPM、Pinocchio/URDF 和 ROS 接口，适合复杂机器人 MPC。
+- [do-mpc](../wiki/2026-06-24-do-mpc.md)：Python nonlinear/robust MPC 与 MHE 工具箱；适合建模、仿真和研究原型，不默认等价于嵌入式实时控制器。
+- [CasADi](../wiki/2026-06-24-casadi.md)：符号建模、自动微分和优化接口工具；常与 Ipopt、acados、do-mpc 组合用于 MPC/OCP 原型。
+- [Ipopt](../wiki/2026-06-24-ipopt.md)：大规模光滑非线性优化求解器；适合作为轨迹优化和非线性 MPC 原型后端，只保证局部解。
+- [OSQP](../wiki/2026-06-24-osqp.md)：Operator Splitting QP 求解器；适合路径平滑、线性 MPC 和凸 QP 子问题。
+- [acados](../wiki/2026-06-24-acados.md)：实时非线性最优控制求解器；面向 NMPC、MHE、OCP 和嵌入式应用。
+- [MoveIt 2](../wiki/2026-06-24-moveit2.md)：ROS 2 机械臂运动规划框架；整合机器人模型、规划场景、碰撞检测、规划器和执行接口。
+- [OMPL](../wiki/2026-06-24-ompl.md)：采样式运动规划算法库；覆盖 RRT、PRM、KPIECE、RRT* 等算法和多状态空间。
+- [MotionPlanning](../wiki/2026-06-24-motionplanning.md)：自动驾驶规划控制 Python 示例；覆盖 Hybrid A*、Frenet、Pure Pursuit、Stanley、LQR、MPC。
+- [PythonRobotics](../wiki/2026-06-24-pythonrobotics.md)：机器人规划控制算法教材式代码库；适合建立算法谱系和做快速实验。
 - [navigation2-release](../wiki/2026-06-24-navigation2-release.md)：Nav2 的 Bloom 发布元数据仓库；用于确认 ROS distro、发布版本、包清单和 upstream tag，不是源码实现入口。
 - [TheAlgorithms C-Plus-Plus](../wiki/2026-06-24-thealgorithms-c-plus-plus.md)：C++17 教学算法集合；目录覆盖广，README 声称跨平台 CI、self-check 和 Doxygen 文档，适合学习索引不等同生产库。
 - [xtaci Algorithms](../wiki/2026-06-24-xtaci-algorithms.md)：C++ 单头文件算法与数据结构示例集；一个算法一个 header、一个 demo，适合读经典实现。
@@ -41,6 +51,16 @@
 - [Navigation2](../wiki/2026-06-13-navigation2.md)：ROS 2 移动机器人导航框架；重点关注行为树编排、插件化服务器、生命周期与末端安全链。
 
 ## 最近笔记
+- 2026-06-24：[OCS2：机器人实时最优控制工具箱](../notes/2026-06-24-ocs2-real-time-optimal-control-toolbox.md)
+- 2026-06-24：[do-mpc：Python 非线性与鲁棒 MPC 工具箱](../notes/2026-06-24-do-mpc-python-mpc-toolbox.md)
+- 2026-06-24：[CasADi：符号建模与优化工具链](../notes/2026-06-24-casadi-symbolic-optimization-framework.md)
+- 2026-06-24：[Ipopt：大规模非线性优化求解器](../notes/2026-06-24-ipopt-large-scale-nonlinear-optimizer.md)
+- 2026-06-24：[OSQP：Operator Splitting 二次规划求解器](../notes/2026-06-24-osqp-operator-splitting-qp-solver.md)
+- 2026-06-24：[acados：实时非线性 MPC 与 OCP 求解器](../notes/2026-06-24-acados-real-time-nmpc-solver.md)
+- 2026-06-24：[MoveIt 2：ROS 2 机械臂运动规划框架](../notes/2026-06-24-moveit2-ros2-manipulation-motion-planning.md)
+- 2026-06-24：[OMPL：采样式运动规划算法库](../notes/2026-06-24-ompl-sampling-based-motion-planning-library.md)
+- 2026-06-24：[MotionPlanning：自动驾驶规划与跟踪控制 Python 示例](../notes/2026-06-24-motionplanning-autonomous-driving-planning-control-demos.md)
+- 2026-06-24：[PythonRobotics：机器人规划控制算法教材式代码库](../notes/2026-06-24-pythonrobotics-robotics-algorithm-textbook.md)
 - 2026-06-24：[navigation2-release：Nav2 的 Bloom 发布元数据仓库](../notes/2026-06-24-navigation2-release-bloom-release-metadata.md)
 - 2026-06-24：[Apollo：当前远端状态确认](../notes/2026-06-24-apollo-current-status-refresh.md)
 - 2026-06-24：[Dev-XYS Algorithms：当前状态确认](../notes/2026-06-24-dev-xys-algorithms-current-status-refresh.md)

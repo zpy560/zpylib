@@ -10,6 +10,7 @@ tags:
   - programming
 related:
   - wiki/2026-06-15-hybrid-a-star.md
+  - notes/2026-06-24-motionplanning-autonomous-driving-planning-control-demos.md
   - notes/2026-06-14-ros-motion-planning-algorithm-workbench.md
 ---
 

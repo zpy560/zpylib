@@ -13,6 +13,7 @@ tags:
 related:
   - wiki/2026-06-24-ros2-controllers.md
   - notes/2026-06-24-ros2-control-hardware-controller-framework.md
+  - notes/2026-06-24-moveit2-ros2-manipulation-motion-planning.md
   - notes/2026-06-13-navigation2-ros2-navigation-framework.md
   - notes/2026-06-14-autoware-ros2-autonomous-driving-platform.md
 ---

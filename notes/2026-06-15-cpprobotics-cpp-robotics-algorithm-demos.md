@@ -11,6 +11,7 @@ tags:
   - tools
 related:
   - wiki/2026-06-15-cpprobotics.md
+  - notes/2026-06-24-pythonrobotics-robotics-algorithm-textbook.md
   - notes/2026-06-14-ros-motion-planning-algorithm-workbench.md
   - notes/2026-06-15-mpcc-model-predictive-contouring-control.md
   - notes/2026-06-15-dev-xys-algorithms-competitive-programming-templates.md
