@@ -6,12 +6,14 @@
 
 | 类型 | 数量 |
 |---|---:|
-| 单源笔记 | 184 |
-| 主题页 | 3 |
+| 单源笔记 | 264 |
+| 主题页 | 5 |
 | 实体页 | 58 |
 | 选题 | 0 |
 
 ## 主题页
+- [移动底盘规划控制 GitHub 资源精选（五）](../wiki/2026-06-24-mobile-chassis-planning-control-github-resources-batch-5.md)：第五批 40 个未入库 GitHub 仓库，覆盖行为树任务编排、MoveIt/规划几何、ROS 感知输入、VIO/LIO/SLAM/标定、Autoware 接口消息和 ROS2 RMW 通信后端。
+- [移动底盘规划控制 GitHub 资源精选（四）](../wiki/2026-06-24-mobile-chassis-planning-control-github-resources-batch-4.md)：第四批 40 个未入库 GitHub 仓库，覆盖仿真与标准场景、交通路由、ROS2 数据/可视化、传感器驱动、VIO/LIO/SLAM 和底盘命令工具。
 - [移动底盘规划控制 GitHub 资源精选（三）](../wiki/2026-06-24-mobile-chassis-planning-control-github-resources-batch-3.md)：第三批 40 个未入库 GitHub 仓库，覆盖定位融合、ROS 控制/仿真、碰撞点云优化库、协同自动驾驶、Autoware 历史工具链和 MAVLink 生态。
 - [移动底盘规划控制 GitHub 资源精选（二）](../wiki/2026-06-24-mobile-chassis-planning-control-github-resources-batch-2.md)：第二批 40 个未入库 GitHub 仓库，覆盖 TurtleBot/AMR、ROS 导航 SLAM、CommonRoad/TUM/F1TENTH、Autoware 装配、RMF 和定位建图基础设施。
 - [移动底盘规划控制 GitHub 资源精选](../wiki/2026-06-24-mobile-chassis-planning-control-github-resources.md)：40 个未入库 GitHub 仓库，覆盖整车仿真、车辆接口、AMR/Ackermann、无人机和腿式/Unitree 控制生态。
@@ -72,6 +74,51 @@
 - [Navigation2](../wiki/2026-06-13-navigation2.md)：ROS 2 移动机器人导航框架；重点关注行为树编排、插件化服务器、生命周期与末端安全链。
 
 ## 最近笔记
+- 2026-06-24:[BehaviorTree.CPP：行为树/任务编排 Git 资源](../notes/2026-06-24-behaviortree-cpp-planning-control-git-resource.md)
+- 2026-06-24:[MoveIt：ROS1 运动规划框架 Git 资源](../notes/2026-06-24-moveit-planning-control-git-resource.md)
+- 2026-06-24:[geometric_shapes：几何形状/碰撞模型 Git 资源](../notes/2026-06-24-geometric-shapes-planning-control-git-resource.md)
+- 2026-06-24:[moveit_resources：MoveIt 示例模型资源 Git 资源](../notes/2026-06-24-moveit-resources-planning-control-git-resource.md)
+- 2026-06-24:[moveit_visual_tools：规划可视化工具 Git 资源](../notes/2026-06-24-moveit-visual-tools-planning-control-git-resource.md)
+- 2026-06-24:[Webots：机器人/自动驾驶仿真 Git 资源](../notes/2026-06-24-webots-planning-control-git-resource.md)
+- 2026-06-24:[SUMO：交通流仿真 Git 资源](../notes/2026-06-24-sumo-planning-control-git-resource.md)
+- 2026-06-24:[esmini：OpenSCENARIO 仿真 Git 资源](../notes/2026-06-24-esmini-planning-control-git-resource.md)
+- 2026-06-24:[Project Chrono：多体动力学/车辆仿真 Git 资源](../notes/2026-06-24-chrono-planning-control-git-resource.md)
+- 2026-06-24:[Open Simulation Interface：自动驾驶仿真接口标准 Git 资源](../notes/2026-06-24-open-simulation-interface-planning-control-git-resource.md)
+- 2026-06-24:[Lanelet2：HD Map/车道地图 Git 资源](../notes/2026-06-24-lanelet2-planning-control-git-resource.md)
+- 2026-06-24:[rosbag2：ROS2 数据记录回放 Git 资源](../notes/2026-06-24-rosbag2-planning-control-git-resource.md)
+- 2026-06-24:[Fast DDS：DDS/ROS2 中间件 Git 资源](../notes/2026-06-24-fast-dds-planning-control-git-resource.md)
+- 2026-06-24:[Cyclone DDS：DDS/ROS2 中间件 Git 资源](../notes/2026-06-24-cyclonedds-planning-control-git-resource.md)
+- 2026-06-24:[Foxglove：机器人数据可视化 Git 资源](../notes/2026-06-24-foxglove-planning-control-git-resource.md)
+- 2026-06-24:[ros-foxglove-bridge：ROS 可视化桥接 Git 资源](../notes/2026-06-24-ros-foxglove-bridge-planning-control-git-resource.md)
+- 2026-06-24:[PlotJuggler：时序数据分析 Git 资源](../notes/2026-06-24-plotjuggler-planning-control-git-resource.md)
+- 2026-06-24:[RViz2：ROS2 可视化 Git 资源](../notes/2026-06-24-rviz2-planning-control-git-resource.md)
+- 2026-06-24:[Isaac ROS Visual SLAM：ROS2 视觉 SLAM Git 资源](../notes/2026-06-24-isaac-ros-visual-slam-planning-control-git-resource.md)
+- 2026-06-24:[velodyne：激光雷达驱动 Git 资源](../notes/2026-06-24-velodyne-planning-control-git-resource.md)
+- 2026-06-24:[urg_node：2D 激光雷达驱动 Git 资源](../notes/2026-06-24-urg-node-planning-control-git-resource.md)
+- 2026-06-24:[sick_scan_xd：SICK 激光雷达驱动 Git 资源](../notes/2026-06-24-sick-scan-xd-planning-control-git-resource.md)
+- 2026-06-24:[ouster-ros：Ouster 激光雷达驱动 Git 资源](../notes/2026-06-24-ouster-ros-planning-control-git-resource.md)
+- 2026-06-24:[livox_ros_driver2：Livox 激光雷达驱动 Git 资源](../notes/2026-06-24-livox-ros-driver2-planning-control-git-resource.md)
+- 2026-06-24:[realsense-ros：深度相机 ROS 驱动 Git 资源](../notes/2026-06-24-realsense-ros-planning-control-git-resource.md)
+- 2026-06-24:[zed-ros2-wrapper：双目/视觉定位 ROS2 驱动 Git 资源](../notes/2026-06-24-zed-ros2-wrapper-planning-control-git-resource.md)
+- 2026-06-24:[VINS-Fusion：视觉惯性定位 Git 资源](../notes/2026-06-24-vins-fusion-planning-control-git-resource.md)
+- 2026-06-24:[VINS-Mono：单目视觉惯性定位 Git 资源](../notes/2026-06-24-vins-mono-planning-control-git-resource.md)
+- 2026-06-24:[LIO-SAM：激光惯性 SLAM Git 资源](../notes/2026-06-24-lio-sam-planning-control-git-resource.md)
+- 2026-06-24:[FAST-LIO：激光惯性里程计 Git 资源](../notes/2026-06-24-fast-lio-planning-control-git-resource.md)
+- 2026-06-24:[FAST_LIO_LOCALIZATION：激光定位 Git 资源](../notes/2026-06-24-fast-lio-localization-planning-control-git-resource.md)
+- 2026-06-24:[ORB_SLAM3：视觉/视觉惯性 SLAM Git 资源](../notes/2026-06-24-orb-slam3-planning-control-git-resource.md)
+- 2026-06-24:[stella_vslam：视觉 SLAM Git 资源](../notes/2026-06-24-stella-vslam-planning-control-git-resource.md)
+- 2026-06-24:[AprilTag：视觉定位标记 Git 资源](../notes/2026-06-24-apriltag-planning-control-git-resource.md)
+- 2026-06-24:[CARLA Leaderboard：自动驾驶评测 Git 资源](../notes/2026-06-24-carla-leaderboard-planning-control-git-resource.md)
+- 2026-06-24:[Scenic：场景生成语言 Git 资源](../notes/2026-06-24-scenic-planning-control-git-resource.md)
+- 2026-06-24:[kobuki_ros：差速底盘 ROS 包 Git 资源](../notes/2026-06-24-kobuki-ros-planning-control-git-resource.md)
+- 2026-06-24:[teleop_twist_keyboard：手动控制工具 Git 资源](../notes/2026-06-24-teleop-twist-keyboard-planning-control-git-resource.md)
+- 2026-06-24:[twist_mux：速度命令仲裁 Git 资源](../notes/2026-06-24-twist-mux-planning-control-git-resource.md)
+- 2026-06-24:[yujin_ocs：移动底盘速度平滑/工具 Git 资源](../notes/2026-06-24-yujin-ocs-planning-control-git-resource.md)
+- 2026-06-24:[cereal：openpilot 消息定义 Git 资源](../notes/2026-06-24-comma-cereal-planning-control-git-resource.md)
+- 2026-06-24:[cabana：CAN 数据分析 Git 资源](../notes/2026-06-24-comma-cabana-planning-control-git-resource.md)
+- 2026-06-24:[Valhalla：道路路由引擎 Git 资源](../notes/2026-06-24-valhalla-planning-control-git-resource.md)
+- 2026-06-24:[OSRM Backend：道路路由引擎 Git 资源](../notes/2026-06-24-osrm-backend-planning-control-git-resource.md)
+- 2026-06-24:[Waymax：自动驾驶规划仿真 Git 资源](../notes/2026-06-24-waymax-planning-control-git-resource.md)
 - 2026-06-24:[robot_localization：状态估计/定位融合 Git 资源](../notes/2026-06-24-robot-localization-planning-control-git-resource.md)
 - 2026-06-24:[geometry2 / tf2：坐标变换基础设施 Git 资源](../notes/2026-06-24-geometry2-planning-control-git-resource.md)
 - 2026-06-24:[robot_state_publisher：机器人状态发布 Git 资源](../notes/2026-06-24-robot-state-publisher-planning-control-git-resource.md)
