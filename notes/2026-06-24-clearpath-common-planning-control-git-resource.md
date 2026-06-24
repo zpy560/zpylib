@@ -1,0 +1,49 @@
+---
+id: "20260624-240035-clearpath-common"
+title: "clearpath_common：Clearpath 移动底盘通用包 Git 资源"
+type: "note"
+source: "raw/2026-06-24-clearpath-common-repository-snapshot.md"
+created_at: "2026-06-24"
+tags:
+  - autonomous-driving
+  - planning-control
+  - architecture
+  - tools
+related:
+  - wiki/2026-06-24-mobile-chassis-planning-control-github-resources-batch-2.md
+---
+
+# clearpath_common：Clearpath 移动底盘通用包 Git 资源
+
+## 一句话结论
+
+Clearpath 是工业/科研 UGV 常见生态，common 包适合看多底盘共享配置和 ROS 接口组织。
+
+## 原文要点
+
+- 仓库：https://github.com/clearpathrobotics/clearpath_common
+- GitHub 描述 / 定位：Clearpath mobile robot common packages.
+- GitHub 页面显示 star/fork：200+ stars / 200+ forks。
+- 主要语言 / 技术栈：C++/Python。
+- 许可证观察：BSD。
+- 入选原因：当前知识库未记录该 Git URL，且与自动驾驶或移动底盘规划控制闭环相关。
+
+## 我的判断
+
+Clearpath 是工业/科研 UGV 常见生态，common 包适合看多底盘共享配置和 ROS 接口组织。
+
+## 可复用内容
+
+- 可作为 `Clearpath 移动底盘通用包` 方向的源码阅读入口。
+- 可与现有 Apollo、Autoware、Nav2、PX4、openpilot、CARLA、ArduPilot、TurtleBot/F1TENTH 等资源交叉对比。
+- 可继续拆解其接口、算法模块、仿真测试方式、地图定位输入或控制执行链。
+
+## 疑问与冲突
+
+- star/fork 只能说明关注度，不能直接证明算法质量。
+- 若仓库已归档、停止主动维护或绑定特定平台，后续复用前必须单独验证。
+- 本轮是资源解析，不等同于逐行代码审查。
+
+## 原料
+
+- `raw/2026-06-24-clearpath-common-repository-snapshot.md`
