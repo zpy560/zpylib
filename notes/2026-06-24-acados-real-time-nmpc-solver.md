@@ -9,10 +9,11 @@ tags:
   - programming
   - tools
 related:
-  - wiki/2026-06-24-acados.md
   - notes/2026-06-24-casadi-symbolic-optimization-framework.md
-  - notes/2026-06-24-osqp-operator-splitting-qp-solver.md
+  - notes/2026-06-24-do-mpc-python-mpc-toolbox.md
   - notes/2026-06-24-ocs2-real-time-optimal-control-toolbox.md
+  - notes/2026-06-24-osqp-operator-splitting-qp-solver.md
+  - wiki/2026-06-24-acados.md
 ---
 
 # acados：实时非线性 MPC 与 OCP 求解器

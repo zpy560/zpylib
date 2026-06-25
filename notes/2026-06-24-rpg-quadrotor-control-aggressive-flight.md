@@ -9,8 +9,9 @@ tags:
   - programming
   - tools
 related:
-  - wiki/2026-06-24-rpg-quadrotor-control.md
   - notes/2026-06-24-mav-trajectory-generation-polynomial-trajectories.md
+  - notes/2026-06-24-px4-autopilot-flight-control-stack.md
+  - wiki/2026-06-24-rpg-quadrotor-control.md
 ---
 
 # RPG Quadrotor Control：四旋翼高速轨迹跟踪控制框架

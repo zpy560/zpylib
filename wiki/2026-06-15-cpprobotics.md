@@ -11,11 +11,12 @@ tags:
   - tools
 related:
   - notes/2026-06-15-cpprobotics-cpp-robotics-algorithm-demos.md
-  - wiki/2026-06-24-pythonrobotics.md
+  - notes/2026-06-24-youngtimes-algorithms-planning-demos.md
   - wiki/2026-06-14-ros-motion-planning.md
-  - wiki/2026-06-15-mpcc.md
-  - wiki/2026-06-15-dev-xys-algorithms.md
   - wiki/2026-06-15-chhrobotics-cpp.md
+  - wiki/2026-06-15-dev-xys-algorithms.md
+  - wiki/2026-06-15-mpcc.md
+  - wiki/2026-06-24-pythonrobotics.md
   - wiki/2026-06-24-youngtimes-algorithms.md
 ---
 

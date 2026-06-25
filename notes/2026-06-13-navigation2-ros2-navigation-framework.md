@@ -11,14 +11,17 @@ tags:
   - programming
   - tools
 related:
-  - wiki/2026-06-13-navigation2.md
-  - notes/2026-06-24-navigation2-release-bloom-release-metadata.md
-  - notes/2026-06-24-navigation2-tutorials-nav2-plugin-and-integration-examples.md
-  - notes/2026-06-24-ros2-control-hardware-controller-framework.md
   - notes/2026-06-14-apollo-autonomous-driving-platform.md
   - notes/2026-06-14-autoware-ros2-autonomous-driving-platform.md
   - notes/2026-06-14-ros-motion-planning-algorithm-workbench.md
   - notes/2026-06-15-rtabmap-long-term-appearance-based-slam.md
+  - notes/2026-06-24-docs-nav2-org-navigation2-documentation-source.md
+  - notes/2026-06-24-navigation2-release-bloom-release-metadata.md
+  - notes/2026-06-24-navigation2-tutorials-nav2-plugin-and-integration-examples.md
+  - notes/2026-06-24-ros-navigation-ros1-2d-navigation-stack.md
+  - notes/2026-06-24-ros2-control-hardware-controller-framework.md
+  - notes/2026-06-24-ros2-controllers-common-controller-plugins.md
+  - wiki/2026-06-13-navigation2.md
 ---
 
 # Navigation2：ROS 2 移动机器人导航框架

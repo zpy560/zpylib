@@ -9,8 +9,9 @@ tags:
   - programming
   - tools
 related:
-  - wiki/2026-06-24-mav-trajectory-generation.md
   - notes/2026-06-24-fast-planner-quadrotor-fast-flight-planning.md
+  - notes/2026-06-24-rpg-quadrotor-control-aggressive-flight.md
+  - wiki/2026-06-24-mav-trajectory-generation.md
 ---
 
 # mav_trajectory_generation：MAV 多项式轨迹生成与优化

@@ -10,9 +10,11 @@ tags:
   - programming
   - tools
 related:
+  - notes/2026-06-24-pathplanning-search-sampling-algorithm-demos.md
   - notes/2026-06-24-pythonrobotics-robotics-algorithm-textbook.md
-  - wiki/2026-06-24-motionplanning.md
   - wiki/2026-06-15-cpprobotics.md
+  - wiki/2026-06-24-motionplanning.md
+  - wiki/2026-06-24-pathplanning.md
 ---
 
 # PythonRobotics

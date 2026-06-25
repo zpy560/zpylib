@@ -10,9 +10,11 @@ tags:
 related:
   - notes/2026-06-15-dev-xys-algorithms-competitive-programming-templates.md
   - notes/2026-06-24-dev-xys-algorithms-current-status-refresh.md
-  - wiki/2026-06-24-xtaci-algorithms.md
-  - wiki/2026-06-24-thealgorithms-c-plus-plus.md
+  - notes/2026-06-24-thealgorithms-c-plus-plus-educational-algorithm-library.md
+  - notes/2026-06-24-xtaci-algorithms-cpp-header-demos.md
   - wiki/2026-06-15-cpprobotics.md
+  - wiki/2026-06-24-thealgorithms-c-plus-plus.md
+  - wiki/2026-06-24-xtaci-algorithms.md
 ---
 
 # Dev-XYS Algorithms

@@ -8,8 +8,10 @@ tags:
   - programming
   - tools
 related:
+  - notes/2026-06-24-thealgorithms-c-plus-plus-educational-algorithm-library.md
   - notes/2026-06-24-xtaci-algorithms-cpp-header-demos.md
   - wiki/2026-06-15-dev-xys-algorithms.md
+  - wiki/2026-06-24-thealgorithms-c-plus-plus.md
 ---
 
 # xtaci Algorithms

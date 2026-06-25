@@ -12,6 +12,7 @@ tags:
   - knowledge-management
 related:
   - notes/2026-06-15-dig-into-apollo-source-reading-archive.md
+  - notes/2026-06-24-apollo-current-status-refresh.md
   - notes/2026-06-24-dig-into-apollo-current-direction-refresh.md
   - wiki/2026-06-14-apollo.md
 ---

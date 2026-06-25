@@ -11,6 +11,7 @@ tags:
 related:
   - notes/2026-06-24-mav-trajectory-generation-polynomial-trajectories.md
   - wiki/2026-06-24-fast-planner.md
+  - wiki/2026-06-24-rpg-quadrotor-control.md
 ---
 
 # mav_trajectory_generation

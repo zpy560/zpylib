@@ -11,6 +11,7 @@ tags:
 related:
   - notes/2026-06-24-rpg-quadrotor-control-aggressive-flight.md
   - wiki/2026-06-24-mav-trajectory-generation.md
+  - wiki/2026-06-24-px4-autopilot.md
 ---
 
 # RPG Quadrotor Control

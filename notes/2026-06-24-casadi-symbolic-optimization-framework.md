@@ -9,10 +9,11 @@ tags:
   - programming
   - tools
 related:
-  - wiki/2026-06-24-casadi.md
-  - notes/2026-06-24-ipopt-large-scale-nonlinear-optimizer.md
-  - notes/2026-06-24-do-mpc-python-mpc-toolbox.md
   - notes/2026-06-24-acados-real-time-nmpc-solver.md
+  - notes/2026-06-24-do-mpc-python-mpc-toolbox.md
+  - notes/2026-06-24-ipopt-large-scale-nonlinear-optimizer.md
+  - notes/2026-06-24-ocs2-real-time-optimal-control-toolbox.md
+  - wiki/2026-06-24-casadi.md
 ---
 
 # CasADi：符号建模与优化工具链

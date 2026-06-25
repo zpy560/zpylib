@@ -11,11 +11,13 @@ tags:
   - programming
   - tools
 related:
-  - wiki/2026-06-14-autoware.md
-  - notes/2026-06-24-autoware-current-meta-repository-refresh.md
-  - notes/2026-06-24-ros2-control-hardware-controller-framework.md
-  - notes/2026-06-14-apollo-autonomous-driving-platform.md
   - notes/2026-06-13-navigation2-ros2-navigation-framework.md
+  - notes/2026-06-14-apollo-autonomous-driving-platform.md
+  - notes/2026-06-24-autoware-current-meta-repository-refresh.md
+  - notes/2026-06-24-openpilot-driver-assistance-operating-system.md
+  - notes/2026-06-24-ros2-control-hardware-controller-framework.md
+  - notes/2026-06-24-ros2-controllers-common-controller-plugins.md
+  - wiki/2026-06-14-autoware.md
 ---
 
 # Autoware：ROS 2 原生的模块化自动驾驶平台

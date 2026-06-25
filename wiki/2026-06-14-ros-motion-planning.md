@@ -12,6 +12,7 @@ tags:
   - tools
 related:
   - notes/2026-06-14-ros-motion-planning-algorithm-workbench.md
+  - notes/2026-06-24-full-coverage-path-planner-ros1-coverage-planner.md
   - notes/2026-06-24-ros-motion-planning-current-repository-refresh.md
   - wiki/2026-06-13-navigation2.md
   - wiki/2026-06-15-cpprobotics.md

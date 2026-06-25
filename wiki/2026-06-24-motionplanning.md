@@ -11,8 +11,10 @@ tags:
   - tools
 related:
   - notes/2026-06-24-motionplanning-autonomous-driving-planning-control-demos.md
-  - wiki/2026-06-24-pythonrobotics.md
+  - notes/2026-06-24-pathplanning-search-sampling-algorithm-demos.md
   - wiki/2026-06-15-hybrid-a-star.md
+  - wiki/2026-06-24-pathplanning.md
+  - wiki/2026-06-24-pythonrobotics.md
 ---
 
 # MotionPlanning
