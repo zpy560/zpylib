@@ -6,9 +6,9 @@
 
 | 类型 | 数量 |
 |---|---:|
-| 单源笔记 | 64 |
+| 单源笔记 | 214 |
 | 主题页 | 0 |
-| 实体页 | 58 |
+| 实体页 | 208 |
 | 选题 | 0 |
 
 ## 主题页
@@ -16,6 +16,159 @@
 暂无。
 
 ## 实体页
+
+### 2026-06-25 控制与规划 GitHub 仓库补充
+- [legged_control](../wiki/2026-06-25-legged-control.md)：四足机器人 MPC/WBC 控制栈，适合研究腿式机器人状态估计、NMPC、全身控制和 ROS 工程组织。
+- [legged_perceptive](../wiki/2026-06-25-legged-perceptive.md)：面向感知地形的腿式机器人运动控制示例，适合关注高程地图和感知反馈控制。
+- [OCS2 Robotic Examples](../wiki/2026-06-25-ocs2-robotic-examples.md)：OCS2 机器人样例集合，适合理解最优控制库如何落到移动机器人、机械臂或腿式平台。
+- [qiayuanl/legged_control](../wiki/2026-06-25-qiayuanl-legged-control.md)：基于 OCS2/legged_control 思路的四足控制实现，适合对照开源四足控制工程。
+- [qiayuanl/legged_perceptive](../wiki/2026-06-25-qiayuanl-legged-perceptive.md)：感知辅助四足运动控制实现，适合研究地形感知与腿式运动规划结合。
+- [ANYbotics grid_map](../wiki/2026-06-25-anybotics-grid-map.md)：多层二维/2.5D 栅格地图基础库，适合规划代价、地形和局部地图表达。
+- [elevation_mapping_cupy](../wiki/2026-06-25-elevation-mapping-cupy.md)：GPU/CuPy 版本高程建图，适合研究实时地形建图对规划控制输入的加速。
+- [kindr](../wiki/2026-06-25-kindr.md)：机器人运动学与几何变换 C++ 库，常作为状态、姿态和坐标变换基础设施。
+- [romo](../wiki/2026-06-25-romo.md)：Robot Model 抽象库，适合研究腿式机器人模型接口和控制软件分层。
+- [ANYmal C simple description](../wiki/2026-06-25-anymal-c-simple-description.md)：ANYmal C 简化 URDF/描述包，适合作为仿真、建模和控制样例资源。
+- [ETH ADRL Control Toolbox refresh](../wiki/2026-06-25-ethz-adrl-control-toolbox-refresh.md)：机器人控制、估计、轨迹优化 C++ 库的当前快照补充。
+- [ifopt](../wiki/2026-06-25-ifopt.md)：Eigen 风格非线性优化接口库，适合构建轨迹优化、约束规划和控制优化问题。
+- [ETH ADRL motion_planning](../wiki/2026-06-25-ethz-adrl-motion-planning.md)：ETH ADRL 运动规划相关代码，适合查阅优化式运动规划工程接口。
+- [rotors_simulator](../wiki/2026-06-25-rotors-simulator.md)：MAV/多旋翼 Gazebo 仿真环境，适合规划控制算法的仿真闭环验证。
+- [mav_control_rw](../wiki/2026-06-25-mav-control-rw.md)：MAV 控制器集合，适合研究四旋翼控制器、轨迹跟踪和 ROS 接口。
+- [mav_comm](../wiki/2026-06-25-mav-comm.md)：MAV ROS 消息与通信基础包，适合理解 ETH MAV 栈接口边界。
+- [mav_planning_msgs](../wiki/2026-06-25-mav-planning-msgs.md)：MAV 规划消息定义，适合研究轨迹、路径和规划模块间的数据契约。
+- [nbvplanner](../wiki/2026-06-25-nbvplanner.md)：Next-Best-View 探索/规划器，适合三维探索与主动感知规划研究。
+- [voxblox++](../wiki/2026-06-25-voxblox-plusplus.md)：Voxblox 扩展，适合关注语义/实例化体素地图与规划输入。
+- [maplab](../wiki/2026-06-25-maplab.md)：多会话视觉惯性建图框架，适合定位建图与规划地图前端研究。
+- [FUEL](../wiki/2026-06-25-fuel.md)：快速无人机探索规划框架，适合研究前沿探索、拓扑路径和重规划。
+- [RACER](../wiki/2026-06-25-racer.md)：面向快速自主飞行的规划系统，适合研究未知环境中的高速度轨迹规划。
+- [Teach-Repeat-Replan](../wiki/2026-06-25-teach-repeat-replan.md)：示教、重复与重规划框架，适合研究经验路径复用和局部避障。
+- [TopoTraj](../wiki/2026-06-25-topotraj.md)：拓扑轨迹规划相关实现，适合研究同伦类/拓扑引导轨迹优化。
+- [GCOPTER](../wiki/2026-06-25-gcopter.md)：几何约束飞行轨迹优化器，适合研究凸多面体安全走廊与四旋翼轨迹生成。
+- [EGO-Planner-Swarm](../wiki/2026-06-25-ego-planner-swarm.md)：多无人机 swarm 版本 EGO-Planner，适合研究多机局部规划与避碰。
+- [EGO-Planner v2](../wiki/2026-06-25-ego-planner-v2.md)：EGO-Planner 后续版本，适合对照 ESDF-free 局部规划演进。
+- [Swarm-Formation](../wiki/2026-06-25-swarm-formation.md)：无人机集群编队控制/规划代码，适合研究多机协同与编队约束。
+- [ZJU EGO-Planner refresh](../wiki/2026-06-25-zju-ego-planner-refresh.md)：ESDF-free 四旋翼局部规划器当前快照补充。
+- [Fast-Drone-250](../wiki/2026-06-25-fast-drone-250.md)：面向 250 级无人机的快速飞行平台代码，适合研究算法到小型机体落地。
+- [rpg_mpc](../wiki/2026-06-25-rpg-mpc.md)：RPG 四旋翼 MPC 控制代码，适合研究模型预测控制轨迹跟踪。
+- [RPG Quadrotor Control refresh](../wiki/2026-06-25-rpg-quadrotor-control-refresh.md)：RPG 四旋翼高速轨迹跟踪控制框架当前快照补充。
+- [rpg_quadrotor_common](../wiki/2026-06-25-rpg-quadrotor-common.md)：RPG 四旋翼通用消息、参数和工具包，适合与控制器代码配套阅读。
+- [rpg_trajectory_evaluation](../wiki/2026-06-25-rpg-trajectory-evaluation.md)：轨迹评估工具，适合规划控制算法结果评测。
+- [Agile Autonomy](../wiki/2026-06-25-agile-autonomy.md)：敏捷无人机自主飞行项目，适合研究学习感知与高速规划控制结合。
+- [FASTER](../wiki/2026-06-25-faster.md)：安全快速飞行规划框架，适合研究安全走廊、重规划和避障约束。
+- [decomp_util](../wiki/2026-06-25-decomp-util.md)：空间分解与安全走廊工具，适合轨迹优化中的凸区域构造。
+- [mpl_ros](../wiki/2026-06-25-mpl-ros.md)：motion primitive library 的 ROS 封装，适合研究运动基元规划工程接口。
+- [motion_primitive_library](../wiki/2026-06-25-motion-primitive-library.md)：运动基元规划库，适合差分约束系统的离散动作搜索。
+- [DecompROS](../wiki/2026-06-25-decompros.md)：空间分解 ROS 工具，适合安全走廊与轨迹规划前处理。
+- [yaml-cpp](../wiki/2026-06-25-yaml-cpp.md)：C++ YAML 解析库，不是规划控制算法，但常用于机器人参数和配置加载。
+- [Pinocchio refresh](../wiki/2026-06-25-pinocchio-refresh.md)：机器人运动学/动力学库当前快照补充。
+- [TSID refresh](../wiki/2026-06-25-tsid-refresh.md)：任务空间逆动力学控制库当前快照补充。
+- [eigenpy](../wiki/2026-06-25-eigenpy.md)：Eigen 与 Python 绑定工具，常服务于机器人动力学和优化库的 Python 接口。
+- [sot-core](../wiki/2026-06-25-sot-core.md)：Stack of Tasks 控制核心，适合研究任务优先级控制架构。
+- [Crocoddyl refresh](../wiki/2026-06-25-crocoddyl-refresh.md)：机器人 DDP/iLQR 最优控制库当前快照补充。
+- [multicontact-api](../wiki/2026-06-25-multicontact-api.md)：多接触运动数据接口，适合足式机器人接触规划数据表达。
+- [coal](../wiki/2026-06-25-coal.md)：碰撞检测库，适合机器人规划中的几何碰撞查询基础设施。
+- [example-robot-data](../wiki/2026-06-25-example-robot-data.md)：机器人模型样例数据，常用于动力学、控制和规划库测试。
+- [iDynTree](../wiki/2026-06-25-idyntree.md)：机器人动力学、估计和控制基础库，适合全身控制建模。
+- [WB-Toolbox](../wiki/2026-06-25-wb-toolbox.md)：Simulink/whole-body 控制工具箱，适合 humanoid 全身控制工作流。
+- [YARP](../wiki/2026-06-25-yarp.md)：机器人中间件，适合研究模块通信与控制系统集成。
+- [gazebo-yarp-plugins](../wiki/2026-06-25-gazebo-yarp-plugins.md)：Gazebo 与 YARP 集成插件，适合仿真控制闭环。
+- [whole-body-controllers](../wiki/2026-06-25-whole-body-controllers.md)：Robotology 全身控制器集合，适合 humanoid/legged control 研究。
+- [mayataka robotoc refresh](../wiki/2026-06-25-mayataka-robotoc-refresh.md)：机器人最优控制求解器当前快照补充。
+- [robotoc_examples](../wiki/2026-06-25-robotoc-examples.md)：robotoc 样例集合，适合理解 OCP 建模和控制器落地。
+- [robotoc_sim](../wiki/2026-06-25-robotoc-sim.md)：robotoc 仿真相关代码，适合最优控制闭环验证。
+- [mayataka/legged_control](../wiki/2026-06-25-mayataka-legged-control.md)：基于 robotoc 的腿式控制示例，适合与 OCS2 系四足控制对比。
+- [Upkie](../wiki/2026-06-25-upkie.md)：轮足/倒立摆机器人平台，适合研究平衡控制、MPC 和开源实机软件。
+- [Pink](../wiki/2026-06-25-pink.md)：基于 Pinocchio 的逆运动学库，适合机器人 IK、任务约束和控制接口研究。
+- [qpsolvers](../wiki/2026-06-25-qpsolvers.md)：Python QP 求解器统一接口，适合控制和轨迹优化原型。
+- [pymanoid](../wiki/2026-06-25-pymanoid.md)：Humanoid 机器人建模和规划控制 Python 工具，适合 LIPM/步态原型研究。
+- [quadprog](../wiki/2026-06-25-stephane-caron-quadprog.md)：QP 求解器封装，适合控制优化问题的轻量后端。
+- [LIPM Walking Controller](../wiki/2026-06-25-lipm-walking-controller.md)：基于线性倒立摆的行走控制器，适合研究 humanoid 步态生成。
+- [Planning Through Contact](../wiki/2026-06-25-planning-through-contact.md)：接触丰富任务规划，适合研究接触约束、操控和轨迹优化。
+- [Drake refresh](../wiki/2026-06-25-drake-refresh.md)：机器人建模、仿真、规划与控制工具箱当前快照补充。
+- [Director](../wiki/2026-06-25-director.md)：机器人可视化和任务控制工具，适合研究系统调试与操作界面。
+- [IRIS distro](../wiki/2026-06-25-iris-distro.md)：IRIS 相关发布/分发资源，适合研究凸区域规划工具链。
+- [pyrobosim](../wiki/2026-06-25-pyrobosim.md)：轻量机器人任务与运动规划仿真环境，适合验证规划逻辑。
+- [robust-pose-graph](../wiki/2026-06-25-robust-pose-graph.md)：鲁棒位姿图优化，偏 SLAM 后端，但影响定位和规划地图质量。
+- [MoveIt Task Constructor](../wiki/2026-06-25-moveit-task-constructor.md)：MoveIt 任务级规划框架，适合复杂机械臂操作任务分解。
+- [MoveIt 2 Tutorials](../wiki/2026-06-25-moveit2-tutorials.md)：MoveIt 2 官方教程代码，适合学习规划场景、插件和接口。
+- [MoveIt Resources](../wiki/2026-06-25-moveit-resources.md)：MoveIt 示例机器人与测试资源，适合规划控制 demo 和 CI。
+- [MoveIt Servo](../wiki/2026-06-25-moveit-servo.md)：MoveIt 实时伺服控制模块，适合研究机械臂在线速度控制。
+- [rosparam_shortcuts](../wiki/2026-06-25-rosparam-shortcuts.md)：ROS 参数读取辅助库，常见于 MoveIt/规划控制包配置加载。
+- [gazebo_ros2_control](../wiki/2026-06-25-gazebo-ros2-control.md)：Gazebo 与 ros2_control 集成插件，适合仿真硬件接口。
+- [ros2_control_demos](../wiki/2026-06-25-ros2-control-demos.md)：ros2_control 示例集合，适合学习硬件接口和控制器配置。
+- [realtime_tools](../wiki/2026-06-25-realtime-tools.md)：ROS 实时编程辅助工具，适合控制器线程、缓冲和实时安全通信。
+- [ros2_control_test_assets](../wiki/2026-06-25-ros2-control-test-assets.md)：ros2_control 测试资产，适合控制框架测试参考。
+- [ros2_control_ci](../wiki/2026-06-25-ros2-control-ci.md)：ros2_control CI 配置资源，适合了解项目发布和测试矩阵。
+- [Navigation2 Tutorials refresh](../wiki/2026-06-25-navigation2-tutorials-refresh.md)：Nav2 教程代码集合当前快照补充。
+- [navigation2_dynamic](../wiki/2026-06-25-navigation2-dynamic.md)：Nav2 动态相关实验/扩展仓库，适合关注动态导航功能。
+- [Nav2 minimal turtlebot simulation](../wiki/2026-06-25-nav2-minimal-turtlebot-simulation.md)：Nav2 最小 TurtleBot 仿真，适合导航栈快速验证。
+- [nav2_bringup](../wiki/2026-06-25-nav2-bringup.md)：Nav2 bringup 包，适合理解导航系统启动、参数和 launch 组织。
+- [Navigation2 refresh](../wiki/2026-06-25-navigation2-refresh.md)：ROS 2 Nav2 框架当前快照补充。
+- [teb_local_planner_tutorials](../wiki/2026-06-25-teb-local-planner-tutorials.md)：TEB 局部规划器教程，适合学习时间弹性带参数和场景。
+- [rst mpc_local_planner refresh](../wiki/2026-06-25-rst-mpc-local-planner-refresh.md)：ROS MPC 局部规划器当前快照补充。
+- [costmap_converter](../wiki/2026-06-25-costmap-converter.md)：costmap 到几何障碍物转换工具，常与 TEB/MPC 局部规划器配套。
+- [rst teb_local_planner refresh](../wiki/2026-06-25-rst-teb-local-planner-refresh.md)：Timed Elastic Band 局部规划器当前快照补充。
+- [navrep](../wiki/2026-06-25-navrep.md)：导航表征学习/强化学习相关仓库，适合探索学习式局部规划。
+- [MIT RACECAR](../wiki/2026-06-25-mit-racecar.md)：MIT RACECAR 平台代码，适合自动驾驶小车规划控制教学。
+- [F1TENTH Gym](../wiki/2026-06-25-f1tenth-gym.md)：F1TENTH 赛车仿真环境，适合规划控制算法评测。
+- [F1TENTH Planning refresh](../wiki/2026-06-25-f1tenth-planning-refresh.md)：F1TENTH 规划算法库当前快照补充。
+- [F1TENTH System](../wiki/2026-06-25-f1tenth-system.md)：F1TENTH 系统软件，适合算法到小车平台部署。
+- [F1TENTH Lab4 template](../wiki/2026-06-25-f1tenth-lab4-template.md)：F1TENTH 教学实验模板，适合局部规划/避障课程练习。
+- [commonroad-io](../wiki/2026-06-25-commonroad-io.md)：CommonRoad 场景读写库，适合自动驾驶规划 benchmark 数据处理。
+- [commonroad-scenario-designer](../wiki/2026-06-25-commonroad-scenario-designer.md)：CommonRoad 场景设计工具，适合生成和编辑规划测试场景。
+- [commonroad-vehicle-models](../wiki/2026-06-25-commonroad-vehicle-models.md)：CommonRoad 车辆模型库，适合轨迹可行性与控制模型研究。
+- [commonroad-search](../wiki/2026-06-25-commonroad-search.md)：CommonRoad 搜索式规划示例，适合 benchmark 下的搜索规划研究。
+- [commonroad-reachable-set](../wiki/2026-06-25-commonroad-reachable-set.md)：CommonRoad 可达集计算工具，适合安全验证和规划约束分析。
+
+- [Ceres Solver](../wiki/2026-06-24-ceres-solver.md)：非线性最小二乘和无约束优化 C++ 库；适合 SLAM、标定、轨迹优化和规划控制中的非线性 least-squares 后端。
+- [GTSAM](../wiki/2026-06-24-gtsam.md)：因子图平滑与建图库；适合 SLAM、定位、传感器融合和轨迹估计中的 factor graph 建模。
+- [OctoMap](../wiki/2026-06-24-octomap.md)：基于八叉树的概率三维地图框架；适合三维占据地图、避障和机器人环境建模。
+- [FCL](../wiki/2026-06-24-fcl.md)：Flexible Collision Library；适合运动规划中的碰撞检测、距离查询和连续碰撞检测。
+- [Coal](../wiki/2026-06-24-coal.md)：FCL/HPP-FCL 演进版碰撞库；适合机器人规划中的高性能碰撞检测、距离下界、接触点和 Python 原型。
+- [ifopt](../wiki/2026-06-24-ifopt.md)：Eigen-based 非线性规划接口；适合把机器人优化问题统一表达后交给 Ipopt/Snopt 等 NLP solver。
+- [qpOASES](../wiki/2026-06-24-qpoases.md)：在线 active-set QP 求解器；适合 MPC、实时控制和参数化 QP 的历史/工程参考。
+- [Orocos KDL](../wiki/2026-06-24-orocos-kdl.md)：实时可用运动学与动力学库；适合机器人正逆运动学、运动链建模和 ROS 机器人基础设施。
+- [RBDL](../wiki/2026-06-24-rbdl.md)：Rigid Body Dynamics Library；适合控制和轨迹优化中的 ABA/RNEA/CRBA、Jacobian、约束和闭链模型。
+- [SLAM Toolbox](../wiki/2026-06-24-slam-toolbox.md)：ROS 2 2D SLAM 工具箱；适合 Nav2 地图构建、pose-graph localization、长期建图和生产移动机器人。
+- [Cartographer](../wiki/2026-06-24-cartographer.md)：实时 2D/3D SLAM 系统；适合多传感器 SLAM、定位建图和导航地图生成历史基线。
+- [FUEL](../wiki/2026-06-24-fuel.md)：Fast UAV Exploration 框架；适合无人机主动探索、frontier information structure、层级规划和最小时间轨迹。
+- [EGO-Swarm](../wiki/2026-06-24-ego-planner-swarm.md)：去中心化四旋翼 swarm navigation；适合多机器人未知障碍环境自主导航、分布式避障和 swarm 规划。
+- [RACER](../wiki/2026-06-24-racer.md)：去中心化多 UAV 协同探索；适合通信受限多机探索、coverage allocation 和鲁棒协同规划。
+- [Teach-Repeat-Replan](../wiki/2026-06-24-teach-repeat-replan.md)：无人机 teach-repeat-replan 竞速系统；适合 aggressive flight 中示教轨迹平滑、安全重复和局部重规划研究。
+- [MATLABRobotics](../wiki/2026-06-24-matlabrobotics.md)：移动机器人导航 MATLAB 示例；适合快速阅读定位、路径规划和控制算法的教学版 MATLAB 实现。
+- [Robotics Toolbox for Python](../wiki/2026-06-24-robotics-toolbox-python.md)：Python 机器人学工具箱；适合机械臂建模、运动学、动力学、轨迹和机器人教学/原型。
+- [Tasks](../wiki/2026-06-24-tasks.md)：实时约束优化机器人控制任务库；适合 humanoid/whole-body control 中任务、约束、接触和碰撞规避建模。
+- [RBDyn](../wiki/2026-06-24-rbdyn.md)：刚体系统动力学建模库；适合 mc_rtc/Tasks 控制链中的 rigid body dynamics 模型基础。
+- [SpaceVecAlg](../wiki/2026-06-24-spacevecalg.md)：Spatial Vector Algebra 库；适合刚体动力学、全身控制和 Featherstone 空间向量代数基础。
+- [eiquadprog](../wiki/2026-06-24-eiquadprog.md)：Goldfarb-Idnani QP 求解器实现；适合小中型凸 QP、TSID/全身控制和实时控制中的 QP 子问题。
+- [qpsolvers](../wiki/2026-06-24-qpsolvers.md)：Python QP solver 统一接口；适合快速切换 QP 后端、验证控制/规划优化问题。
+- [osqp-eigen](../wiki/2026-06-24-osqp-eigen.md)：OSQP 的 Eigen C++ wrapper；适合 C++ 控制/规划代码中接入 OSQP 解凸 QP。
+- [gz_ros2_control](../wiki/2026-06-24-gz-ros2-control.md)：Gazebo 与 ros2_control 集成包；适合仿真中把 Gazebo model 接入 ros2_control controller manager。
+- [ros2_control_demos](../wiki/2026-06-24-ros2-control-demos.md)：ros2_control 示例集合；适合学习 ros2_control hardware interface、controller switching 和 demo robot 配置。
+- [geometry2 / tf2](../wiki/2026-06-24-geometry2.md)：ROS 2 TF2 坐标变换库集合；适合机器人规划控制中的 frame transform、tf2 buffer 和坐标系统管理。
+- [geometric_shapes](../wiki/2026-06-24-geometric-shapes.md)：几何形状和 body 操作库；适合 MoveIt/碰撞检测中的 primitive、mesh、point containment 和 ray intersection。
+- [moveit_resources](../wiki/2026-06-24-moveit-resources.md)：MoveIt 测试机器人与配置资源；适合 MoveIt/规划测试中的 URDF、meshes、moveit_config 基准资源。
+- [industrial_core](../wiki/2026-06-24-industrial-core.md)：ROS-Industrial 核心通信包；适合工业机器人 ROS 驱动、通信抽象和工业控制接口历史基线。
+- [ros_industrial_cmake_boilerplate](../wiki/2026-06-24-ros-industrial-cmake-boilerplate.md)：ROS-Industrial CMake boilerplate；适合 Tesseract/工业规划库构建、打包和跨平台 CMake 工程化参考。
+- [elevation_mapping](../wiki/2026-06-24-elevation-mapping.md)：机器人中心局部高程地图；适合研究粗糙地形导航中的高程、不确定性和局部地图输入。
+- [mav_voxblox_planning](../wiki/2026-06-24-mav-voxblox-planning.md)：基于 Voxblox ESDF 的 MAV 全局与局部规划工具；连接 ESDF、OMPL、骨架图、轨迹平滑和在线重规划。
+- [SBPL](../wiki/2026-06-24-sbpl.md)：经典 Search-Based Planning Library；适合研究 ARA*、AD*、R*、xytheta lattice 和 motion primitives。
+- [TSID](../wiki/2026-06-24-tsid.md)：基于 Pinocchio 的任务空间逆动力学控制库；适合研究优化式全身控制。
+- [mc_rtc](../wiki/2026-06-24-mc-rtc.md)：机器人控制框架与接口层；适合研究控制器插件化、仿真/实机接口和全身控制工程组织。
+- [robotoc](../wiki/2026-06-24-robotoc.md)：机器人最优控制求解器；适合研究接触动力学、切换时间优化和 MPC。
+- [ros_control](../wiki/2026-06-24-ros-control.md)：ROS1 通用控制框架；是理解 `ros2_control` 演进的历史基线。
+- [ros_controllers](../wiki/2026-06-24-ros-controllers.md)：ROS1 控制器插件集合；适合与 `ros2_controllers` 对照。
+- [Tesseract](../wiki/2026-06-24-tesseract.md)：ROS-Industrial 机器人规划框架；强调轻量依赖、ROS-agnostic core 和 Python 支持。
+- [BehaviorTree.CPP](../wiki/2026-06-24-behaviortree-cpp.md)：C++17 行为树框架；适合机器人行为规划、任务编排和 Nav2 行为层研究。
+- [ArduPilot](../wiki/2026-06-24-ardupilot.md)：多载具开源 autopilot 工程栈；适合研究飞控/车控系统中的任务模式、制导、控制、仿真测试和硬件适配。
+- [Lanelet2](../wiki/2026-06-24-lanelet2.md)：自动驾驶 HD map 与路由基础设施；适合研究车道级地图、交通规则、routing graph 和规划地图接口。
+- [karlkurzer/path_planner](../wiki/2026-06-24-karlkurzer-path-planner.md)：ROS/C++ Hybrid A* 车辆路径规划实现；适合研究非完整约束、启发函数和无结构环境实时搜索。
+- [ros-controls/control_toolbox](../wiki/2026-06-24-ros-control-toolbox.md)：ROS 控制器工具类与滤波插件；是 `ros2_control` 控制器开发的辅助工具包。
+- [Descartes](../wiki/2026-06-24-descartes.md)：ROS-Industrial 笛卡尔路径规划器；适合工业机械臂工艺路径、可达性和冗余解规划研究。
+- [Voxblox](../wiki/2026-06-24-voxblox.md)：TSDF/ESDF volumetric mapping 库；为三维避障和 MAV onboard planning 提供距离场地图基础。
+- [ACADO Toolkit](../wiki/2026-06-24-acado.md)：自动控制与动态优化工具箱；覆盖 direct optimal control、MPC、估计和鲁棒优化。
+- [grid_map](../wiki/2026-06-24-grid-map.md)：多层二维/2.5D 栅格地图库；适合地形可通行性、局部地图和规划代价层表达。
+- [NLopt](../wiki/2026-06-24-nlopt.md)：非线性局部/全局优化算法库；适合作为规划控制中的通用优化后端候选。
+- [MoveIt ROS1](../wiki/2026-06-24-moveit-ros1.md)：ROS1 机械臂运动规划框架；适合与 MoveIt 2 对照理解机械臂规划框架演进。
 - [PX4 Autopilot](../wiki/2026-06-24-px4-autopilot.md)：无人系统飞控栈；适合研究飞行控制、模块通信、SITL/HIL 和 ROS 2/MAVLink 集成。
 - [openpilot](../wiki/2026-06-24-openpilot.md)：开源驾驶辅助系统；适合研究真实车辆 ADAS 的规划控制、车辆接口和发布分支边界。
 - [ROS Navigation](../wiki/2026-06-24-ros-navigation.md)：ROS1 二维移动机器人导航栈；是理解 `move_base` 和 Nav2 演进的历史基线。
@@ -71,6 +224,156 @@
 - [Navigation2](../wiki/2026-06-13-navigation2.md)：ROS 2 移动机器人导航框架；重点关注行为树编排、插件化服务器、生命周期与末端安全链。
 
 ## 最近笔记
+- 2026-06-25：[legged_control：仓库解析](../notes/2026-06-25-legged-control-repository-note.md)
+- 2026-06-25：[legged_perceptive：仓库解析](../notes/2026-06-25-legged-perceptive-repository-note.md)
+- 2026-06-25：[OCS2 Robotic Examples：仓库解析](../notes/2026-06-25-ocs2-robotic-examples-repository-note.md)
+- 2026-06-25：[qiayuanl/legged_control：仓库解析](../notes/2026-06-25-qiayuanl-legged-control-repository-note.md)
+- 2026-06-25：[qiayuanl/legged_perceptive：仓库解析](../notes/2026-06-25-qiayuanl-legged-perceptive-repository-note.md)
+- 2026-06-25：[ANYbotics grid_map：仓库解析](../notes/2026-06-25-anybotics-grid-map-repository-note.md)
+- 2026-06-25：[elevation_mapping_cupy：仓库解析](../notes/2026-06-25-elevation-mapping-cupy-repository-note.md)
+- 2026-06-25：[kindr：仓库解析](../notes/2026-06-25-kindr-repository-note.md)
+- 2026-06-25：[romo：仓库解析](../notes/2026-06-25-romo-repository-note.md)
+- 2026-06-25：[ANYmal C simple description：仓库解析](../notes/2026-06-25-anymal-c-simple-description-repository-note.md)
+- 2026-06-25：[ETH ADRL Control Toolbox refresh：仓库解析](../notes/2026-06-25-ethz-adrl-control-toolbox-refresh-repository-note.md)
+- 2026-06-25：[ifopt：仓库解析](../notes/2026-06-25-ifopt-repository-note.md)
+- 2026-06-25：[ETH ADRL motion_planning：仓库解析](../notes/2026-06-25-ethz-adrl-motion-planning-repository-note.md)
+- 2026-06-25：[rotors_simulator：仓库解析](../notes/2026-06-25-rotors-simulator-repository-note.md)
+- 2026-06-25：[mav_control_rw：仓库解析](../notes/2026-06-25-mav-control-rw-repository-note.md)
+- 2026-06-25：[mav_comm：仓库解析](../notes/2026-06-25-mav-comm-repository-note.md)
+- 2026-06-25：[mav_planning_msgs：仓库解析](../notes/2026-06-25-mav-planning-msgs-repository-note.md)
+- 2026-06-25：[nbvplanner：仓库解析](../notes/2026-06-25-nbvplanner-repository-note.md)
+- 2026-06-25：[voxblox++：仓库解析](../notes/2026-06-25-voxblox-plusplus-repository-note.md)
+- 2026-06-25：[maplab：仓库解析](../notes/2026-06-25-maplab-repository-note.md)
+- 2026-06-25：[FUEL：仓库解析](../notes/2026-06-25-fuel-repository-note.md)
+- 2026-06-25：[RACER：仓库解析](../notes/2026-06-25-racer-repository-note.md)
+- 2026-06-25：[Teach-Repeat-Replan：仓库解析](../notes/2026-06-25-teach-repeat-replan-repository-note.md)
+- 2026-06-25：[TopoTraj：仓库解析](../notes/2026-06-25-topotraj-repository-note.md)
+- 2026-06-25：[GCOPTER：仓库解析](../notes/2026-06-25-gcopter-repository-note.md)
+- 2026-06-25：[EGO-Planner-Swarm：仓库解析](../notes/2026-06-25-ego-planner-swarm-repository-note.md)
+- 2026-06-25：[EGO-Planner v2：仓库解析](../notes/2026-06-25-ego-planner-v2-repository-note.md)
+- 2026-06-25：[Swarm-Formation：仓库解析](../notes/2026-06-25-swarm-formation-repository-note.md)
+- 2026-06-25：[ZJU EGO-Planner refresh：仓库解析](../notes/2026-06-25-zju-ego-planner-refresh-repository-note.md)
+- 2026-06-25：[Fast-Drone-250：仓库解析](../notes/2026-06-25-fast-drone-250-repository-note.md)
+- 2026-06-25：[rpg_mpc：仓库解析](../notes/2026-06-25-rpg-mpc-repository-note.md)
+- 2026-06-25：[RPG Quadrotor Control refresh：仓库解析](../notes/2026-06-25-rpg-quadrotor-control-refresh-repository-note.md)
+- 2026-06-25：[rpg_quadrotor_common：仓库解析](../notes/2026-06-25-rpg-quadrotor-common-repository-note.md)
+- 2026-06-25：[rpg_trajectory_evaluation：仓库解析](../notes/2026-06-25-rpg-trajectory-evaluation-repository-note.md)
+- 2026-06-25：[Agile Autonomy：仓库解析](../notes/2026-06-25-agile-autonomy-repository-note.md)
+- 2026-06-25：[FASTER：仓库解析](../notes/2026-06-25-faster-repository-note.md)
+- 2026-06-25：[decomp_util：仓库解析](../notes/2026-06-25-decomp-util-repository-note.md)
+- 2026-06-25：[mpl_ros：仓库解析](../notes/2026-06-25-mpl-ros-repository-note.md)
+- 2026-06-25：[motion_primitive_library：仓库解析](../notes/2026-06-25-motion-primitive-library-repository-note.md)
+- 2026-06-25：[DecompROS：仓库解析](../notes/2026-06-25-decompros-repository-note.md)
+- 2026-06-25：[yaml-cpp：仓库解析](../notes/2026-06-25-yaml-cpp-repository-note.md)
+- 2026-06-25：[Pinocchio refresh：仓库解析](../notes/2026-06-25-pinocchio-refresh-repository-note.md)
+- 2026-06-25：[TSID refresh：仓库解析](../notes/2026-06-25-tsid-refresh-repository-note.md)
+- 2026-06-25：[eigenpy：仓库解析](../notes/2026-06-25-eigenpy-repository-note.md)
+- 2026-06-25：[sot-core：仓库解析](../notes/2026-06-25-sot-core-repository-note.md)
+- 2026-06-25：[Crocoddyl refresh：仓库解析](../notes/2026-06-25-crocoddyl-refresh-repository-note.md)
+- 2026-06-25：[multicontact-api：仓库解析](../notes/2026-06-25-multicontact-api-repository-note.md)
+- 2026-06-25：[coal：仓库解析](../notes/2026-06-25-coal-repository-note.md)
+- 2026-06-25：[example-robot-data：仓库解析](../notes/2026-06-25-example-robot-data-repository-note.md)
+- 2026-06-25：[iDynTree：仓库解析](../notes/2026-06-25-idyntree-repository-note.md)
+- 2026-06-25：[WB-Toolbox：仓库解析](../notes/2026-06-25-wb-toolbox-repository-note.md)
+- 2026-06-25：[YARP：仓库解析](../notes/2026-06-25-yarp-repository-note.md)
+- 2026-06-25：[gazebo-yarp-plugins：仓库解析](../notes/2026-06-25-gazebo-yarp-plugins-repository-note.md)
+- 2026-06-25：[whole-body-controllers：仓库解析](../notes/2026-06-25-whole-body-controllers-repository-note.md)
+- 2026-06-25：[mayataka robotoc refresh：仓库解析](../notes/2026-06-25-mayataka-robotoc-refresh-repository-note.md)
+- 2026-06-25：[robotoc_examples：仓库解析](../notes/2026-06-25-robotoc-examples-repository-note.md)
+- 2026-06-25：[robotoc_sim：仓库解析](../notes/2026-06-25-robotoc-sim-repository-note.md)
+- 2026-06-25：[mayataka/legged_control：仓库解析](../notes/2026-06-25-mayataka-legged-control-repository-note.md)
+- 2026-06-25：[Upkie：仓库解析](../notes/2026-06-25-upkie-repository-note.md)
+- 2026-06-25：[Pink：仓库解析](../notes/2026-06-25-pink-repository-note.md)
+- 2026-06-25：[qpsolvers：仓库解析](../notes/2026-06-25-qpsolvers-repository-note.md)
+- 2026-06-25：[pymanoid：仓库解析](../notes/2026-06-25-pymanoid-repository-note.md)
+- 2026-06-25：[quadprog：仓库解析](../notes/2026-06-25-stephane-caron-quadprog-repository-note.md)
+- 2026-06-25：[LIPM Walking Controller：仓库解析](../notes/2026-06-25-lipm-walking-controller-repository-note.md)
+- 2026-06-25：[Planning Through Contact：仓库解析](../notes/2026-06-25-planning-through-contact-repository-note.md)
+- 2026-06-25：[Drake refresh：仓库解析](../notes/2026-06-25-drake-refresh-repository-note.md)
+- 2026-06-25：[Director：仓库解析](../notes/2026-06-25-director-repository-note.md)
+- 2026-06-25：[IRIS distro：仓库解析](../notes/2026-06-25-iris-distro-repository-note.md)
+- 2026-06-25：[pyrobosim：仓库解析](../notes/2026-06-25-pyrobosim-repository-note.md)
+- 2026-06-25：[robust-pose-graph：仓库解析](../notes/2026-06-25-robust-pose-graph-repository-note.md)
+- 2026-06-25：[MoveIt Task Constructor：仓库解析](../notes/2026-06-25-moveit-task-constructor-repository-note.md)
+- 2026-06-25：[MoveIt 2 Tutorials：仓库解析](../notes/2026-06-25-moveit2-tutorials-repository-note.md)
+- 2026-06-25：[MoveIt Resources：仓库解析](../notes/2026-06-25-moveit-resources-repository-note.md)
+- 2026-06-25：[MoveIt Servo：仓库解析](../notes/2026-06-25-moveit-servo-repository-note.md)
+- 2026-06-25：[rosparam_shortcuts：仓库解析](../notes/2026-06-25-rosparam-shortcuts-repository-note.md)
+- 2026-06-25：[gazebo_ros2_control：仓库解析](../notes/2026-06-25-gazebo-ros2-control-repository-note.md)
+- 2026-06-25：[ros2_control_demos：仓库解析](../notes/2026-06-25-ros2-control-demos-repository-note.md)
+- 2026-06-25：[realtime_tools：仓库解析](../notes/2026-06-25-realtime-tools-repository-note.md)
+- 2026-06-25：[ros2_control_test_assets：仓库解析](../notes/2026-06-25-ros2-control-test-assets-repository-note.md)
+- 2026-06-25：[ros2_control_ci：仓库解析](../notes/2026-06-25-ros2-control-ci-repository-note.md)
+- 2026-06-25：[Navigation2 Tutorials refresh：仓库解析](../notes/2026-06-25-navigation2-tutorials-refresh-repository-note.md)
+- 2026-06-25：[navigation2_dynamic：仓库解析](../notes/2026-06-25-navigation2-dynamic-repository-note.md)
+- 2026-06-25：[Nav2 minimal turtlebot simulation：仓库解析](../notes/2026-06-25-nav2-minimal-turtlebot-simulation-repository-note.md)
+- 2026-06-25：[nav2_bringup：仓库解析](../notes/2026-06-25-nav2-bringup-repository-note.md)
+- 2026-06-25：[Navigation2 refresh：仓库解析](../notes/2026-06-25-navigation2-refresh-repository-note.md)
+- 2026-06-25：[teb_local_planner_tutorials：仓库解析](../notes/2026-06-25-teb-local-planner-tutorials-repository-note.md)
+- 2026-06-25：[rst mpc_local_planner refresh：仓库解析](../notes/2026-06-25-rst-mpc-local-planner-refresh-repository-note.md)
+- 2026-06-25：[costmap_converter：仓库解析](../notes/2026-06-25-costmap-converter-repository-note.md)
+- 2026-06-25：[rst teb_local_planner refresh：仓库解析](../notes/2026-06-25-rst-teb-local-planner-refresh-repository-note.md)
+- 2026-06-25：[navrep：仓库解析](../notes/2026-06-25-navrep-repository-note.md)
+- 2026-06-25：[MIT RACECAR：仓库解析](../notes/2026-06-25-mit-racecar-repository-note.md)
+- 2026-06-25：[F1TENTH Gym：仓库解析](../notes/2026-06-25-f1tenth-gym-repository-note.md)
+- 2026-06-25：[F1TENTH Planning refresh：仓库解析](../notes/2026-06-25-f1tenth-planning-refresh-repository-note.md)
+- 2026-06-25：[F1TENTH System：仓库解析](../notes/2026-06-25-f1tenth-system-repository-note.md)
+- 2026-06-25：[F1TENTH Lab4 template：仓库解析](../notes/2026-06-25-f1tenth-lab4-template-repository-note.md)
+- 2026-06-25：[commonroad-io：仓库解析](../notes/2026-06-25-commonroad-io-repository-note.md)
+- 2026-06-25：[commonroad-scenario-designer：仓库解析](../notes/2026-06-25-commonroad-scenario-designer-repository-note.md)
+- 2026-06-25：[commonroad-vehicle-models：仓库解析](../notes/2026-06-25-commonroad-vehicle-models-repository-note.md)
+- 2026-06-25：[commonroad-search：仓库解析](../notes/2026-06-25-commonroad-search-repository-note.md)
+- 2026-06-25：[commonroad-reachable-set：仓库解析](../notes/2026-06-25-commonroad-reachable-set-repository-note.md)
+- 2026-06-24：[Ceres Solver：非线性最小二乘和无约束优化 C++ 库](../notes/2026-06-24-ceres-solver-repository-analysis.md)
+- 2026-06-24：[GTSAM：因子图平滑与建图库](../notes/2026-06-24-gtsam-repository-analysis.md)
+- 2026-06-24：[OctoMap：基于八叉树的概率三维地图框架](../notes/2026-06-24-octomap-repository-analysis.md)
+- 2026-06-24：[FCL：Flexible Collision Library](../notes/2026-06-24-fcl-repository-analysis.md)
+- 2026-06-24：[Coal：FCL/HPP-FCL 演进版碰撞库](../notes/2026-06-24-coal-repository-analysis.md)
+- 2026-06-24：[ifopt：Eigen-based 非线性规划接口](../notes/2026-06-24-ifopt-repository-analysis.md)
+- 2026-06-24：[qpOASES：在线 active-set QP 求解器](../notes/2026-06-24-qpoases-repository-analysis.md)
+- 2026-06-24：[Orocos KDL：实时可用运动学与动力学库](../notes/2026-06-24-orocos-kdl-repository-analysis.md)
+- 2026-06-24：[RBDL：Rigid Body Dynamics Library](../notes/2026-06-24-rbdl-repository-analysis.md)
+- 2026-06-24：[SLAM Toolbox：ROS 2 2D SLAM 工具箱](../notes/2026-06-24-slam-toolbox-repository-analysis.md)
+- 2026-06-24：[Cartographer：实时 2D/3D SLAM 系统](../notes/2026-06-24-cartographer-repository-analysis.md)
+- 2026-06-24：[FUEL：Fast UAV Exploration 框架](../notes/2026-06-24-fuel-repository-analysis.md)
+- 2026-06-24：[EGO-Swarm：去中心化四旋翼 swarm navigation](../notes/2026-06-24-ego-planner-swarm-repository-analysis.md)
+- 2026-06-24：[RACER：去中心化多 UAV 协同探索](../notes/2026-06-24-racer-repository-analysis.md)
+- 2026-06-24：[Teach-Repeat-Replan：无人机 teach-repeat-replan 竞速系统](../notes/2026-06-24-teach-repeat-replan-repository-analysis.md)
+- 2026-06-24：[MATLABRobotics：移动机器人导航 MATLAB 示例](../notes/2026-06-24-matlabrobotics-repository-analysis.md)
+- 2026-06-24：[Robotics Toolbox for Python：Python 机器人学工具箱](../notes/2026-06-24-robotics-toolbox-python-repository-analysis.md)
+- 2026-06-24：[Tasks：实时约束优化机器人控制任务库](../notes/2026-06-24-tasks-repository-analysis.md)
+- 2026-06-24：[RBDyn：刚体系统动力学建模库](../notes/2026-06-24-rbdyn-repository-analysis.md)
+- 2026-06-24：[SpaceVecAlg：Spatial Vector Algebra 库](../notes/2026-06-24-spacevecalg-repository-analysis.md)
+- 2026-06-24：[eiquadprog：Goldfarb-Idnani QP 求解器实现](../notes/2026-06-24-eiquadprog-repository-analysis.md)
+- 2026-06-24：[qpsolvers：Python QP solver 统一接口](../notes/2026-06-24-qpsolvers-repository-analysis.md)
+- 2026-06-24：[osqp-eigen：OSQP 的 Eigen C++ wrapper](../notes/2026-06-24-osqp-eigen-repository-analysis.md)
+- 2026-06-24：[gz_ros2_control：Gazebo 与 ros2_control 集成包](../notes/2026-06-24-gz-ros2-control-repository-analysis.md)
+- 2026-06-24：[ros2_control_demos：ros2_control 示例集合](../notes/2026-06-24-ros2-control-demos-repository-analysis.md)
+- 2026-06-24：[geometry2 / tf2：ROS 2 TF2 坐标变换库集合](../notes/2026-06-24-geometry2-repository-analysis.md)
+- 2026-06-24：[geometric_shapes：几何形状和 body 操作库](../notes/2026-06-24-geometric-shapes-repository-analysis.md)
+- 2026-06-24：[moveit_resources：MoveIt 测试机器人与配置资源](../notes/2026-06-24-moveit-resources-repository-analysis.md)
+- 2026-06-24：[industrial_core：ROS-Industrial 核心通信包](../notes/2026-06-24-industrial-core-repository-analysis.md)
+- 2026-06-24：[ros_industrial_cmake_boilerplate：ROS-Industrial CMake boilerplate](../notes/2026-06-24-ros-industrial-cmake-boilerplate-repository-analysis.md)
+- 2026-06-24：[elevation_mapping：机器人中心高程地图](../notes/2026-06-24-elevation-mapping-robot-centric-terrain-map.md)
+- 2026-06-24：[mav_voxblox_planning：基于 ESDF 的 MAV 全局与局部规划](../notes/2026-06-24-mav-voxblox-planning-esdf-mav-planners.md)
+- 2026-06-24：[SBPL：Search-Based Planning Library](../notes/2026-06-24-sbpl-search-based-planning-library.md)
+- 2026-06-24：[TSID：任务空间逆动力学控制](../notes/2026-06-24-tsid-task-space-inverse-dynamics.md)
+- 2026-06-24：[mc_rtc：机器人控制框架与接口层](../notes/2026-06-24-mc-rtc-robot-control-framework.md)
+- 2026-06-24：[robotoc：机器人最优控制求解器](../notes/2026-06-24-robotoc-robot-optimal-control-solvers.md)
+- 2026-06-24：[ros_control：ROS1 通用控制框架](../notes/2026-06-24-ros-control-ros1-control-framework.md)
+- 2026-06-24：[ros_controllers：ROS1 控制器插件集合](../notes/2026-06-24-ros-controllers-ros1-controller-plugins.md)
+- 2026-06-24：[Tesseract：ROS-Industrial 机器人规划框架](../notes/2026-06-24-tesseract-robotics-planning-framework.md)
+- 2026-06-24：[BehaviorTree.CPP：机器人行为树与任务编排框架](../notes/2026-06-24-behaviortree-cpp-reactive-behavior-framework.md)
+- 2026-06-24：[ArduPilot：多载具开源飞控与控制栈](../notes/2026-06-24-ardupilot-autopilot-control-stack.md)
+- 2026-06-24：[Lanelet2：自动驾驶 HD Map 与路由基础设施](../notes/2026-06-24-lanelet2-hd-map-routing-framework.md)
+- 2026-06-24：[karlkurzer/path_planner：实时 Hybrid A* 车辆路径规划](../notes/2026-06-24-karlkurzer-path-planner-hybrid-a-star.md)
+- 2026-06-24：[ros-controls/control_toolbox：ROS 控制器工具类与滤波插件](../notes/2026-06-24-ros-control-toolbox-controller-utilities.md)
+- 2026-06-24：[Descartes：ROS-Industrial 笛卡尔路径规划器](../notes/2026-06-24-descartes-cartesian-path-planner.md)
+- 2026-06-24：[Voxblox：面向机载规划的 TSDF/ESDF 增量建图](../notes/2026-06-24-voxblox-tsdf-esdf-mapping.md)
+- 2026-06-24：[ACADO Toolkit：自动控制与动态优化工具箱](../notes/2026-06-24-acado-automatic-control-dynamic-optimization.md)
+- 2026-06-24：[grid_map：多层二维/2.5D 机器人栅格地图](../notes/2026-06-24-grid-map-multilayer-robot-map.md)
+- 2026-06-24：[NLopt：非线性局部与全局优化算法库](../notes/2026-06-24-nlopt-nonlinear-optimization-library.md)
+- 2026-06-24：[MoveIt ROS1：机械臂运动规划框架](../notes/2026-06-24-moveit-ros1-motion-planning-framework.md)
 - 2026-06-24：[PX4 Autopilot：无人系统飞控与控制栈](../notes/2026-06-24-px4-autopilot-flight-control-stack.md)
 - 2026-06-24：[openpilot：面向量产车辆的驾驶辅助机器人系统](../notes/2026-06-24-openpilot-driver-assistance-operating-system.md)
 - 2026-06-24：[ROS Navigation：ROS1 二维移动机器人导航栈](../notes/2026-06-24-ros-navigation-ros1-2d-navigation-stack.md)
