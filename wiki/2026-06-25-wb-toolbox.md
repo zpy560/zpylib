@@ -8,9 +8,8 @@ tags:
   - autonomous-driving
   - planning-control
 related:
-  - "../notes/2026-06-25-wb-toolbox-repository-note.md"
+  - notes/2026-06-25-wb-toolbox-repository-note.md
 ---
-
 # WB-Toolbox
 
 ## 定位

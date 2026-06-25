@@ -8,9 +8,8 @@ tags:
   - autonomous-driving
   - planning-control
 related:
-  - "../wiki/2026-06-25-qiayuanl-legged-perceptive.md"
+  - wiki/2026-06-25-qiayuanl-legged-perceptive.md
 ---
-
 # qiayuanl/legged_perceptive：仓库解析
 
 ## 一句话结论

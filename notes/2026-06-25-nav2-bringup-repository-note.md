@@ -8,9 +8,8 @@ tags:
   - autonomous-driving
   - planning-control
 related:
-  - "../wiki/2026-06-25-nav2-bringup.md"
+  - wiki/2026-06-25-nav2-bringup.md
 ---
-
 # nav2_bringup：仓库解析
 
 ## 一句话结论

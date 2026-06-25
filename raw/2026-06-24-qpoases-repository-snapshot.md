@@ -1,27 +1,23 @@
----
-id: "20260624-212107-qpoases-raw"
-title: "qpOASES repository snapshot"
-type: "note"
-source: "https://github.com/coin-or/qpOASES"
-created_at: "2026-06-24"
-tags:
-  - planning-control
-  - tools
-related:
-  - notes/2026-06-24-qpoases-repository-analysis.md
----
+# coin-or/qpOASES repository snapshot
 
-# qpOASES repository snapshot
+- Snapshot date: 2026-06-24
+- Repository: https://github.com/coin-or/qpOASES
+- Clone URL: https://github.com/coin-or/qpOASES.git
+- Stars observed: 540
+- Forks observed: 151
+- License observed/inferred: LGPL-2.1
+- Primary language/stack: C++
+- Category: QP/MPC 求解器
+- Source inspection method: GitHub repository page, README summary, repository description, visible directory names, topics, and public star/fork display checked during this knowledge-base pass.
 
-- Repository: `coin-or/qpOASES`
-- URL: https://github.com/coin-or/qpOASES
-- Checked HEAD: `9e40af7d170f440b7887fc4f9cf162f3f3ae24e8`
+## Repository facts
 
-## README / source facts
+- GitHub description / role: Online active set QP solver particularly suited for MPC applications.
+- The repository was selected only after checking it was not already represented by existing GitHub URLs in `inbox/`, `raw/`, `notes/`, `wiki/`, and `indexes/`.
+- It is relevant to planning-control either directly as a planner/controller, or indirectly as simulation, SLAM/localization, map representation, vehicle interface, optimization solver, ROS integration, or multi-robot traffic infrastructure needed for a mobile chassis closed loop.
 
-- README.txt 定位为 open-source C++ implementation of the online active set strategy，源自 parametric quadratic programming。
-- 本次入库只基于远端 HEAD、README 或仓库元信息做单源快照；未做本地编译。
+## Interpretation boundary
 
-## Local interpretation
-
-适合 MPC、实时控制和参数化 QP 的历史/工程参考。
+- qpOASES 是很多车辆 MPC 教程和老工程中的 QP 后端，适合理解在线 active set 方法。
+- Star/fork counts are coarse popularity signals, not engineering quality proof.
+- Before production reuse, inspect target branch code, license, maintenance state, and integration assumptions.

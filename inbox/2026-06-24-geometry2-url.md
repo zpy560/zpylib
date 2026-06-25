@@ -1,18 +1,5 @@
----
-id: "20260624-212026-geometry2-url"
-title: "geometry2 / tf2 GitHub URL"
-type: "note"
-source: "https://github.com/ros2/geometry2"
-created_at: "2026-06-24"
-tags:
-  - planning-control
-  - tools
-related:
-  - raw/2026-06-24-geometry2-repository-snapshot.md
-  - notes/2026-06-24-geometry2-repository-analysis.md
----
+# ros2/geometry2 URL
 
-# geometry2 / tf2 GitHub URL
-
+- Date: 2026-06-24
 - URL: https://github.com/ros2/geometry2
-- 用途：适合机器人规划控制中的 frame transform、tf2 buffer 和坐标系统管理。
+- Selection reason: 第三批未入库 GitHub 资源；与自动驾驶、移动机器人、无人系统、仿真、定位建图、控制接口或移动底盘规划控制闭环相关；按 star/fork 与生态使用度综合筛选。

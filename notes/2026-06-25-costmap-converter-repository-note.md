@@ -8,9 +8,8 @@ tags:
   - autonomous-driving
   - planning-control
 related:
-  - "../wiki/2026-06-25-costmap-converter.md"
+  - wiki/2026-06-25-costmap-converter.md
 ---
-
 # costmap_converter：仓库解析
 
 ## 一句话结论

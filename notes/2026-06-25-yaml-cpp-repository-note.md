@@ -8,9 +8,8 @@ tags:
   - autonomous-driving
   - planning-control
 related:
-  - "../wiki/2026-06-25-yaml-cpp.md"
+  - wiki/2026-06-25-yaml-cpp.md
 ---
-
 # yaml-cpp：仓库解析
 
 ## 一句话结论

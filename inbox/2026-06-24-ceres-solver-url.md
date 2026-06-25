@@ -1,18 +1,5 @@
----
-id: "20260624-212001-ceres-solver-url"
-title: "Ceres Solver GitHub URL"
-type: "note"
-source: "https://github.com/ceres-solver/ceres-solver"
-created_at: "2026-06-24"
-tags:
-  - planning-control
-  - tools
-related:
-  - raw/2026-06-24-ceres-solver-repository-snapshot.md
-  - notes/2026-06-24-ceres-solver-repository-analysis.md
----
+# ceres-solver/ceres-solver URL
 
-# Ceres Solver GitHub URL
-
+- Date: 2026-06-24
 - URL: https://github.com/ceres-solver/ceres-solver
-- 用途：适合 SLAM、标定、轨迹优化和规划控制中的非线性 least-squares 后端。
+- Selection reason: 第三批未入库 GitHub 资源；与自动驾驶、移动机器人、无人系统、仿真、定位建图、控制接口或移动底盘规划控制闭环相关；按 star/fork 与生态使用度综合筛选。

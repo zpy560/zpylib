@@ -8,9 +8,8 @@ tags:
   - autonomous-driving
   - planning-control
 related:
-  - "../wiki/2026-06-25-rotors-simulator.md"
+  - wiki/2026-06-25-rotors-simulator.md
 ---
-
 # rotors_simulator：仓库解析
 
 ## 一句话结论

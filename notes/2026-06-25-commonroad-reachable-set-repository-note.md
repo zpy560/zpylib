@@ -8,9 +8,8 @@ tags:
   - autonomous-driving
   - planning-control
 related:
-  - "../wiki/2026-06-25-commonroad-reachable-set.md"
+  - wiki/2026-06-25-commonroad-reachable-set.md
 ---
-
 # commonroad-reachable-set：仓库解析
 
 ## 一句话结论

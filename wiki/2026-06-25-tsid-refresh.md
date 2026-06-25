@@ -8,9 +8,8 @@ tags:
   - autonomous-driving
   - planning-control
 related:
-  - "../notes/2026-06-25-tsid-refresh-repository-note.md"
+  - notes/2026-06-25-tsid-refresh-repository-note.md
 ---
-
 # TSID refresh
 
 ## 定位

@@ -8,9 +8,8 @@ tags:
   - autonomous-driving
   - planning-control
 related:
-  - "../notes/2026-06-25-commonroad-search-repository-note.md"
+  - notes/2026-06-25-commonroad-search-repository-note.md
 ---
-
 # commonroad-search
 
 ## 定位

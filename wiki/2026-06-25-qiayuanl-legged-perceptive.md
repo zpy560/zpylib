@@ -8,9 +8,8 @@ tags:
   - autonomous-driving
   - planning-control
 related:
-  - "../notes/2026-06-25-qiayuanl-legged-perceptive-repository-note.md"
+  - notes/2026-06-25-qiayuanl-legged-perceptive-repository-note.md
 ---
-
 # qiayuanl/legged_perceptive
 
 ## 定位

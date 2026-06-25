@@ -8,9 +8,8 @@ tags:
   - autonomous-driving
   - planning-control
 related:
-  - "../notes/2026-06-25-rosparam-shortcuts-repository-note.md"
+  - notes/2026-06-25-rosparam-shortcuts-repository-note.md
 ---
-
 # rosparam_shortcuts
 
 ## 定位

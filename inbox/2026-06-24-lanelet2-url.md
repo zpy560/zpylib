@@ -1,19 +1,5 @@
----
-id: "20260624-210005-lanelet2-url"
-title: "Lanelet2 GitHub URL"
-type: "note"
-source: "https://github.com/fzi-forschungszentrum-informatik/Lanelet2"
-created_at: "2026-06-24"
-tags:
-  - autonomous-driving
-  - planning-control
-related:
-  - raw/2026-06-24-lanelet2-repository-snapshot.md
-  - notes/2026-06-24-lanelet2-hd-map-routing-framework.md
----
+# fzi-forschungszentrum-informatik/Lanelet2 URL
 
-# Lanelet2 GitHub URL
-
+- Date: 2026-06-24
 - URL: https://github.com/fzi-forschungszentrum-informatik/Lanelet2
-- 用途：自动驾驶 HD map、车道级路由、交通规则和规划地图接口参考。
-
+- Selection reason: 第四批未入库 GitHub 资源；与自动驾驶、移动机器人、仿真、交通路由、传感器输入、定位建图、可视化调试或移动底盘规划控制闭环相关；按 star/fork 与生态使用度综合筛选。

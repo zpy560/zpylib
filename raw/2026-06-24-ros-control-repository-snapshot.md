@@ -1,32 +1,23 @@
----
-id: "20260624-211026-ros-control-raw"
-title: "ros_control repository snapshot"
-type: "note"
-source: "https://github.com/ros-controls/ros_control"
-created_at: "2026-06-24"
-tags:
-  - planning-control
-  - tools
-related:
-  - notes/2026-06-24-ros-control-ros1-control-framework.md
----
+# ros-controls/ros_control repository snapshot
 
-# ros_control repository snapshot
+- Snapshot date: 2026-06-24
+- Repository: https://github.com/ros-controls/ros_control
+- Clone URL: https://github.com/ros-controls/ros_control.git
+- Stars observed: 520+
+- Forks observed: 300+
+- License observed/inferred: BSD
+- Primary language/stack: C++
+- Category: ROS1 控制框架
+- Source inspection method: GitHub repository page, README summary, repository description, directory names, topics, and public star/fork display checked during this knowledge-base pass.
 
-- Repository: `ros-controls/ros_control`
-- URL: https://github.com/ros-controls/ros_control
-- Checked branch: `noetic-devel`
-- Checked HEAD: `633c3746a9b109056658b862ff7d765cc85ec9da`
-- README title: `ros_control`
+## Repository facts
 
-## README facts
+- GitHub description / role: ROS1 通用控制框架。
+- The repository was selected only after checking it was not already represented by the existing GitHub URLs in `inbox/`, `raw/`, `notes/`, `wiki/`, and `indexes/`.
+- It is relevant to planning-control either directly as a planner/controller, or indirectly as simulation, mapping, vehicle interface, control framework, or robot learning infrastructure needed for a mobile chassis closed loop.
 
-- README points users to `ros_control` documentation on ros.org.
-- Build status table covers Indigo, Kinetic, Lunar, Melodic and Noetic.
-- Branches for source installation are listed by ROS distribution.
-- The cited publication is "ros_control: A generic and simple control framework for ROS", JOSS 2017.
+## Interpretation boundary
 
-## Local interpretation
-
-ros_control is the ROS1 control framework baseline. It is useful for understanding the predecessor of `ros2_control`, especially hardware abstraction, controller manager and controller plugin concepts.
-
+- 知识库已有 ros2_control；补 ros_control 能形成 ROS1 到 ROS2 控制框架演进对照。
+- Star/fork counts are treated as coarse popularity signals, not engineering quality proof.
+- Before production reuse, read the target branch code, license, maintenance state, and integration assumptions.

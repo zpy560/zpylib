@@ -1,41 +1,23 @@
----
-id: "20260624-211010-sbpl-raw"
-title: "SBPL repository snapshot"
-type: "note"
-source: "https://github.com/sbpl/sbpl"
-created_at: "2026-06-24"
-tags:
-  - planning-control
-  - tools
-related:
-  - notes/2026-06-24-sbpl-search-based-planning-library.md
----
+# sbpl/sbpl repository snapshot
 
-# SBPL repository snapshot
+- Snapshot date: 2026-06-24
+- Repository: https://github.com/sbpl/sbpl
+- Clone URL: https://github.com/sbpl/sbpl.git
+- Stars observed: 700+
+- Forks observed: 400+
+- License observed/inferred: BSD
+- Primary language/stack: C++
+- Category: 搜索式规划库
+- Source inspection method: GitHub repository page, README summary, repository description, visible directory names, topics, and public star/fork display checked during this knowledge-base pass.
 
-- Repository: `sbpl/sbpl`
-- URL: https://github.com/sbpl/sbpl
-- Checked branch: `master`
-- Checked HEAD: `4d654845aa3b92aa1b4282a342e9011bac95aeb9`
-- Source inspected: `README.txt` from shallow clone
+## Repository facts
 
-## README facts
+- GitHub description / role: Search-Based Planning Library.
+- The repository was selected only after checking it was not already represented by existing GitHub URLs in `inbox/`, `raw/`, `notes/`, `wiki/`, and `indexes/`.
+- It is relevant to planning-control either directly as a planner/controller, or indirectly as simulation, SLAM/localization, map representation, vehicle interface, optimization solver, ROS integration, or multi-robot traffic infrastructure needed for a mobile chassis closed loop.
 
-- SBPL is available as a standalone software library.
-- SBPL itself has no dependencies other than the C/C++ standard library.
-- It can be built with CMake.
-- Examples are in `src/test/main.cpp`.
-- Planning problem examples are stored as ASCII `.cfg` files in `env_examples`.
-- Example environments include 2D, xytheta and robot arm examples.
-- Motion primitive files are in `matlab/mprim`.
-- README links to `sbpl.net`, ROS wiki `sbpl`, and `sbpl_lattice_planner`.
+## Interpretation boundary
 
-## Source tree facts
-
-- Planner source files include `araplanner.cpp`, `adplanner.cpp`, `rstarplanner.cpp`, `mhaplanner.cpp`, `ANAplanner.cpp`, `lazyARA.cpp`, `ppcpplanner.cpp` and `viplanner.cpp`.
-- Environment files include `environment_nav2D`, `environment_navxythetalat`, `environment_navxythetamlevlat` and `environment_robarm`.
-
-## Local interpretation
-
-SBPL is a core reference for search-based planning and lattice planning. It is older but conceptually important for anytime search, heuristic planning and motion primitives.
-
+- SBPL 是自动驾驶和移动机器人搜索规划的重要历史基线，适合研究 lattice、ARA*、AD* 等搜索式规划思想。
+- Star/fork counts are coarse popularity signals, not engineering quality proof.
+- Before production reuse, inspect target branch code, license, maintenance state, and integration assumptions.

@@ -8,9 +8,8 @@ tags:
   - autonomous-driving
   - planning-control
 related:
-  - "../notes/2026-06-25-teb-local-planner-tutorials-repository-note.md"
+  - notes/2026-06-25-teb-local-planner-tutorials-repository-note.md
 ---
-
 # teb_local_planner_tutorials
 
 ## 定位

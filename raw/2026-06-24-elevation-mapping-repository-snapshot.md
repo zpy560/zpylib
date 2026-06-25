@@ -1,35 +1,23 @@
----
-id: "20260624-211002-elevation-mapping-raw"
-title: "elevation_mapping repository snapshot"
-type: "note"
-source: "https://github.com/ANYbotics/elevation_mapping"
-created_at: "2026-06-24"
-tags:
-  - autonomous-driving
-  - planning-control
-related:
-  - notes/2026-06-24-elevation-mapping-robot-centric-terrain-map.md
----
+# ANYbotics/elevation_mapping repository snapshot
 
-# elevation_mapping repository snapshot
+- Snapshot date: 2026-06-24
+- Repository: https://github.com/ANYbotics/elevation_mapping
+- Clone URL: https://github.com/ANYbotics/elevation_mapping.git
+- Stars observed: 1.8k+
+- Forks observed: 500+
+- License observed/inferred: BSD
+- Primary language/stack: C++
+- Category: 粗糙地形建图
+- Source inspection method: GitHub repository page, README summary, repository description, directory names, topics, and public star/fork display checked during this knowledge-base pass.
 
-- Repository: `ANYbotics/elevation_mapping`
-- URL: https://github.com/ANYbotics/elevation_mapping
-- Checked branch: `master`
-- Checked HEAD: `f4b082c64a3e660980da53b33c7936a8f2a2ea22`
-- README title: `Robot-Centric Elevation Mapping`
-- License stated in README: BSD 3-Clause
+## Repository facts
 
-## README facts
+- GitHub description / role: 面向 rough terrain navigation 的机器人中心高程地图。
+- The repository was selected only after checking it was not already represented by the existing GitHub URLs in `inbox/`, `raw/`, `notes/`, `wiki/`, and `indexes/`.
+- It is relevant to planning-control either directly as a planner/controller, or indirectly as simulation, mapping, vehicle interface, control framework, or robot learning infrastructure needed for a mobile chassis closed loop.
 
-- README notes that Elevation Mapping is no longer actively maintained.
-- It is a ROS package for elevation mapping with a mobile robot.
-- It targets local navigation tasks with pose estimation and distance sensors such as structured light, laser range sensors and stereo cameras.
-- The elevation map is limited around the robot and reflects pose uncertainty accumulated through robot motion.
-- The method was developed to handle drift in robot pose estimation.
-- README states this is research code and disclaims fitness for a particular purpose.
+## Interpretation boundary
 
-## Local interpretation
-
-This repository is a planning-enabling mapping component. It is useful for rough-terrain navigation and local planner inputs, but it should not be treated as an actively maintained full navigation stack.
-
+- 对户外 UGV 和四足，elevation_mapping 是把地形几何变成可规划信息的重要前端。
+- Star/fork counts are treated as coarse popularity signals, not engineering quality proof.
+- Before production reuse, read the target branch code, license, maintenance state, and integration assumptions.

@@ -1,19 +1,5 @@
----
-id: "20260624-210009-karlkurzer-path-planner-url"
-title: "karlkurzer/path_planner GitHub URL"
-type: "note"
-source: "https://github.com/karlkurzer/path_planner"
-created_at: "2026-06-24"
-tags:
-  - autonomous-driving
-  - planning-control
-related:
-  - raw/2026-06-24-karlkurzer-path-planner-repository-snapshot.md
-  - notes/2026-06-24-karlkurzer-path-planner-hybrid-a-star.md
----
+# karlkurzer/path_planner URL
 
-# karlkurzer/path_planner GitHub URL
-
+- Date: 2026-06-24
 - URL: https://github.com/karlkurzer/path_planner
-- 用途：Hybrid A*、非完整约束车辆、泊车/无结构环境路径规划参考。
-
+- Selection reason: 知识库中未记录过该 Git URL；与自动驾驶/移动底盘规划控制闭环相关；GitHub star/fork 或生态使用度较高。

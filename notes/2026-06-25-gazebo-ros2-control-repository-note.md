@@ -8,9 +8,8 @@ tags:
   - autonomous-driving
   - planning-control
 related:
-  - "../wiki/2026-06-25-gazebo-ros2-control.md"
+  - wiki/2026-06-25-gazebo-ros2-control.md
 ---
-
 # gazebo_ros2_control：仓库解析
 
 ## 一句话结论

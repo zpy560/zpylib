@@ -8,9 +8,8 @@ tags:
   - autonomous-driving
   - planning-control
 related:
-  - "../wiki/2026-06-25-mpl-ros.md"
+  - wiki/2026-06-25-mpl-ros.md
 ---
-
 # mpl_ros：仓库解析
 
 ## 一句话结论

@@ -8,9 +8,8 @@ tags:
   - autonomous-driving
   - planning-control
 related:
-  - "../notes/2026-06-25-anybotics-grid-map-repository-note.md"
+  - notes/2026-06-25-anybotics-grid-map-repository-note.md
 ---
-
 # ANYbotics grid_map
 
 ## 定位

@@ -1,27 +1,23 @@
----
-id: "20260624-212115-teach-repeat-replan-raw"
-title: "Teach-Repeat-Replan repository snapshot"
-type: "note"
-source: "https://github.com/HKUST-Aerial-Robotics/Teach-Repeat-Replan"
-created_at: "2026-06-24"
-tags:
-  - autonomous-driving
-  - planning-control
-related:
-  - notes/2026-06-24-teach-repeat-replan-repository-analysis.md
----
+# HKUST-Aerial-Robotics/Teach-Repeat-Replan repository snapshot
 
-# Teach-Repeat-Replan repository snapshot
+- Snapshot date: 2026-06-24
+- Repository: https://github.com/HKUST-Aerial-Robotics/Teach-Repeat-Replan
+- Clone URL: https://github.com/HKUST-Aerial-Robotics/Teach-Repeat-Replan.git
+- Stars observed: 1.1k+
+- Forks observed: 260+
+- License observed/inferred: Unknown
+- Primary language/stack: C++
+- Category: 无人机重复飞行
+- Source inspection method: GitHub repository page, README summary, repository description, directory names, topics, and public star/fork display checked during this knowledge-base pass.
 
-- Repository: `HKUST-Aerial-Robotics/Teach-Repeat-Replan`
-- URL: https://github.com/HKUST-Aerial-Robotics/Teach-Repeat-Replan
-- Checked HEAD: `98505a7f74b13c8b501176ff838a38423dbef536`
+## Repository facts
 
-## README / source facts
+- GitHub description / role: 复杂环境激进飞行的 Teach-Repeat-Replan 系统。
+- The repository was selected only after checking it was not already represented by the existing GitHub URLs in `inbox/`, `raw/`, `notes/`, `wiki/`, and `indexes/`.
+- It is relevant to planning-control either directly as a planner/controller, or indirectly as simulation, mapping, vehicle interface, control framework, or robot learning infrastructure needed for a mobile chassis closed loop.
 
-- README 定位为 complete and robust system for Autonomous Drone Race，可把 jerky teaching trajectory 转成 smooth safe repeating trajectory，并对未建图/动态障碍局部重规划。
-- 本次入库只基于远端 HEAD、README 或仓库元信息做单源快照；未做本地编译。
+## Interpretation boundary
 
-## Local interpretation
-
-适合 aggressive flight 中示教轨迹平滑、安全重复和局部重规划研究。
+- 适合研究先教路线、再重复飞行并局部重规划的工程模式。
+- Star/fork counts are treated as coarse popularity signals, not engineering quality proof.
+- Before production reuse, read the target branch code, license, maintenance state, and integration assumptions.

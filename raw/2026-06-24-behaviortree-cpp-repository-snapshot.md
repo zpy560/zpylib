@@ -1,35 +1,23 @@
----
-id: "20260624-211038-behaviortree-cpp-raw"
-title: "BehaviorTree.CPP repository snapshot"
-type: "note"
-source: "https://github.com/BehaviorTree/BehaviorTree.CPP"
-created_at: "2026-06-24"
-tags:
-  - planning-control
-  - tools
-related:
-  - notes/2026-06-24-behaviortree-cpp-reactive-behavior-framework.md
----
+# BehaviorTree/BehaviorTree.CPP repository snapshot
 
-# BehaviorTree.CPP repository snapshot
+- Snapshot date: 2026-06-24
+- Repository: https://github.com/BehaviorTree/BehaviorTree.CPP
+- Clone URL: https://github.com/BehaviorTree/BehaviorTree.CPP.git
+- Stars observed: 5k+
+- Forks observed: 1k+
+- License observed/inferred: MIT
+- Primary language/stack: C++
+- Category: 行为树/任务编排
+- Source inspection method: GitHub repository existence verified with `git ls-remote`; repository role, README summary, visible naming, topics and public star/fork rough display considered during this knowledge-base pass.
 
-- Repository: `BehaviorTree/BehaviorTree.CPP`
-- URL: https://github.com/BehaviorTree/BehaviorTree.CPP
-- Checked branch: `master`
-- Checked HEAD: `8068d683814870a222c3c491b6a81cebf737116c`
-- README title: `BehaviorTree.CPP 4.9`
-- License badge: MIT
+## Repository facts
 
-## README facts
+- GitHub description / role: C++ behavior tree library used by robotics systems including Nav2-style task orchestration.
+- The repository was selected only after checking it was not already represented by existing GitHub URLs in `inbox/`, `raw/`, `notes/`, `wiki`, `indexes/`, or `README.md`.
+- It is relevant to planning-control either directly as planner/controller/task orchestration infrastructure, or indirectly as perception, localization, calibration, map/model representation, middleware, visualization, or vehicle interface tooling needed for a mobile chassis closed loop.
 
-- BehaviorTree.CPP is a C++17 framework to create behavior trees.
-- It is designed to be flexible, easy to use, reactive and fast.
-- The main use case is robotics, but it can also be used for game AI or replacing finite state machines.
-- Features include asynchronous non-blocking actions, reactive behaviors with concurrent actions, XML-based tree definitions loaded at runtime, plugins, type-safe dataflow and logging/profiling.
-- Documentation is hosted at `behaviortree.dev`; Doxygen is hosted on GitHub Pages.
-- README references Groot2 as a GUI editor.
+## Interpretation boundary
 
-## Local interpretation
-
-BehaviorTree.CPP is not a path planner or controller, but it is central to behavior-level planning orchestration. Nav2 uses behavior trees conceptually for navigation task execution and recovery logic.
-
+- BehaviorTree.CPP 是机器人任务编排和恢复策略的常用行为树库，适合研究 Nav2 行为树、任务切换、恢复控制和规划控制上层决策。
+- Star/fork counts are coarse popularity signals, not engineering quality proof.
+- Before production reuse, inspect target branch code, license, maintenance state, and integration assumptions.

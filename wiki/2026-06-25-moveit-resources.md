@@ -8,9 +8,8 @@ tags:
   - autonomous-driving
   - planning-control
 related:
-  - "../notes/2026-06-25-moveit-resources-repository-note.md"
+  - notes/2026-06-25-moveit-resources-repository-note.md
 ---
-
 # MoveIt Resources
 
 ## 定位

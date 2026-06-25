@@ -8,9 +8,8 @@ tags:
   - autonomous-driving
   - planning-control
 related:
-  - "../notes/2026-06-25-gazebo-yarp-plugins-repository-note.md"
+  - notes/2026-06-25-gazebo-yarp-plugins-repository-note.md
 ---
-
 # gazebo-yarp-plugins
 
 ## 定位

@@ -1,18 +1,5 @@
----
-id: "20260624-212003-octomap-url"
-title: "OctoMap GitHub URL"
-type: "note"
-source: "https://github.com/octomap/octomap"
-created_at: "2026-06-24"
-tags:
-  - autonomous-driving
-  - planning-control
-related:
-  - raw/2026-06-24-octomap-repository-snapshot.md
-  - notes/2026-06-24-octomap-repository-analysis.md
----
+# octomap/octomap URL
 
-# OctoMap GitHub URL
-
+- Date: 2026-06-24
 - URL: https://github.com/octomap/octomap
-- 用途：适合三维占据地图、避障和机器人环境建模。
+- Selection reason: 第二批未入库 GitHub 资源；与自动驾驶、移动机器人、AMR、小车、自动赛车或移动底盘规划控制闭环相关；按 star/fork 与生态使用度综合筛选。

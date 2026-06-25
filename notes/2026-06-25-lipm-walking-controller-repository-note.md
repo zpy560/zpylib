@@ -8,9 +8,8 @@ tags:
   - autonomous-driving
   - planning-control
 related:
-  - "../wiki/2026-06-25-lipm-walking-controller.md"
+  - wiki/2026-06-25-lipm-walking-controller.md
 ---
-
 # LIPM Walking Controller：仓库解析
 
 ## 一句话结论

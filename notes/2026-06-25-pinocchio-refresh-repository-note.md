@@ -8,9 +8,8 @@ tags:
   - autonomous-driving
   - planning-control
 related:
-  - "../wiki/2026-06-25-pinocchio-refresh.md"
+  - wiki/2026-06-25-pinocchio-refresh.md
 ---
-
 # Pinocchio refresh：仓库解析
 
 ## 一句话结论

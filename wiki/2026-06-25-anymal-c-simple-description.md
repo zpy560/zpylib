@@ -8,9 +8,8 @@ tags:
   - autonomous-driving
   - planning-control
 related:
-  - "../notes/2026-06-25-anymal-c-simple-description-repository-note.md"
+  - notes/2026-06-25-anymal-c-simple-description-repository-note.md
 ---
-
 # ANYmal C simple description
 
 ## 定位

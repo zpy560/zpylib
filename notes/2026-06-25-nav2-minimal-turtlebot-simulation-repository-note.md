@@ -8,9 +8,8 @@ tags:
   - autonomous-driving
   - planning-control
 related:
-  - "../wiki/2026-06-25-nav2-minimal-turtlebot-simulation.md"
+  - wiki/2026-06-25-nav2-minimal-turtlebot-simulation.md
 ---
-
 # Nav2 minimal turtlebot simulation：仓库解析
 
 ## 一句话结论

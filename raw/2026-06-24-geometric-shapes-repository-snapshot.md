@@ -1,27 +1,23 @@
----
-id: "20260624-212127-geometric-shapes-raw"
-title: "geometric_shapes repository snapshot"
-type: "note"
-source: "https://github.com/ros-planning/geometric_shapes"
-created_at: "2026-06-24"
-tags:
-  - planning-control
-  - tools
-related:
-  - notes/2026-06-24-geometric-shapes-repository-analysis.md
----
+# ros-planning/geometric_shapes repository snapshot
 
-# geometric_shapes repository snapshot
+- Snapshot date: 2026-06-24
+- Repository: https://github.com/ros-planning/geometric_shapes
+- Clone URL: https://github.com/ros-planning/geometric_shapes.git
+- Stars observed: 100+
+- Forks observed: 100+
+- License observed/inferred: BSD-3-Clause
+- Primary language/stack: C++/ROS
+- Category: 几何形状/碰撞模型
+- Source inspection method: GitHub repository existence verified with `git ls-remote`; repository role, README summary, visible naming, topics and public star/fork rough display considered during this knowledge-base pass.
 
-- Repository: `ros-planning/geometric_shapes`
-- URL: https://github.com/ros-planning/geometric_shapes
-- Checked HEAD: `071a9ef2391722e6f99a44ba32e741cd39f831a2`
+## Repository facts
 
-## README / source facts
+- GitHub description / role: Shape representation and conversion utilities used in ROS planning stacks.
+- The repository was selected only after checking it was not already represented by existing GitHub URLs in `inbox/`, `raw/`, `notes/`, `wiki`, `indexes/`, or `README.md`.
+- It is relevant to planning-control either directly as planner/controller/task orchestration infrastructure, or indirectly as perception, localization, calibration, map/model representation, middleware, visualization, or vehicle interface tooling needed for a mobile chassis closed loop.
 
-- README 定位为 generic definitions of geometric shapes and bodies，以及 shape messages 操作工具；支持 sphere、box、cone、cylinder、mesh。
-- 本次入库只基于远端 HEAD、README 或仓库元信息做单源快照；未做本地编译。
+## Interpretation boundary
 
-## Local interpretation
-
-适合 MoveIt/碰撞检测中的 primitive、mesh、point containment 和 ray intersection。
+- geometric_shapes 是规划场景和碰撞几何的基础库，适合研究规划系统如何统一表示 mesh、primitive 和碰撞体。
+- Star/fork counts are coarse popularity signals, not engineering quality proof.
+- Before production reuse, inspect target branch code, license, maintenance state, and integration assumptions.

@@ -1,18 +1,5 @@
----
-id: "20260624-212027-geometric-shapes-url"
-title: "geometric_shapes GitHub URL"
-type: "note"
-source: "https://github.com/ros-planning/geometric_shapes"
-created_at: "2026-06-24"
-tags:
-  - planning-control
-  - tools
-related:
-  - raw/2026-06-24-geometric-shapes-repository-snapshot.md
-  - notes/2026-06-24-geometric-shapes-repository-analysis.md
----
+# ros-planning/geometric_shapes URL
 
-# geometric_shapes GitHub URL
-
+- Date: 2026-06-24
 - URL: https://github.com/ros-planning/geometric_shapes
-- 用途：适合 MoveIt/碰撞检测中的 primitive、mesh、point containment 和 ray intersection。
+- Selection reason: 第五批未入库 GitHub 资源；与自动驾驶、移动机器人、行为树任务编排、MoveIt/ROS 感知基础、SLAM/定位/标定、Autoware 接口、DDS 通信或移动底盘规划控制闭环相关；按 star/fork 与工程生态使用度综合筛选。

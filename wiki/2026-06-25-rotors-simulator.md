@@ -8,9 +8,8 @@ tags:
   - autonomous-driving
   - planning-control
 related:
-  - "../notes/2026-06-25-rotors-simulator-repository-note.md"
+  - notes/2026-06-25-rotors-simulator-repository-note.md
 ---
-
 # rotors_simulator
 
 ## 定位

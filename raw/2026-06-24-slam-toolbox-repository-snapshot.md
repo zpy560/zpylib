@@ -1,27 +1,23 @@
----
-id: "20260624-212110-slam-toolbox-raw"
-title: "SLAM Toolbox repository snapshot"
-type: "note"
-source: "https://github.com/SteveMacenski/slam_toolbox"
-created_at: "2026-06-24"
-tags:
-  - autonomous-driving
-  - planning-control
-related:
-  - notes/2026-06-24-slam-toolbox-repository-analysis.md
----
+# SteveMacenski/slam_toolbox repository snapshot
 
-# SLAM Toolbox repository snapshot
+- Snapshot date: 2026-06-24
+- Repository: https://github.com/SteveMacenski/slam_toolbox
+- Clone URL: https://github.com/SteveMacenski/slam_toolbox.git
+- Stars observed: 2.5k
+- Forks observed: 691
+- License observed/inferred: LGPL-2.1
+- Primary language/stack: C++
+- Category: ROS2 SLAM/定位
+- Source inspection method: GitHub repository page, README summary, repository description, visible directory names, topics, and public star/fork display checked during this knowledge-base pass.
 
-- Repository: `SteveMacenski/slam_toolbox`
-- URL: https://github.com/SteveMacenski/slam_toolbox
-- Checked HEAD: `eecaab7b8e9e66d826b8ec6ecb4850c82bfdbe66`
+## Repository facts
 
-## README / source facts
+- GitHub description / role: ROS2 支持的 2D SLAM、长期建图和定位工具箱。
+- The repository was selected only after checking it was not already represented by existing GitHub URLs in `inbox/`, `raw/`, `notes/`, `wiki/`, and `indexes/`.
+- It is relevant to planning-control either directly as a planner/controller, or indirectly as simulation, SLAM/localization, map representation, vehicle interface, optimization solver, ROS integration, or multi-robot traffic infrastructure needed for a mobile chassis closed loop.
 
-- README 称其是当前支持的 ROS2-SLAM library，包含 pose-graph 序列化、lifelong mapping、localization mode、同步/异步建图和 Ceres optimization plugin。
-- 本次入库只基于远端 HEAD、README 或仓库元信息做单源快照；未做本地编译。
+## Interpretation boundary
 
-## Local interpretation
-
-适合 Nav2 地图构建、pose-graph localization、长期建图和生产移动机器人。
+- SLAM Toolbox 是 Nav2 生态常用建图定位入口，仓库 README 明确提到零售、仓库、图书馆和研究场景。
+- Star/fork counts are coarse popularity signals, not engineering quality proof.
+- Before production reuse, inspect target branch code, license, maintenance state, and integration assumptions.

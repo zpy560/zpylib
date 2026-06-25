@@ -1,27 +1,23 @@
----
-id: "20260624-212113-ego-planner-swarm-raw"
-title: "EGO-Swarm repository snapshot"
-type: "note"
-source: "https://github.com/ZJU-FAST-Lab/ego-planner-swarm"
-created_at: "2026-06-24"
-tags:
-  - autonomous-driving
-  - planning-control
-related:
-  - notes/2026-06-24-ego-planner-swarm-repository-analysis.md
----
+# ZJU-FAST-Lab/ego-planner-swarm repository snapshot
 
-# EGO-Swarm repository snapshot
+- Snapshot date: 2026-06-24
+- Repository: https://github.com/ZJU-FAST-Lab/ego-planner-swarm
+- Clone URL: https://github.com/ZJU-FAST-Lab/ego-planner-swarm.git
+- Stars observed: 2.1k+
+- Forks observed: 360+
+- License observed/inferred: GPL-3.0
+- Primary language/stack: C++
+- Category: 无人机多机规划
+- Source inspection method: GitHub repository page, README summary, repository description, directory names, topics, and public star/fork display checked during this knowledge-base pass.
 
-- Repository: `ZJU-FAST-Lab/ego-planner-swarm`
-- URL: https://github.com/ZJU-FAST-Lab/ego-planner-swarm
-- Checked HEAD: `92fe9f7227b2da819133eb8e0e8c7fc000f6ae20`
+## Repository facts
 
-## README / source facts
+- GitHub description / role: 单机/多机 multicopter trajectory planner。
+- The repository was selected only after checking it was not already represented by the existing GitHub URLs in `inbox/`, `raw/`, `notes/`, `wiki/`, and `indexes/`.
+- It is relevant to planning-control either directly as a planner/controller, or indirectly as simulation, mapping, vehicle interface, control framework, or robot learning infrastructure needed for a mobile chassis closed loop.
 
-- README 说明它从 EGO-Planner 扩展到 swarm navigation，是 decentralized and asynchronous quadrotor swarm system。
-- 本次入库只基于远端 HEAD、README 或仓库元信息做单源快照；未做本地编译。
+## Interpretation boundary
 
-## Local interpretation
-
-适合多机器人未知障碍环境自主导航、分布式避障和 swarm 规划。
+- 现有知识库已有 EGO-Planner；EGO-Swarm 重点从单机重规划扩展到去中心化多机避碰。
+- Star/fork counts are treated as coarse popularity signals, not engineering quality proof.
+- Before production reuse, read the target branch code, license, maintenance state, and integration assumptions.

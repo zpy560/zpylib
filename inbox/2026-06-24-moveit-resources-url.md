@@ -1,18 +1,5 @@
----
-id: "20260624-212028-moveit-resources-url"
-title: "moveit_resources GitHub URL"
-type: "note"
-source: "https://github.com/moveit/moveit_resources"
-created_at: "2026-06-24"
-tags:
-  - planning-control
-  - tools
-related:
-  - raw/2026-06-24-moveit-resources-repository-snapshot.md
-  - notes/2026-06-24-moveit-resources-repository-analysis.md
----
+# ros-planning/moveit_resources URL
 
-# moveit_resources GitHub URL
-
-- URL: https://github.com/moveit/moveit_resources
-- 用途：适合 MoveIt/规划测试中的 URDF、meshes、moveit_config 基准资源。
+- Date: 2026-06-24
+- URL: https://github.com/ros-planning/moveit_resources
+- Selection reason: 第五批未入库 GitHub 资源；与自动驾驶、移动机器人、行为树任务编排、MoveIt/ROS 感知基础、SLAM/定位/标定、Autoware 接口、DDS 通信或移动底盘规划控制闭环相关；按 star/fork 与工程生态使用度综合筛选。

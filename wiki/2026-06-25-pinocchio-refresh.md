@@ -8,9 +8,8 @@ tags:
   - autonomous-driving
   - planning-control
 related:
-  - "../notes/2026-06-25-pinocchio-refresh-repository-note.md"
+  - notes/2026-06-25-pinocchio-refresh-repository-note.md
 ---
-
 # Pinocchio refresh
 
 ## 定位

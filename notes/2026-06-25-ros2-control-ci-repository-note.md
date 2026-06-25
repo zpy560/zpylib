@@ -8,9 +8,8 @@ tags:
   - autonomous-driving
   - planning-control
 related:
-  - "../wiki/2026-06-25-ros2-control-ci.md"
+  - wiki/2026-06-25-ros2-control-ci.md
 ---
-
 # ros2_control_ci：仓库解析
 
 ## 一句话结论

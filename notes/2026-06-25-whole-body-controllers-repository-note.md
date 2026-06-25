@@ -8,9 +8,8 @@ tags:
   - autonomous-driving
   - planning-control
 related:
-  - "../wiki/2026-06-25-whole-body-controllers.md"
+  - wiki/2026-06-25-whole-body-controllers.md
 ---
-
 # whole-body-controllers：仓库解析
 
 ## 一句话结论

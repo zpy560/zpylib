@@ -8,9 +8,8 @@ tags:
   - autonomous-driving
   - planning-control
 related:
-  - "../notes/2026-06-25-iris-distro-repository-note.md"
+  - notes/2026-06-25-iris-distro-repository-note.md
 ---
-
 # IRIS distro
 
 ## 定位

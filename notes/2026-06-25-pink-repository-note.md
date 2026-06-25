@@ -8,9 +8,8 @@ tags:
   - autonomous-driving
   - planning-control
 related:
-  - "../wiki/2026-06-25-pink.md"
+  - wiki/2026-06-25-pink.md
 ---
-
 # Pink：仓库解析
 
 ## 一句话结论

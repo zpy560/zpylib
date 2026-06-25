@@ -1,32 +1,23 @@
----
-id: "20260624-210014-ros-control-toolbox-raw"
-title: "ros-controls/control_toolbox repository snapshot"
-type: "note"
-source: "https://github.com/ros-controls/control_toolbox"
-created_at: "2026-06-24"
-tags:
-  - planning-control
-  - tools
-related:
-  - notes/2026-06-24-ros-control-toolbox-controller-utilities.md
----
-
 # ros-controls/control_toolbox repository snapshot
 
-- Repository: `ros-controls/control_toolbox`
-- URL: https://github.com/ros-controls/control_toolbox
-- Checked branch: `master`
-- Checked HEAD: `0933a37ccfa4394bd0c9d35a15b41b6c4cdc271e`
-- README title: `control_toolbox`
+- Snapshot date: 2026-06-24
+- Repository: https://github.com/ros-controls/control_toolbox
+- Clone URL: https://github.com/ros-controls/control_toolbox.git
+- Stars observed: 250+
+- Forks observed: 220+
+- License observed/inferred: BSD
+- Primary language/stack: C++
+- Category: ROS 控制工具箱
+- Source inspection method: GitHub repository page, README summary, repository description, visible directory names, topics, and public star/fork display checked during this knowledge-base pass.
 
-## README facts
+## Repository facts
 
-- The package contains C++ classes and filter plugins useful in writing controllers.
-- The README points to `ros2_control` documentation and package release information on `index.ros.org`.
-- Build status tables cover Rolling, Lyrical, Kilted, Jazzy and Humble.
-- License badges include BSD 3-Clause and Apache 2.0.
+- GitHub description / role: Control toolbox containing PID and control utilities.
+- The repository was selected only after checking it was not already represented by existing GitHub URLs in `inbox/`, `raw/`, `notes/`, `wiki/`, and `indexes/`.
+- It is relevant to planning-control either directly as a planner/controller, or indirectly as localization, transforms, simulation, collision checking, point-cloud processing, optimization, vehicle interface, communication protocol, or fleet infrastructure needed for a mobile chassis closed loop.
 
-## Local interpretation
+## Interpretation boundary
 
-This is an infrastructure package for controller authors. It is not a high-level planner, but it belongs in the control knowledge base because it sits close to PID/filter utilities used by ROS control loops.
-
+- 它和 ETH control-toolbox 不同，是 ROS 控制生态中的 PID、滤波等基础工具，适合读底盘控制器公共实现。
+- Star/fork counts are coarse popularity signals, not engineering quality proof.
+- Before production reuse, inspect target branch code, license, maintenance state, and integration assumptions.

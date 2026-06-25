@@ -1,33 +1,23 @@
----
-id: "20260624-210010-karlkurzer-path-planner-raw"
-title: "karlkurzer/path_planner repository snapshot"
-type: "note"
-source: "https://github.com/karlkurzer/path_planner"
-created_at: "2026-06-24"
-tags:
-  - autonomous-driving
-  - planning-control
-related:
-  - notes/2026-06-24-karlkurzer-path-planner-hybrid-a-star.md
----
-
 # karlkurzer/path_planner repository snapshot
 
-- Repository: `karlkurzer/path_planner`
-- URL: https://github.com/karlkurzer/path_planner
-- Checked branch: `master`
-- Checked HEAD: `ddf1a3afcafc323ef44d5e49d5cbb7b3c3f53665`
-- README title: `Hybrid A* Path Planner for the KTH Research Concept Vehicle`
+- Snapshot date: 2026-06-24
+- Repository: https://github.com/karlkurzer/path_planner
+- Clone URL: https://github.com/karlkurzer/path_planner.git
+- Stars observed: 1.9k+
+- Forks observed: 560+
+- License observed/inferred: BSD-3-Clause
+- Primary language/stack: C++
+- Category: 车辆路径规划
+- Source inspection method: GitHub repository page, README summary, repository description, directory names, topics, and public star/fork display checked during this knowledge-base pass.
 
-## README facts
+## Repository facts
 
-- The repository implements a Hybrid A* path planner for autonomous vehicles, developed for the KTH Research Concept Vehicle.
-- It targets real-time path planning for a nonholonomic vehicle in unstructured environments.
-- The implementation uses C++ with ROS and RViz.
-- Key characteristics include 72 headings per cell, 5 degree discretization, constrained and unconstrained heuristics, Dubins shot and roughly 10 Hz C++ implementation.
-- Dependencies listed include OMPL and `ros_map_server`.
+- GitHub description / role: 面向 KTH Research Concept Vehicle 的 Hybrid A* 路径规划器。
+- The repository was selected only after checking it was not already represented by the existing GitHub URLs in `inbox/`, `raw/`, `notes/`, `wiki/`, and `indexes/`.
+- It is relevant to planning-control either directly as a planner/controller, or indirectly as simulation, mapping, vehicle interface, control framework, or robot learning infrastructure needed for a mobile chassis closed loop.
 
-## Local interpretation
+## Interpretation boundary
 
-This is one of the clearest small-to-medium Hybrid A* references for vehicle path planning. It is useful for algorithm structure, heuristic design and RViz debug workflow, but it should be treated as research/teaching code rather than a full production planner.
-
+- 这是学习车辆 Hybrid A* 工程实现的经典仓库，适合停车和低速非结构化路径搜索参考。
+- Star/fork counts are treated as coarse popularity signals, not engineering quality proof.
+- Before production reuse, read the target branch code, license, maintenance state, and integration assumptions.

@@ -8,9 +8,8 @@ tags:
   - autonomous-driving
   - planning-control
 related:
-  - "../wiki/2026-06-25-ethz-adrl-control-toolbox-refresh.md"
+  - wiki/2026-06-25-ethz-adrl-control-toolbox-refresh.md
 ---
-
 # ETH ADRL Control Toolbox refresh：仓库解析
 
 ## 一句话结论

@@ -1,19 +1,5 @@
----
-id: "20260624-211037-behaviortree-cpp-url"
-title: "BehaviorTree.CPP GitHub URL"
-type: "note"
-source: "https://github.com/BehaviorTree/BehaviorTree.CPP"
-created_at: "2026-06-24"
-tags:
-  - planning-control
-  - tools
-related:
-  - raw/2026-06-24-behaviortree-cpp-repository-snapshot.md
-  - notes/2026-06-24-behaviortree-cpp-reactive-behavior-framework.md
----
+# BehaviorTree/BehaviorTree.CPP URL
 
-# BehaviorTree.CPP GitHub URL
-
+- Date: 2026-06-24
 - URL: https://github.com/BehaviorTree/BehaviorTree.CPP
-- 用途：机器人行为树、任务编排和 Nav2 行为层参考。
-
+- Selection reason: 第五批未入库 GitHub 资源；与自动驾驶、移动机器人、行为树任务编排、MoveIt/ROS 感知基础、SLAM/定位/标定、Autoware 接口、DDS 通信或移动底盘规划控制闭环相关；按 star/fork 与工程生态使用度综合筛选。

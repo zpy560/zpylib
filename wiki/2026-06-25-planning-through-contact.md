@@ -8,9 +8,8 @@ tags:
   - autonomous-driving
   - planning-control
 related:
-  - "../notes/2026-06-25-planning-through-contact-repository-note.md"
+  - notes/2026-06-25-planning-through-contact-repository-note.md
 ---
-
 # Planning Through Contact
 
 ## 定位

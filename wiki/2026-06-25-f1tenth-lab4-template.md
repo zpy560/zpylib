@@ -8,9 +8,8 @@ tags:
   - autonomous-driving
   - planning-control
 related:
-  - "../notes/2026-06-25-f1tenth-lab4-template-repository-note.md"
+  - notes/2026-06-25-f1tenth-lab4-template-repository-note.md
 ---
-
 # F1TENTH Lab4 template
 
 ## 定位

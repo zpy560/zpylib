@@ -8,9 +8,8 @@ tags:
   - autonomous-driving
   - planning-control
 related:
-  - "../wiki/2026-06-25-navigation2-dynamic.md"
+  - wiki/2026-06-25-navigation2-dynamic.md
 ---
-
 # navigation2_dynamic：仓库解析
 
 ## 一句话结论

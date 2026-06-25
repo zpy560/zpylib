@@ -8,9 +8,8 @@ tags:
   - autonomous-driving
   - planning-control
 related:
-  - "../notes/2026-06-25-ocs2-robotic-examples-repository-note.md"
+  - notes/2026-06-25-ocs2-robotic-examples-repository-note.md
 ---
-
 # OCS2 Robotic Examples
 
 ## 定位

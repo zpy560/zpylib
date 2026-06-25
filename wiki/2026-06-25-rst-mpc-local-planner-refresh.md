@@ -8,9 +8,8 @@ tags:
   - autonomous-driving
   - planning-control
 related:
-  - "../notes/2026-06-25-rst-mpc-local-planner-refresh-repository-note.md"
+  - notes/2026-06-25-rst-mpc-local-planner-refresh-repository-note.md
 ---
-
 # rst mpc_local_planner refresh
 
 ## 定位

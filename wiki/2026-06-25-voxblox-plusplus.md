@@ -8,9 +8,8 @@ tags:
   - autonomous-driving
   - planning-control
 related:
-  - "../notes/2026-06-25-voxblox-plusplus-repository-note.md"
+  - notes/2026-06-25-voxblox-plusplus-repository-note.md
 ---
-
 # voxblox++
 
 ## 定位

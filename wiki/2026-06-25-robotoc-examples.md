@@ -8,9 +8,8 @@ tags:
   - autonomous-driving
   - planning-control
 related:
-  - "../notes/2026-06-25-robotoc-examples-repository-note.md"
+  - notes/2026-06-25-robotoc-examples-repository-note.md
 ---
-
 # robotoc_examples
 
 ## 定位

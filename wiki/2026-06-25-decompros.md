@@ -8,9 +8,8 @@ tags:
   - autonomous-driving
   - planning-control
 related:
-  - "../notes/2026-06-25-decompros-repository-note.md"
+  - notes/2026-06-25-decompros-repository-note.md
 ---
-
 # DecompROS
 
 ## 定位

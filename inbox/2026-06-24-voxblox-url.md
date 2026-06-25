@@ -1,19 +1,5 @@
----
-id: "20260624-210021-voxblox-url"
-title: "Voxblox GitHub URL"
-type: "note"
-source: "https://github.com/ethz-asl/voxblox"
-created_at: "2026-06-24"
-tags:
-  - autonomous-driving
-  - planning-control
-related:
-  - raw/2026-06-24-voxblox-repository-snapshot.md
-  - notes/2026-06-24-voxblox-tsdf-esdf-mapping.md
----
+# ethz-asl/voxblox URL
 
-# Voxblox GitHub URL
-
+- Date: 2026-06-24
 - URL: https://github.com/ethz-asl/voxblox
-- 用途：TSDF/ESDF 增量建图与 MAV 规划地图参考。
-
+- Selection reason: 知识库中未记录过该 Git URL；与自动驾驶/移动底盘规划控制闭环相关；GitHub star/fork 或生态使用度较高。

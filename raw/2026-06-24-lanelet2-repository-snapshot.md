@@ -1,34 +1,23 @@
----
-id: "20260624-210006-lanelet2-raw"
-title: "Lanelet2 repository snapshot"
-type: "note"
-source: "https://github.com/fzi-forschungszentrum-informatik/Lanelet2"
-created_at: "2026-06-24"
-tags:
-  - autonomous-driving
-  - planning-control
-related:
-  - notes/2026-06-24-lanelet2-hd-map-routing-framework.md
----
+# fzi-forschungszentrum-informatik/Lanelet2 repository snapshot
 
-# Lanelet2 repository snapshot
+- Snapshot date: 2026-06-24
+- Repository: https://github.com/fzi-forschungszentrum-informatik/Lanelet2
+- Clone URL: https://github.com/fzi-forschungszentrum-informatik/Lanelet2.git
+- Stars observed: 1.3k+
+- Forks observed: 500+
+- License observed/inferred: BSD
+- Primary language/stack: C++/Python
+- Category: HD Map/车道地图
+- Source inspection method: GitHub repository page, README summary, repository description, visible directory names, topics, and public star/fork display checked during this knowledge-base pass.
 
-- Repository: `fzi-forschungszentrum-informatik/Lanelet2`
-- URL: https://github.com/fzi-forschungszentrum-informatik/Lanelet2
-- Checked branch: `master`
-- Checked HEAD: `ae39c8d673264afac2339c4f0252df53a7ba82dd`
-- README title: `Lanelet2`
-- License stated in README: BSD 3-Clause
+## Repository facts
 
-## README facts
+- GitHub description / role: Map handling framework for automated driving, focused on lane-level maps.
+- The repository was selected only after checking it was not already represented by existing GitHub URLs in `inbox/`, `raw/`, `notes/`, `wiki`, `indexes/`, or `README.md`.
+- It is relevant to planning-control either directly as route/scenario/planning infrastructure, or indirectly as simulation, sensors, localization, mapping, visualization, middleware, command arbitration, or vehicle interface tooling needed for a mobile chassis closed loop.
 
-- Lanelet2 is a C++ library for handling map data in automated driving.
-- It is designed for high-definition map data and complex traffic scenarios.
-- Features include 2D/3D support, lane changes, routing through areas, separated routing for pedestrians/vehicles/bikes, custom traffic rules and routing costs, map IO and Python bindings.
-- It supports ROS1, ROS2, Docker and Conan.
-- Documentation is split across package docs, Doxygen comments and hosted documentation.
+## Interpretation boundary
 
-## Local interpretation
-
-Lanelet2 is a planning-enabling infrastructure library. It does not decide behavior by itself, but it defines the map primitives, routing graph, projection and traffic-rule surface that route planning and behavior planning often depend on.
-
+- Lanelet2 是自动驾驶规划中车道级地图和交通规则处理的重要基础库。
+- Star/fork counts are coarse popularity signals, not engineering quality proof.
+- Before production reuse, inspect target branch code, license, maintenance state, and integration assumptions.

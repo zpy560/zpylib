@@ -8,9 +8,8 @@ tags:
   - autonomous-driving
   - planning-control
 related:
-  - "../notes/2026-06-25-teach-repeat-replan-repository-note.md"
+  - notes/2026-06-25-teach-repeat-replan-repository-note.md
 ---
-
 # Teach-Repeat-Replan
 
 ## 定位

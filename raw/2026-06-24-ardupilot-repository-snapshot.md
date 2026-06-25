@@ -1,34 +1,23 @@
----
-id: "20260624-210002-ardupilot-raw"
-title: "ArduPilot repository snapshot"
-type: "note"
-source: "https://github.com/ArduPilot/ardupilot"
-created_at: "2026-06-24"
-tags:
-  - autonomous-driving
-  - planning-control
-related:
-  - notes/2026-06-24-ardupilot-autopilot-control-stack.md
----
+# ArduPilot/ardupilot repository snapshot
 
-# ArduPilot repository snapshot
+- Snapshot date: 2026-06-24
+- Repository: https://github.com/ArduPilot/ardupilot
+- Clone URL: https://github.com/ArduPilot/ardupilot.git
+- Stars observed: 15k+
+- Forks observed: 21k+
+- License observed/inferred: GPL-3.0
+- Primary language/stack: C++
+- Category: 无人系统飞控/车控
+- Source inspection method: GitHub repository page, README summary, repository description, directory names, topics, and public star/fork display checked during this knowledge-base pass.
 
-- Repository: `ArduPilot/ardupilot`
-- URL: https://github.com/ArduPilot/ardupilot
-- Checked branch: `master`
-- Checked HEAD: `870733136072f80c4a4ab7d8e3f598f07eb47a49`
-- README title: `ArduPilot Project`
-- License stated in README: GNU GPL v3
+## Repository facts
 
-## README facts
+- GitHub description / role: 覆盖 Copter、Plane、Rover、Sub 的开源 autopilot。
+- The repository was selected only after checking it was not already represented by the existing GitHub URLs in `inbox/`, `raw/`, `notes/`, `wiki/`, and `indexes/`.
+- It is relevant to planning-control either directly as a planner/controller, or indirectly as simulation, mapping, vehicle interface, control framework, or robot learning infrastructure needed for a mobile chassis closed loop.
 
-- ArduPilot describes itself as open source autopilot software.
-- It supports multiple vehicle families, including conventional airplanes, quad planes, multi-rotors, helicopters, rovers, boats, balance bots and submarines.
-- The project is split into vehicle applications such as ArduCopter, ArduPlane, Rover, ArduSub and Antenna Tracker.
-- The repository exposes developer information through the ArduPilot developer wiki, discussion forums and Discord.
-- CI badges cover SITL and build tests for Copter, Plane, Rover, Sub, Tracker, AP_Periph, ChibiOS, Linux SBC and replay.
+## Interpretation boundary
 
-## Local interpretation
-
-This is not a single planning algorithm repository. It is a full autopilot stack with vehicle-specific control, navigation, mission execution, simulation and hardware support. For planning/control study, its value is in how a mature open source autopilot connects guidance, mode logic, state estimation, actuator outputs and vehicle-specific constraints.
-
+- 知识库已有 PX4；ArduPilot 是另一个必须记录的系统级参考，Rover 对地面移动底盘有直接价值。
+- Star/fork counts are treated as coarse popularity signals, not engineering quality proof.
+- Before production reuse, read the target branch code, license, maintenance state, and integration assumptions.

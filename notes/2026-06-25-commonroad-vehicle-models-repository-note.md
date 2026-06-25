@@ -8,9 +8,8 @@ tags:
   - autonomous-driving
   - planning-control
 related:
-  - "../wiki/2026-06-25-commonroad-vehicle-models.md"
+  - wiki/2026-06-25-commonroad-vehicle-models.md
 ---
-
 # commonroad-vehicle-models：仓库解析
 
 ## 一句话结论

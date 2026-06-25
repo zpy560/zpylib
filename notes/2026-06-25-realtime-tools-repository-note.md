@@ -8,9 +8,8 @@ tags:
   - autonomous-driving
   - planning-control
 related:
-  - "../wiki/2026-06-25-realtime-tools.md"
+  - wiki/2026-06-25-realtime-tools.md
 ---
-
 # realtime_tools：仓库解析
 
 ## 一句话结论

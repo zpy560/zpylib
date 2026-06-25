@@ -1,19 +1,5 @@
----
-id: "20260624-211029-ros-controllers-url"
-title: "ros_controllers GitHub URL"
-type: "note"
-source: "https://github.com/ros-controls/ros_controllers"
-created_at: "2026-06-24"
-tags:
-  - planning-control
-  - tools
-related:
-  - raw/2026-06-24-ros-controllers-repository-snapshot.md
-  - notes/2026-06-24-ros-controllers-ros1-controller-plugins.md
----
+# ros-controls/ros_controllers URL
 
-# ros_controllers GitHub URL
-
+- Date: 2026-06-24
 - URL: https://github.com/ros-controls/ros_controllers
-- 用途：ROS1 通用控制器插件集合，与 ros2_controllers 对照。
-
+- Selection reason: 知识库中未记录过该 Git URL；与自动驾驶/移动底盘规划控制闭环相关；GitHub star/fork 或生态使用度较高。

@@ -8,9 +8,8 @@ tags:
   - autonomous-driving
   - planning-control
 related:
-  - "../notes/2026-06-25-rpg-quadrotor-common-repository-note.md"
+  - notes/2026-06-25-rpg-quadrotor-common-repository-note.md
 ---
-
 # rpg_quadrotor_common
 
 ## 定位

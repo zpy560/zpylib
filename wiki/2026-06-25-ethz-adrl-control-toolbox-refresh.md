@@ -8,9 +8,8 @@ tags:
   - autonomous-driving
   - planning-control
 related:
-  - "../notes/2026-06-25-ethz-adrl-control-toolbox-refresh-repository-note.md"
+  - notes/2026-06-25-ethz-adrl-control-toolbox-refresh-repository-note.md
 ---
-
 # ETH ADRL Control Toolbox refresh
 
 ## 定位

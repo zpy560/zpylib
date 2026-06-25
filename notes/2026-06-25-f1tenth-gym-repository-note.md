@@ -8,9 +8,8 @@ tags:
   - autonomous-driving
   - planning-control
 related:
-  - "../wiki/2026-06-25-f1tenth-gym.md"
+  - wiki/2026-06-25-f1tenth-gym.md
 ---
-
 # F1TENTH Gym：仓库解析
 
 ## 一句话结论

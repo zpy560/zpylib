@@ -1,19 +1,5 @@
----
-id: "20260624-210013-ros-control-toolbox-url"
-title: "ros-controls/control_toolbox GitHub URL"
-type: "note"
-source: "https://github.com/ros-controls/control_toolbox"
-created_at: "2026-06-24"
-tags:
-  - planning-control
-  - tools
-related:
-  - raw/2026-06-24-ros-control-toolbox-repository-snapshot.md
-  - notes/2026-06-24-ros-control-toolbox-controller-utilities.md
----
+# ros-controls/control_toolbox URL
 
-# ros-controls/control_toolbox GitHub URL
-
+- Date: 2026-06-24
 - URL: https://github.com/ros-controls/control_toolbox
-- 用途：ROS 控制器开发中的控制工具类和滤波插件参考。
-
+- Selection reason: 第三批未入库 GitHub 资源；与自动驾驶、移动机器人、无人系统、仿真、定位建图、控制接口或移动底盘规划控制闭环相关；按 star/fork 与生态使用度综合筛选。

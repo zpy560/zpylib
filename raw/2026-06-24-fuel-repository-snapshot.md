@@ -1,27 +1,23 @@
----
-id: "20260624-212112-fuel-raw"
-title: "FUEL repository snapshot"
-type: "note"
-source: "https://github.com/HKUST-Aerial-Robotics/FUEL"
-created_at: "2026-06-24"
-tags:
-  - autonomous-driving
-  - planning-control
-related:
-  - notes/2026-06-24-fuel-repository-analysis.md
----
+# HKUST-Aerial-Robotics/FUEL repository snapshot
 
-# FUEL repository snapshot
+- Snapshot date: 2026-06-24
+- Repository: https://github.com/HKUST-Aerial-Robotics/FUEL
+- Clone URL: https://github.com/HKUST-Aerial-Robotics/FUEL.git
+- Stars observed: 1.4k+
+- Forks observed: 250+
+- License observed/inferred: GPL
+- Primary language/stack: C++
+- Category: 无人机探索规划
+- Source inspection method: GitHub repository page, README summary, repository description, directory names, topics, and public star/fork display checked during this knowledge-base pass.
 
-- Repository: `HKUST-Aerial-Robotics/FUEL`
-- URL: https://github.com/HKUST-Aerial-Robotics/FUEL
-- Checked HEAD: `662dd23c7b52b258d3c4a0155ff6632118e8984f`
+## Repository facts
 
-## README / source facts
+- GitHub description / role: Fast UAV Exploration framework。
+- The repository was selected only after checking it was not already represented by the existing GitHub URLs in `inbox/`, `raw/`, `notes/`, `wiki/`, and `indexes/`.
+- It is relevant to planning-control either directly as a planner/controller, or indirectly as simulation, mapping, vehicle interface, control framework, or robot learning infrastructure needed for a mobile chassis closed loop.
 
-- README 定位为 Fast UAV Exploration framework，使用 FIS 增量维护探索信息，层级 planner 规划 frontier coverage、viewpoints 和 minimum-time trajectories。
-- 本次入库只基于远端 HEAD、README 或仓库元信息做单源快照；未做本地编译。
+## Interpretation boundary
 
-## Local interpretation
-
-适合无人机主动探索、frontier information structure、层级规划和最小时间轨迹。
+- FUEL 适合研究未知环境探索中的 frontier、信息增益和轨迹重规划。
+- Star/fork counts are treated as coarse popularity signals, not engineering quality proof.
+- Before production reuse, read the target branch code, license, maintenance state, and integration assumptions.

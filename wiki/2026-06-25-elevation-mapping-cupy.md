@@ -8,9 +8,8 @@ tags:
   - autonomous-driving
   - planning-control
 related:
-  - "../notes/2026-06-25-elevation-mapping-cupy-repository-note.md"
+  - notes/2026-06-25-elevation-mapping-cupy-repository-note.md
 ---
-
 # elevation_mapping_cupy
 
 ## 定位

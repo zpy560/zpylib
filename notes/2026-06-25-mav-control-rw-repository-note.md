@@ -8,9 +8,8 @@ tags:
   - autonomous-driving
   - planning-control
 related:
-  - "../wiki/2026-06-25-mav-control-rw.md"
+  - wiki/2026-06-25-mav-control-rw.md
 ---
-
 # mav_control_rw：仓库解析
 
 ## 一句话结论

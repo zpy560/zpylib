@@ -1,18 +1,5 @@
----
-id: "20260624-212024-gz-ros2-control-url"
-title: "gz_ros2_control GitHub URL"
-type: "note"
-source: "https://github.com/ros-controls/gz_ros2_control"
-created_at: "2026-06-24"
-tags:
-  - planning-control
-  - tools
-related:
-  - raw/2026-06-24-gz-ros2-control-repository-snapshot.md
-  - notes/2026-06-24-gz-ros2-control-repository-analysis.md
----
+# ros-controls/gz_ros2_control URL
 
-# gz_ros2_control GitHub URL
-
+- Date: 2026-06-24
 - URL: https://github.com/ros-controls/gz_ros2_control
-- 用途：适合仿真中把 Gazebo model 接入 ros2_control controller manager。
+- Selection reason: 第三批未入库 GitHub 资源；与自动驾驶、移动机器人、无人系统、仿真、定位建图、控制接口或移动底盘规划控制闭环相关；按 star/fork 与生态使用度综合筛选。

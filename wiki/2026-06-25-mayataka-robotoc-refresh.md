@@ -8,9 +8,8 @@ tags:
   - autonomous-driving
   - planning-control
 related:
-  - "../notes/2026-06-25-mayataka-robotoc-refresh-repository-note.md"
+  - notes/2026-06-25-mayataka-robotoc-refresh-repository-note.md
 ---
-
 # mayataka robotoc refresh
 
 ## 定位

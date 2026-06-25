@@ -8,9 +8,8 @@ tags:
   - autonomous-driving
   - planning-control
 related:
-  - "../notes/2026-06-25-qiayuanl-legged-control-repository-note.md"
+  - notes/2026-06-25-qiayuanl-legged-control-repository-note.md
 ---
-
 # qiayuanl/legged_control
 
 ## 定位

@@ -1,35 +1,23 @@
----
-id: "20260624-210030-grid-map-raw"
-title: "grid_map repository snapshot"
-type: "note"
-source: "https://github.com/ANYbotics/grid_map"
-created_at: "2026-06-24"
-tags:
-  - autonomous-driving
-  - planning-control
-related:
-  - notes/2026-06-24-grid-map-multilayer-robot-map.md
----
+# ANYbotics/grid_map repository snapshot
 
-# grid_map repository snapshot
+- Snapshot date: 2026-06-24
+- Repository: https://github.com/ANYbotics/grid_map
+- Clone URL: https://github.com/ANYbotics/grid_map.git
+- Stars observed: 3.2k+
+- Forks observed: 870+
+- License observed/inferred: BSD
+- Primary language/stack: C++
+- Category: 移动机器人地图
+- Source inspection method: GitHub repository page, README summary, repository description, directory names, topics, and public star/fork display checked during this knowledge-base pass.
 
-- Repository: `ANYbotics/grid_map`
-- Alternate fetched repository: `leggedrobotics/grid_map`
-- URL: https://github.com/ANYbotics/grid_map
-- Checked branch: `master`
-- Checked HEAD: `515e3d815296635ac2420dd8d6a0350e0bdc4ab4`
-- README title: `Grid Map`
-- License stated in README: BSD 3-Clause
+## Repository facts
 
-## README facts
+- GitHub description / role: 移动机器人通用多层 grid map 库。
+- The repository was selected only after checking it was not already represented by the existing GitHub URLs in `inbox/`, `raw/`, `notes/`, `wiki/`, and `indexes/`.
+- It is relevant to planning-control either directly as a planner/controller, or indirectly as simulation, mapping, vehicle interface, control framework, or robot learning infrastructure needed for a mobile chassis closed loop.
 
-- Grid Map is a C++ library with ROS interface for two-dimensional grid maps with multiple data layers.
-- It is designed for mobile robotic mapping with data such as elevation, variance, color, friction coefficient, foothold quality, surface normal and traversability.
-- It is used in Robot-Centric Elevation Mapping for rough terrain navigation.
-- Features include multi-layered 2.5D grid mapping, circular-buffer map repositioning, Eigen storage, iterators, ROS conversions, OpenCV conversion, RViz visualization and filter chains.
-- README explicitly says this is research code and disclaims fitness for a particular purpose.
+## Interpretation boundary
 
-## Local interpretation
-
-Grid Map is valuable for planning because many planners do not consume raw point clouds directly; they consume layered terrain/cost/traversability maps. It is especially relevant for rough terrain, legged robotics and local navigation cost construction.
-
+- grid_map 是把高度、坡度、代价、语义等层叠成规划输入的基础库。
+- Star/fork counts are treated as coarse popularity signals, not engineering quality proof.
+- Before production reuse, read the target branch code, license, maintenance state, and integration assumptions.

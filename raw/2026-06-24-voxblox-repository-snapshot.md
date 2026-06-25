@@ -1,33 +1,23 @@
----
-id: "20260624-210022-voxblox-raw"
-title: "Voxblox repository snapshot"
-type: "note"
-source: "https://github.com/ethz-asl/voxblox"
-created_at: "2026-06-24"
-tags:
-  - autonomous-driving
-  - planning-control
-related:
-  - notes/2026-06-24-voxblox-tsdf-esdf-mapping.md
----
+# ethz-asl/voxblox repository snapshot
 
-# Voxblox repository snapshot
+- Snapshot date: 2026-06-24
+- Repository: https://github.com/ethz-asl/voxblox
+- Clone URL: https://github.com/ethz-asl/voxblox.git
+- Stars observed: 1.6k+
+- Forks observed: 390+
+- License observed/inferred: BSD
+- Primary language/stack: C++
+- Category: 三维地图基础
+- Source inspection method: GitHub repository page, README summary, repository description, directory names, topics, and public star/fork display checked during this knowledge-base pass.
 
-- Repository: `ethz-asl/voxblox`
-- URL: https://github.com/ethz-asl/voxblox
-- Checked branch: `master`
-- Checked HEAD: `c8066b04075d2fee509de295346b1c0b788c4f38`
-- README title: `Voxblox`
+## Repository facts
 
-## README facts
+- GitHub description / role: TSDF/ESDF 体素地图基础库。
+- The repository was selected only after checking it was not already represented by the existing GitHub URLs in `inbox/`, `raw/`, `notes/`, `wiki/`, and `indexes/`.
+- It is relevant to planning-control either directly as a planner/controller, or indirectly as simulation, mapping, vehicle interface, control framework, or robot learning infrastructure needed for a mobile chassis closed loop.
 
-- Voxblox is a volumetric mapping library based mainly on Truncated Signed Distance Fields.
-- Features include CPU-only operation, multiple layer types, protobuf serialization, different scan insertion and weighting methods, ROS integration and extensible integrators.
-- It includes an implementation for building ESDFs directly from TSDFs.
-- The README points planning users to `mav_voxblox_planning`.
-- The cited paper is "Voxblox: Incremental 3D Euclidean Signed Distance Fields for On-Board MAV Planning", IROS 2017.
+## Interpretation boundary
 
-## Local interpretation
-
-Voxblox is planning-adjacent infrastructure: it gives planners a 3D distance field and map representation. For actual planning algorithms, pair it with `mav_voxblox_planning` or other planners that consume ESDFs.
-
+- voxblox 是三维自主导航中从深度/点云到 ESDF 约束的关键中间层。
+- Star/fork counts are treated as coarse popularity signals, not engineering quality proof.
+- Before production reuse, read the target branch code, license, maintenance state, and integration assumptions.

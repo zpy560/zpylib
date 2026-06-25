@@ -8,9 +8,8 @@ tags:
   - autonomous-driving
   - planning-control
 related:
-  - "../notes/2026-06-25-moveit-task-constructor-repository-note.md"
+  - notes/2026-06-25-moveit-task-constructor-repository-note.md
 ---
-
 # MoveIt Task Constructor
 
 ## 定位

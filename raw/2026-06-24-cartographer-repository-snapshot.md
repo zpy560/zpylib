@@ -1,27 +1,23 @@
----
-id: "20260624-212111-cartographer-raw"
-title: "Cartographer repository snapshot"
-type: "note"
-source: "https://github.com/cartographer-project/cartographer"
-created_at: "2026-06-24"
-tags:
-  - autonomous-driving
-  - planning-control
-related:
-  - notes/2026-06-24-cartographer-repository-analysis.md
----
+# cartographer-project/cartographer repository snapshot
 
-# Cartographer repository snapshot
+- Snapshot date: 2026-06-24
+- Repository: https://github.com/cartographer-project/cartographer
+- Clone URL: https://github.com/cartographer-project/cartographer.git
+- Stars observed: 7.9k
+- Forks observed: 2.3k
+- License observed/inferred: Apache-2.0
+- Primary language/stack: C++
+- Category: 2D/3D SLAM
+- Source inspection method: GitHub repository page, README summary, repository description, visible directory names, topics, and public star/fork display checked during this knowledge-base pass.
 
-- Repository: `cartographer-project/cartographer`
-- URL: https://github.com/cartographer-project/cartographer
-- Checked HEAD: `877157a0d91788a7700221d87232d412cb3c1ef4`
+## Repository facts
 
-## README / source facts
+- GitHub description / role: Real-time SLAM in 2D and 3D across platforms and sensor configurations.
+- The repository was selected only after checking it was not already represented by existing GitHub URLs in `inbox/`, `raw/`, `notes/`, `wiki/`, and `indexes/`.
+- It is relevant to planning-control either directly as a planner/controller, or indirectly as simulation, SLAM/localization, map representation, vehicle interface, optimization solver, ROS integration, or multi-robot traffic infrastructure needed for a mobile chassis closed loop.
 
-- README 定位为 real-time simultaneous localization and mapping in 2D and 3D across multiple platforms and sensor configurations。
-- 本次入库只基于远端 HEAD、README 或仓库元信息做单源快照；未做本地编译。
+## Interpretation boundary
 
-## Local interpretation
-
-适合多传感器 SLAM、定位建图和导航地图生成历史基线。
+- Cartographer 是移动机器人 SLAM 重要基线；README 明确说明已不再主动维护，适合历史架构参考。
+- Star/fork counts are coarse popularity signals, not engineering quality proof.
+- Before production reuse, inspect target branch code, license, maintenance state, and integration assumptions.

@@ -8,9 +8,8 @@ tags:
   - autonomous-driving
   - planning-control
 related:
-  - "../notes/2026-06-25-ethz-adrl-motion-planning-repository-note.md"
+  - notes/2026-06-25-ethz-adrl-motion-planning-repository-note.md
 ---
-
 # ETH ADRL motion_planning
 
 ## 定位

@@ -8,9 +8,8 @@ tags:
   - autonomous-driving
   - planning-control
 related:
-  - "../wiki/2026-06-25-ego-planner-v2.md"
+  - wiki/2026-06-25-ego-planner-v2.md
 ---
-
 # EGO-Planner v2：仓库解析
 
 ## 一句话结论

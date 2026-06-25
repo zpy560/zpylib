@@ -8,9 +8,8 @@ tags:
   - autonomous-driving
   - planning-control
 related:
-  - "../wiki/2026-06-25-motion-primitive-library.md"
+  - wiki/2026-06-25-motion-primitive-library.md
 ---
-
 # motion_primitive_library：仓库解析
 
 ## 一句话结论

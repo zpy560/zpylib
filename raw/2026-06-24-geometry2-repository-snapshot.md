@@ -1,27 +1,23 @@
----
-id: "20260624-212126-geometry2-raw"
-title: "geometry2 / tf2 repository snapshot"
-type: "note"
-source: "https://github.com/ros2/geometry2"
-created_at: "2026-06-24"
-tags:
-  - planning-control
-  - tools
-related:
-  - notes/2026-06-24-geometry2-repository-analysis.md
----
+# ros2/geometry2 repository snapshot
 
-# geometry2 / tf2 repository snapshot
+- Snapshot date: 2026-06-24
+- Repository: https://github.com/ros2/geometry2
+- Clone URL: https://github.com/ros2/geometry2.git
+- Stars observed: 600+
+- Forks observed: 400+
+- License observed/inferred: BSD
+- Primary language/stack: C++/Python
+- Category: 坐标变换基础设施
+- Source inspection method: GitHub repository page, README summary, repository description, visible directory names, topics, and public star/fork display checked during this knowledge-base pass.
 
-- Repository: `ros2/geometry2`
-- URL: https://github.com/ros2/geometry2
-- Checked HEAD: `18314a09598acf22accd3e083ec705edd9519f76`
+## Repository facts
 
-## README / source facts
+- GitHub description / role: ROS2 geometry2 repository, including tf2 libraries and tools.
+- The repository was selected only after checking it was not already represented by existing GitHub URLs in `inbox/`, `raw/`, `notes/`, `wiki/`, and `indexes/`.
+- It is relevant to planning-control either directly as a planner/controller, or indirectly as localization, transforms, simulation, collision checking, point-cloud processing, optimization, vehicle interface, communication protocol, or fleet infrastructure needed for a mobile chassis closed loop.
 
-- 根 README 不存在；远端 refs 显示 rolling/humble 分支。按 ROS 2 生态定位，geometry2 是 tf2、tf2_ros 等坐标变换包集合。
-- 本次入库只基于远端 HEAD、README 或仓库元信息做单源快照；未做本地编译。
+## Interpretation boundary
 
-## Local interpretation
-
-适合机器人规划控制中的 frame transform、tf2 buffer 和坐标系统管理。
+- tf2 是移动机器人所有定位、感知、规划、控制模块共享坐标系的基础设施。
+- Star/fork counts are coarse popularity signals, not engineering quality proof.
+- Before production reuse, inspect target branch code, license, maintenance state, and integration assumptions.

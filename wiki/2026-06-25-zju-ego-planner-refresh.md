@@ -8,9 +8,8 @@ tags:
   - autonomous-driving
   - planning-control
 related:
-  - "../notes/2026-06-25-zju-ego-planner-refresh-repository-note.md"
+  - notes/2026-06-25-zju-ego-planner-refresh-repository-note.md
 ---
-
 # ZJU EGO-Planner refresh
 
 ## 定位

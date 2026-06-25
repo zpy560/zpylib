@@ -1,19 +1,5 @@
----
-id: "20260624-211025-ros-control-url"
-title: "ros_control GitHub URL"
-type: "note"
-source: "https://github.com/ros-controls/ros_control"
-created_at: "2026-06-24"
-tags:
-  - planning-control
-  - tools
-related:
-  - raw/2026-06-24-ros-control-repository-snapshot.md
-  - notes/2026-06-24-ros-control-ros1-control-framework.md
----
+# ros-controls/ros_control URL
 
-# ros_control GitHub URL
-
+- Date: 2026-06-24
 - URL: https://github.com/ros-controls/ros_control
-- 用途：ROS1 控制框架历史基线，与 ros2_control 对照。
-
+- Selection reason: 知识库中未记录过该 Git URL；与自动驾驶/移动底盘规划控制闭环相关；GitHub star/fork 或生态使用度较高。

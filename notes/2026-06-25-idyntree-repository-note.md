@@ -8,9 +8,8 @@ tags:
   - autonomous-driving
   - planning-control
 related:
-  - "../wiki/2026-06-25-idyntree.md"
+  - wiki/2026-06-25-idyntree.md
 ---
-
 # iDynTree：仓库解析
 
 ## 一句话结论

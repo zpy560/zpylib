@@ -8,9 +8,8 @@ tags:
   - autonomous-driving
   - planning-control
 related:
-  - "../wiki/2026-06-25-ocs2-robotic-examples.md"
+  - wiki/2026-06-25-ocs2-robotic-examples.md
 ---
-
 # OCS2 Robotic Examples：仓库解析
 
 ## 一句话结论

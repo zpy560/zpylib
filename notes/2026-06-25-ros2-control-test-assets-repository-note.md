@@ -8,9 +8,8 @@ tags:
   - autonomous-driving
   - planning-control
 related:
-  - "../wiki/2026-06-25-ros2-control-test-assets.md"
+  - wiki/2026-06-25-ros2-control-test-assets.md
 ---
-
 # ros2_control_test_assets：仓库解析
 
 ## 一句话结论

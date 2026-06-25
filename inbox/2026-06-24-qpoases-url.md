@@ -1,18 +1,5 @@
----
-id: "20260624-212007-qpoases-url"
-title: "qpOASES GitHub URL"
-type: "note"
-source: "https://github.com/coin-or/qpOASES"
-created_at: "2026-06-24"
-tags:
-  - planning-control
-  - tools
-related:
-  - raw/2026-06-24-qpoases-repository-snapshot.md
-  - notes/2026-06-24-qpoases-repository-analysis.md
----
+# coin-or/qpOASES URL
 
-# qpOASES GitHub URL
-
+- Date: 2026-06-24
 - URL: https://github.com/coin-or/qpOASES
-- 用途：适合 MPC、实时控制和参数化 QP 的历史/工程参考。
+- Selection reason: 第二批未入库 GitHub 资源；与自动驾驶、移动机器人、AMR、小车、自动赛车或移动底盘规划控制闭环相关；按 star/fork 与生态使用度综合筛选。

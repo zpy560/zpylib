@@ -8,9 +8,8 @@ tags:
   - autonomous-driving
   - planning-control
 related:
-  - "../wiki/2026-06-25-anybotics-grid-map.md"
+  - wiki/2026-06-25-anybotics-grid-map.md
 ---
-
 # ANYbotics grid_map：仓库解析
 
 ## 一句话结论

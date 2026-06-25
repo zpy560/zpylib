@@ -8,9 +8,8 @@ tags:
   - autonomous-driving
   - planning-control
 related:
-  - "../wiki/2026-06-25-rpg-trajectory-evaluation.md"
+  - wiki/2026-06-25-rpg-trajectory-evaluation.md
 ---
-
 # rpg_trajectory_evaluation：仓库解析
 
 ## 一句话结论

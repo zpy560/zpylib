@@ -8,9 +8,8 @@ tags:
   - autonomous-driving
   - planning-control
 related:
-  - "../wiki/2026-06-25-commonroad-scenario-designer.md"
+  - wiki/2026-06-25-commonroad-scenario-designer.md
 ---
-
 # commonroad-scenario-designer：仓库解析
 
 ## 一句话结论

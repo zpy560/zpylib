@@ -8,9 +8,8 @@ tags:
   - autonomous-driving
   - planning-control
 related:
-  - "../wiki/2026-06-25-mit-racecar.md"
+  - wiki/2026-06-25-mit-racecar.md
 ---
-
 # MIT RACECAR：仓库解析
 
 ## 一句话结论

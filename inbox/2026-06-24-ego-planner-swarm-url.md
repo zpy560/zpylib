@@ -1,18 +1,5 @@
----
-id: "20260624-212013-ego-planner-swarm-url"
-title: "EGO-Swarm GitHub URL"
-type: "note"
-source: "https://github.com/ZJU-FAST-Lab/ego-planner-swarm"
-created_at: "2026-06-24"
-tags:
-  - autonomous-driving
-  - planning-control
-related:
-  - raw/2026-06-24-ego-planner-swarm-repository-snapshot.md
-  - notes/2026-06-24-ego-planner-swarm-repository-analysis.md
----
+# ZJU-FAST-Lab/ego-planner-swarm URL
 
-# EGO-Swarm GitHub URL
-
+- Date: 2026-06-24
 - URL: https://github.com/ZJU-FAST-Lab/ego-planner-swarm
-- 用途：适合多机器人未知障碍环境自主导航、分布式避障和 swarm 规划。
+- Selection reason: 知识库中未记录过该 Git URL；与自动驾驶/移动底盘规划控制闭环相关；GitHub star/fork 或生态使用度较高。
