@@ -202,7 +202,7 @@
 - [FCL](../wiki/2026-06-24-fcl.md)：Flexible Collision Library。适合运动规划中的碰撞检测、距离查询和连续碰撞检测。
 - [F1TENTH planning](../wiki/2026-06-24-f1tenth-planning.md)：类型：F1TENTH 小车规划算法库
 - [EGO-Swarm](../wiki/2026-06-24-ego-planner-swarm.md)：去中心化四旋翼 swarm navigation。适合多机器人未知障碍环境自主导航、分布式避障和 swarm 规划。
-- [EGO-Planner](../wiki/2026-06-24-ego-planner.md)：类型：四旋翼 ESDF-free 局部规划器
+- [EGO-Planner](../wiki/2026-06-24-ego-planner.md)：四旋翼 ROS 1 ESDF-free 局部规划器；适合学习局部占据栅格、A*、B-spline 优化与重规划 FSM，新项目优先评估 EGO-Swarm。
 - [Drake](../wiki/2026-06-24-drake.md)：类型：机器人建模、仿真、规划与控制工具箱
 - [Descartes](../wiki/2026-06-24-descartes.md)：Descartes 是 ROS-Industrial 的 Cartesian Path Planner，面向机械臂末端沿笛卡尔路径运动的工业规划问题。
 - [Crocoddyl](../wiki/2026-06-24-crocoddyl.md)：类型：机器人最优控制求解库
@@ -687,7 +687,7 @@
 - 2026-06-24：[F1TENTH Gym ROS：F1TENTH ROS 桥 Git 资源](../notes/2026-06-24-f1tenth-gym-ros-planning-control-git-resource.md)
 - 2026-06-24：[EGO-Swarm：无人机多机规划 Git 资源](../notes/2026-06-24-ego-planner-swarm-planning-control-git-resource.md)
 - 2026-06-24：[EGO-Swarm：去中心化四旋翼 swarm navigation](../notes/2026-06-24-ego-planner-swarm-repository-analysis.md)
-- 2026-06-24：[EGO-Planner：ESDF-free 四旋翼局部规划器](../notes/2026-06-24-ego-planner-esdf-free-local-planner.md)
+- 2026-06-24：[EGO-Planner：ESDF-free 四旋翼局部规划器](../notes/2026-06-24-ego-planner-esdf-free-local-planner.md)（2026-07-13 已核对源码与维护状态）
 - 2026-06-24：[EGO-Planner-v2：无人机局部规划 Git 资源](../notes/2026-06-24-ego-planner-v2-planning-control-git-resource.md)
 - 2026-06-24：[Drake：机器人建模仿真规划控制工具箱](../notes/2026-06-24-drake-robotics-planning-control-toolbox.md)
 - 2026-06-24：[Dig into Apollo：当前项目方向补充](../notes/2026-06-24-dig-into-apollo-current-direction-refresh.md)
