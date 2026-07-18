@@ -6,7 +6,7 @@
 
 | 类型 | 数量 |
 |---|---:|
-| 单源笔记 | 514 |
+| 单源笔记 | 515 |
 | 主题页 | 8 |
 | 实体页 | 208 |
 | 选题 | 0 |
@@ -233,6 +233,8 @@
 - [Navigation2](../wiki/2026-06-13-navigation2.md)：简称：Nav2
 
 ## 最近笔记
+
+- 2026-07-18：[zpy560 GitHub 星标同步：106 个公开仓库](../notes/2026-07-18-zpy560-github-stars-sync.md)
 - 2026-06-25：[zed-sdk：定位建图/状态估计 Git 资源](../notes/2026-06-25-stereolabs-zed-sdk-planning-control-git-resource.md)
 - 2026-06-25：[yaml-cpp：仓库解析](../notes/2026-06-25-yaml-cpp-repository-note.md)
 - 2026-06-25：[xviz：自动驾驶/移动机器人系统 Git 资源](../notes/2026-06-25-aurora-opensource-xviz-planning-control-git-resource.md)
